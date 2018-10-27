@@ -18,22 +18,22 @@ import org.jsoup.select.Elements;
 public class CalcolatoreFrequenzaController {
 
     private CalcolatoreFrequenzaView calcolatoreFrequenzaView;
-    private ArrayList<DbpediaObject> list = new ArrayList<DbpediaObject>();
+    private ArrayList<DbpediaObject> dbpediaObjects = new ArrayList<DbpediaObject>();
     private Document document;
     private String argomento;
 
 
     public CalcolatoreFrequenzaController() {
-        calcolatoreFrequenzaView = new CalcolatoreFrequenzaView(this);
-        calcolatoreFrequenzaView.setVisible(true);
-
-        calcolatoreFrequenzaView.getjButton().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                creaListaTermini(calcolatoreFrequenzaView.getUrl());
-
-            }
-        });
+//        calcolatoreFrequenzaView = new CalcolatoreFrequenzaView(this);
+//        calcolatoreFrequenzaView.setVisible(true);
+//
+//        calcolatoreFrequenzaView.getjButton().addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                creaListaTermini(calcolatoreFrequenzaView.getUrl());
+//
+//            }
+//        });
 
         argomento = new String("animali");
 
@@ -46,10 +46,15 @@ public class CalcolatoreFrequenzaController {
 
         Elements links = document.select("a[href]");
 
-        System.out.println("\nLinks:");
+        System.out.println("\nExtracted keywords:");
         for (Element link : links) {
+            String url = link.attr("abs:href");
+            dbpediaObjects = RestServices.getRequest(url);
+            for (DbpediaObject dbpediaObject : dbpediaObjects){
+                System.out.println(dbpediaObject.getUriDbpedia());
 
-            System.out.println(link.attr("abs:href"));
+            }
+
         }
 
 
@@ -61,9 +66,9 @@ public class CalcolatoreFrequenzaController {
     }
 
     public void creaListaTermini(String urlNotizia) {
-        list = RestServices.getRequest(urlNotizia);
-        for (int i = 0; i < list.size(); i ++){
-            String keyword = list.get(i).getNome();
+        dbpediaObjects = RestServices.getRequest(urlNotizia);
+        for (int i = 0; i < dbpediaObjects.size(); i ++){
+            String keyword = dbpediaObjects.get(i).getNome();
             calcolatoreFrequenzaView.addElementToScroll(keyword);
             System.out.println(keyword);
         }

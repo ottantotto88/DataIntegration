@@ -2,12 +2,7 @@ package it.dataIntegration.utility;
 
 import java.util.ArrayList;
 
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
+import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -143,5 +138,24 @@ public class SparqlQuery {
 			qexec.close();
 		}
 		return model;
+	}
+	//metodo temporaneo incompleto che per il momento prende in ingresso una lista di dbpediaojects e stampa a schermo le
+	//property estratte da ognuno di essi.
+	public static Model getProperties(ArrayList<DbpediaObject> dbpediaObjects){
+		Model model = ModelFactory.createDefaultModel();
+		for (DbpediaObject dbpediaObject : dbpediaObjects) {
+			String service = "http://it.dbpedia.org/sparql";
+			String queryString = "SELECT ?p ?o" +
+					"WHERE" +
+					"  {" +
+					dbpediaObject.getUriDbpedia() +
+					"  }";
+			Query query = QueryFactory.create(queryString);
+			QueryExecution  qexec = QueryExecutionFactory.create(query, model);
+			ResultSet results = qexec.execSelect();
+			ResultSetFormatter.out(System.out, results, query);
+		}
+		return model;
+
 	}
 }
