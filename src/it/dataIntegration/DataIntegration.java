@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 
+import it.dataIntegration.controller.CalcolatoreFrequenzaController;
 import it.dataIntegration.controller.DataIntegrationController;
 import it.dataIntegration.view.DataIntegrationPanel;
 
@@ -44,6 +45,7 @@ public class DataIntegration {
 		DataIntegrationPanel panelLinkedData = new DataIntegrationPanel();
 		frame.getContentPane().add(panelLinkedData);
 		new DataIntegrationController(panelLinkedData,frame);
+		new CalcolatoreFrequenzaController();
 		
 	}
 }
