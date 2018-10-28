@@ -141,21 +141,28 @@ public class SparqlQuery {
 	}
 	//metodo temporaneo incompleto che per il momento prende in ingresso una lista di dbpediaojects e stampa a schermo le
 	//property estratte da ognuno di essi.
-	public static Model getProperties(ArrayList<DbpediaObject> dbpediaObjects){
-		Model model = ModelFactory.createDefaultModel();
+	public static void getProperties(ArrayList<DbpediaObject> dbpediaObjects){
+
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
 			String service = "http://it.dbpedia.org/sparql";
-			String queryString = "SELECT ?p ?o" +
-					"WHERE" +
-					"  {" +
+			String queryString = new String("SELECT ?p " +
+					"WHERE{ " +
+					" ?s ?p ?o. FILTER ( ?s = <" +
 					dbpediaObject.getUriDbpedia() +
-					"  }";
+					">). } LIMIT 20");
+			System.out.println(queryString);
 			Query query = QueryFactory.create(queryString);
-			QueryExecution  qexec = QueryExecutionFactory.create(query, model);
-			ResultSet results = qexec.execSelect();
-			ResultSetFormatter.out(System.out, results, query);
+
+			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
+				ResultSet resultSet = qexec.execSelect();
+				while(resultSet.hasNext()){
+					QuerySolution solution = resultSet.nextSolution();
+					System.out.println(solution.getResource("p").toString());
+				}
+			}
+
 		}
-		return model;
+
 
 	}
 }
