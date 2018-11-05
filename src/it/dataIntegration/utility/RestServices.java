@@ -45,7 +45,8 @@ public class RestServices {
 			for (int i = 0; i < jsonArray.length(); i++) {
 				String uriDbpedia = jsonArray.getJSONObject(i).getJSONObject("lod").getString("dbpedia");
 				String nome = jsonArray.getJSONObject(i).getString("title");
-				DbpediaObject dpo = new DbpediaObject(nome, uriDbpedia);
+				Double confidence = jsonArray.getJSONObject(i).getDouble("confidence");
+				DbpediaObject dpo = new DbpediaObject(nome, uriDbpedia, confidence);
 				list.add(dpo);
 			}
 			conn.disconnect();

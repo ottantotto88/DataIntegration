@@ -1,18 +1,10 @@
 package it.dataIntegration.view;
 
-import javax.swing.JPanel;
-import javax.swing.BoxLayout;
-import javax.swing.ButtonGroup;
+import javax.swing.*;
 
 import java.awt.BorderLayout;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
 
 import java.awt.FlowLayout;
-import javax.swing.JScrollPane;
-import javax.swing.JButton;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.JRadioButton;
 
 @SuppressWarnings("serial")
 public class DataIntegrationPanel extends JPanel {
@@ -41,14 +33,15 @@ public class DataIntegrationPanel extends JPanel {
 		FlowLayout flowLayout = (FlowLayout) panelNorth1.getLayout();
 		flowLayout.setAlignment(FlowLayout.LEFT);
 		panelNorth.add(panelNorth1);
-		
+
 		JLabel lblUrl = new JLabel("Url 1");
 		panelNorth1.add(lblUrl);
-		
+
 		txtUrl = new JTextField();
 		txtUrl.setText("https://sport.ilmessaggero.it/motorsport/moto_gp_valentino_rossi_il_circuito_austria_mai_molto_positivo_per_noi-3903171.html");
 		txtUrl.setColumns(70);
 		panelNorth1.add(txtUrl);
+
 		
 		
 		JPanel panelNorth2 = new JPanel();
