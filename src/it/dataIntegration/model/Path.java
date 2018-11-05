@@ -9,12 +9,12 @@ public class Path {
 	private String subject;
 	private String predicate;
 	private String object;
-	
 	public Path(String subject, String predicate, String object) {
 		super();
 		this.subject = subject;
 		this.predicate = predicate;
 		this.object = object;
+
 	}
 
 	public String getSubject() {
@@ -28,7 +28,9 @@ public class Path {
 	public String getObject() {
 		return object;
 	}
-	
+
+
+
 	@Override
 	public String toString() {
 		return this.subject +" -> "+ this.predicate + " -> " + this.object;
@@ -38,16 +40,17 @@ public class Path {
 	
 	public static String writePath(ArrayList<Path> paths) {
 		Path path = paths.get(0);
-		String percorso ="(s) " + path.subject + " -> " +"(p) " + path.predicate + " -> " + "(o) " + path.object;
+		String percorso ="(s) " + path.subject + " -> " +"(p) " + path.predicate + " -> " + "(o) " + path.object +  " -> " + "(w) ";
 		for(int i=1; i<paths.size(); i++) {
 			if(paths.get(i).object.equals(paths.get(i-1).object)) {
-				percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject);
+				percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject + "(w) " );
 			} else if(paths.get(i).subject.equals(paths.get(i-1).object)) {
-				percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object);
+				percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object + "(w) " );
 			} else {
 				percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object);
 			}
 		}
 		return percorso;
 	}
+
 }

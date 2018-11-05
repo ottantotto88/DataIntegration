@@ -9,11 +9,15 @@ public class DbpediaObject {
 
 	private String nome;
 	private String uriDbpedia;
+	private Double confidence;
 
-	public DbpediaObject(String nome, String uriDbpedia) {
+
+
+	public DbpediaObject(String nome, String uriDbpedia, Double confidence) {
 		super();
 		this.nome = nome;
 		this.uriDbpedia = uriDbpedia;
+		this.confidence= confidence;
 	}
 
 	public String getNome() {
@@ -22,6 +26,10 @@ public class DbpediaObject {
 
 	public String getUriDbpedia() {
 		return uriDbpedia;
+	}
+
+	public Double getConfidence() {
+		return confidence;
 	}
 
 	/**
