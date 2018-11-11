@@ -139,13 +139,16 @@ public class SparqlQuery {
 		}
 		return model;
 	}
+
 	//metodo temporaneo incompleto che per il momento prende in ingresso una lista di dbpediaojects e stampa a schermo le
-	//property estratte da ognuno di essi.
+	//property estratte da ognuno di essi. I DBpedia obkect sono composti da un nome ed un URI collegato a dbpedia,
+	//viene utilizzato l'URI dbpedia per identificare properties e value di ogni soggetto (il soggetto è quindi l'URI
+	//dbPpedia)
 	public static void getProperties(ArrayList<DbpediaObject> dbpediaObjects){
 
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
 			String service = "http://it.dbpedia.org/sparql";
-			String queryString = new String("SELECT ?p " +
+			String queryString = new String("SELECT ?p ?o " +
 					"WHERE{ " +
 					" ?s ?p ?o. FILTER ( ?s = <" +
 					dbpediaObject.getUriDbpedia() +
@@ -157,8 +160,10 @@ public class SparqlQuery {
 				ResultSet resultSet = qexec.execSelect();
 				while(resultSet.hasNext()){
 					QuerySolution solution = resultSet.nextSolution();
-					System.out.println(solution.getResource("p").toString());
+					System.out.println("p: " + solution.get("p").toString() +" o: " + solution.get("o").toString() );
 				}
+			} catch (Exception e){
+				e.printStackTrace();
 			}
 
 		}
