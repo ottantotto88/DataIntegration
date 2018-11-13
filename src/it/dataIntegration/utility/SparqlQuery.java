@@ -1,5 +1,7 @@
 package it.dataIntegration.utility;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import org.apache.jena.query.*;
@@ -158,10 +160,13 @@ public class SparqlQuery {
 
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
 				ResultSet resultSet = qexec.execSelect();
+				FileWriter fileWriter = new FileWriter("estrazione_prop", true);
+				PrintWriter printWriter = new PrintWriter(fileWriter);
 				while(resultSet.hasNext()){
 					QuerySolution solution = resultSet.nextSolution();
-					System.out.println("p: " + solution.get("p").toString() +" o: " + solution.get("o").toString() );
+					printWriter.println("p: " + solution.get("p").toString() +" o: " + solution.get("o").toString() );
 				}
+				printWriter.close();
 			} catch (Exception e){
 				e.printStackTrace();
 			}

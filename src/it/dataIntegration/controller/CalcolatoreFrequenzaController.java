@@ -65,8 +65,9 @@ public class CalcolatoreFrequenzaController {
 
                     for (int i = 0; i < news.size() ; i = i + 2){
                         Document document1 =  Jsoup.connect(news.get(i)).get();
-                        System.out.println(document1.select("a[href]").get(44).attr("abs:href"));
-                        printWriter.println(document1.select("a[href]").get(44).attr("abs:href"));
+                        String link_vero = document1.select("a[href]").get(44).attr("abs:href");
+                        dbpediaObjects = RestServices.getRequest(link_vero);
+                        SparqlQuery.getProperties(dbpediaObjects);
                     }
                     printWriter.close();
 
