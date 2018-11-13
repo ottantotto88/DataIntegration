@@ -6,16 +6,25 @@ import it.dataIntegration.utility.SparqlQuery;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 
 import it.dataIntegration.view.CalcolatoreFrequenzaView1;
+import org.apache.jena.base.Sys;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.jsoup.Connection.Response;
+
+import javax.print.Doc;
 
 
 public class CalcolatoreFrequenzaController {
@@ -51,8 +60,16 @@ public class CalcolatoreFrequenzaController {
                     Elements links = document.select("a[href]");
 
                     news = filtraNotizie(links);
-                    System.out.println(news.get(1));
-                    System.out.println(Jsoup.connect(news.get(1)).followRedirects(true).execute().header("location"));
+                    FileWriter fileWriter = new FileWriter("link_notizie");
+                    PrintWriter printWriter = new PrintWriter(fileWriter);
+
+                    for (int i = 0; i < news.size() ; i = i + 2){
+                        Document document1 =  Jsoup.connect(news.get(i)).get();
+                        System.out.println(document1.select("a[href]").get(44).attr("abs:href"));
+                        printWriter.println(document1.select("a[href]").get(44).attr("abs:href"));
+                    }
+                    printWriter.close();
+
                 } catch (IOException exception) {
                 //blocco di catch autogenerato per la gestione eccezione di jsoup
                     exception.printStackTrace();
