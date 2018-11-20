@@ -32,7 +32,7 @@ public class SparqlQuery {
 			// Esecuzione della Query
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
 				ResultSet resultSet = qexec.execSelect();
-				for (; resultSet.hasNext();) {
+				for (; resultSet.hasNext(); ) {
 					QuerySolution solution = resultSet.nextSolution();
 					// definisco namespace e localname di ciascuna propietà
 					String namespace = solution.getResource("p").getNameSpace();
@@ -99,7 +99,7 @@ public class SparqlQuery {
 		// Esecuzione della Query
 		try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
 			ResultSet resultSet = qexec.execSelect();
-			for (; resultSet.hasNext();) {
+			for (; resultSet.hasNext(); ) {
 				QuerySolution solution = resultSet.nextSolution();
 				// definisco namespace e localname di ciascuna propietà
 				String namespace = solution.getResource("p").getNameSpace();
@@ -146,33 +146,54 @@ public class SparqlQuery {
 	//property estratte da ognuno di essi. I DBpedia obkect sono composti da un nome ed un URI collegato a dbpedia,
 	//viene utilizzato l'URI dbpedia per identificare properties e value di ogni soggetto (il soggetto è quindi l'URI
 	//dbPpedia)
-	public static void getProperties(ArrayList<DbpediaObject> dbpediaObjects){
-
+	public static void getPropertiesFile(ArrayList<DbpediaObject> dbpediaObjects) {
+		String service = "http://it.dbpedia.org/sparql";
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
-			String service = "http://it.dbpedia.org/sparql";
 			String queryString = new String("SELECT ?p ?o " +
 					"WHERE{ " +
 					" ?s ?p ?o. FILTER ( ?s = <" +
 					dbpediaObject.getUriDbpedia() +
 					">). } LIMIT 20");
-			System.out.println(queryString);
 			Query query = QueryFactory.create(queryString);
 
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
 				ResultSet resultSet = qexec.execSelect();
+
+
 				FileWriter fileWriter = new FileWriter("estrazione_prop", true);
 				PrintWriter printWriter = new PrintWriter(fileWriter);
-				while(resultSet.hasNext()){
+				while (resultSet.hasNext()) {
 					QuerySolution solution = resultSet.nextSolution();
-					printWriter.println("p: " + solution.get("p").toString() +" o: " + solution.get("o").toString() );
+					printWriter.println("p: " + solution.get("p").toString() + " o: " + solution.get("o").toString());
 				}
 				printWriter.close();
-			} catch (Exception e){
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 
 		}
 
 
+	}
+
+	public static ResultSet getPropertiesResultSet(ArrayList<DbpediaObject> dbpediaObjects) {
+		ResultSet resultSet = null;
+		String service = "http://it.dbpedia.org/sparql";
+
+		for (DbpediaObject dbpediaObject : dbpediaObjects) {
+			String queryString = new String("SELECT ?p ?o " +
+					"WHERE{ " +
+					" ?s ?p ?o. FILTER ( ?s = <" +
+					dbpediaObject.getUriDbpedia() +
+					">). } LIMIT 20");
+			Query query = QueryFactory.create(queryString);
+
+			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
+				resultSet = qexec.execSelect();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	return resultSet;
 	}
 }

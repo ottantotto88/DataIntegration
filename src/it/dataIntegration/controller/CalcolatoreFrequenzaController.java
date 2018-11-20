@@ -1,5 +1,6 @@
 package it.dataIntegration.controller;
 
+import it.dataIntegration.model.CalcolatoreFrequenzaModel;
 import it.dataIntegration.model.DbpediaObject;
 import it.dataIntegration.utility.RestServices;
 import it.dataIntegration.utility.SparqlQuery;
@@ -13,10 +14,14 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import it.dataIntegration.view.CalcolatoreFrequenzaView1;
 import org.apache.jena.base.Sys;
+import org.apache.jena.query.QuerySolution;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -24,12 +29,15 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.jsoup.Connection.Response;
 
+
+
 import javax.print.Doc;
 
 
 public class CalcolatoreFrequenzaController {
 
     private CalcolatoreFrequenzaView1 calcolatoreFrequenzaView1;
+    private CalcolatoreFrequenzaModel calcolatoreFrequenzaModel;
     private ArrayList<DbpediaObject> dbpediaObjects = new ArrayList<DbpediaObject>();
     private ArrayList<String> news = new ArrayList<>();
     private Document document;
@@ -40,20 +48,27 @@ public class CalcolatoreFrequenzaController {
     public CalcolatoreFrequenzaController() {
 
         this.calcolatoreFrequenzaView1 = new CalcolatoreFrequenzaView1(this);
+        this.calcolatoreFrequenzaModel = new CalcolatoreFrequenzaModel(this);
+
         calcolatoreFrequenzaView1.setVisible(true);
 
+
+        // per estrarre le properties viene prima creato un vettore di dbpedia objects, che contengono nomi e uri per
+        // dbpedia, successivamente viene effettuata una chiamata statica del metodo getproperties che crea il file con
+        // properties e values.
         calcolatoreFrequenzaView1.getEstraiPropertiesButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String urlProva = calcolatoreFrequenzaView1.getUrlTextField1().getText();
                 dbpediaObjects = RestServices.getRequest(urlProva);
-                SparqlQuery.getProperties(dbpediaObjects);
+                SparqlQuery.getPropertiesFile(dbpediaObjects);
             }
         });
 
         calcolatoreFrequenzaView1.getEstraiNotizieDaGnewsButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                org.apache.jena.query.ResultSet resultSet;
                 String argomento = calcolatoreFrequenzaView1.getArgomentiTextField().getText();
                 try {
                     document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=it&gl=IT&ceid=IT%3Ait").get();
@@ -62,23 +77,28 @@ public class CalcolatoreFrequenzaController {
                     news = filtraNotizie(links);
                     FileWriter fileWriter = new FileWriter("link_notizie");
                     PrintWriter printWriter = new PrintWriter(fileWriter);
+                    System.out.println(news.size());
 
                     for (int i = 0; i < news.size() ; i = i + 2){
                         Document document1 =  Jsoup.connect(news.get(i)).get();
                         String link_vero = document1.select("a[href]").get(44).attr("abs:href");
                         dbpediaObjects = RestServices.getRequest(link_vero);
-                        SparqlQuery.getProperties(dbpediaObjects);
+                        resultSet = SparqlQuery.getPropertiesResultSet(dbpediaObjects);
+                        while (resultSet.hasNext()){
+                            QuerySolution solution = resultSet.nextSolution();
+                            calcolatoreFrequenzaModel.insertProperty(solution.get("p").toString(),solution.get("o").toString());
+                        }
                     }
+                    System.out.println(news.size()/2);
                     printWriter.close();
 
-                } catch (IOException exception) {
+                } catch (IOException | SQLException exception){
                 //blocco di catch autogenerato per la gestione eccezione di jsoup
                     exception.printStackTrace();
                 }
 
             }
         });
-
 
     }
 
