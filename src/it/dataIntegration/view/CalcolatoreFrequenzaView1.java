@@ -11,6 +11,7 @@ public class CalcolatoreFrequenzaView1 extends JFrame{
     private JTextField argomentiTextField;
     private JTextField urlTextField1;
     private JPanel calcolatoreFrequenzaPanel;
+    private JButton estraiTotButton;
     private CalcolatoreFrequenzaController calcolatoreFrequenzaController;
 
 
@@ -34,6 +35,9 @@ public class CalcolatoreFrequenzaView1 extends JFrame{
         return estraiPropertiesButton;
     }
 
+    public JButton getEstraiTotButton() {
+        return estraiTotButton;
+    }
 
     public JTextField getUrlTextField1() {
         return urlTextField1;

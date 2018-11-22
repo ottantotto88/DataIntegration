@@ -8,17 +8,23 @@ public class CalcolatoreFrequenzaModel {
     private CalcolatoreFrequenzaController calcolatoreFrequenzaController;
     private Connection connection;
     private Statement statement;
-    private PreparedStatement preparedStatement;
-
+    private PreparedStatement preparedStatementArg;
+    private PreparedStatement preparedStatementProp;
     public CalcolatoreFrequenzaModel(CalcolatoreFrequenzaController calcolatoreFrequenzaController) {
         this.calcolatoreFrequenzaController = calcolatoreFrequenzaController;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost/properties_values?"
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/bda2018?"
                     + "user=sqluser&password=sqluserpw&serverTimezone=UTC");
             statement = connection.createStatement();
-            preparedStatement = connection
-                    .prepareStatement("INSERT INTO properties_values.property_value VALUES (default , ?,?,?)");
+
+
+            preparedStatementProp = connection
+                    .prepareStatement("INSERT INTO properties VALUES (default , ?,?,?)");
+
+            preparedStatementArg = connection
+                    .prepareStatement("INSERT INTO argomenti  VALUES(default, ? ,NOW());", Statement.RETURN_GENERATED_KEYS);
+
 
         } catch (Exception e){
             e.printStackTrace();
@@ -26,12 +32,23 @@ public class CalcolatoreFrequenzaModel {
 
     }
 
-    public void insertProperty(String property, String value) throws SQLException {
-        preparedStatement.setInt(1,1);
-        preparedStatement.setString(2, property);
-        preparedStatement.setString(3, value );
-        preparedStatement.executeUpdate();
-        System.out.println("sto inserendo");
+    public void insertProperty(int argomento, String property, String value) throws SQLException {
+        preparedStatementProp.setInt(1,argomento);
+        preparedStatementProp.setString(2, property);
+        preparedStatementProp.setString(3, value );
+        preparedStatementProp.executeUpdate();
+
+    }
+
+    public int insertArgomento(String argomento) throws SQLException {
+        int idArg = 0;
+        preparedStatementArg.setString(1,argomento);
+        preparedStatementArg.executeUpdate();
+        ResultSet rs = preparedStatementArg.getGeneratedKeys();
+        if(rs.next())
+            idArg = rs.getInt(1);
+        return idArg;
+
     }
 
 }

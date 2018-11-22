@@ -12,8 +12,8 @@ import org.json.JSONObject;
 import it.dataIntegration.model.DbpediaObject;
 
 public class RestServices {
-	/*URI per servizio web di estrazione uri dbpedia da notizie, necessita di un token 
-	 * e di un valore min_confidence che influenza il numero di uri dbpedia estratti 
+	/*URI per servizio web di estrazione uri dbpedia da notizie, necessita di un token
+	 * e di un valore min_confidence che influenza il numero di uri dbpedia estratti
 	 */
 	private static String dandelionUri = "https://api.dandelion.eu/datatxt/nex/v1/?min_confidence=0.7&include=lod&token=39cbe7e7e89e49d08fe3825a694f5ef0";
 	/*
@@ -21,7 +21,7 @@ public class RestServices {
 	 */
 	public static ArrayList<DbpediaObject> getRequest(String urlNotizia) {
 		ArrayList<DbpediaObject> list = new ArrayList<DbpediaObject>();
-		
+
 		try {
 			URL url = new URL(dandelionUri + "&url=" + urlNotizia);
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();

@@ -65,6 +65,14 @@
           <text value="https://sport.ilmessaggero.it/motorsport/moto_gp_valentino_rossi_il_circuito_austria_mai_molto_positivo_per_noi-3903171.html"/>
         </properties>
       </component>
+      <component id="d74cb" class="javax.swing.JButton" binding="estraiTotButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Estrai properties e values dal file"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

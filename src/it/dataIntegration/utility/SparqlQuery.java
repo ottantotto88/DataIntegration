@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
+import it.dataIntegration.model.CalcolatoreFrequenzaModel;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -176,9 +177,8 @@ public class SparqlQuery {
 
 	}
 
-	public static ResultSet getPropertiesResultSet(ArrayList<DbpediaObject> dbpediaObjects) {
-		ResultSet resultSet = null;
-		String service = "http://it.dbpedia.org/sparql";
+	public static void getPropertiesResultSet(ArrayList<DbpediaObject> dbpediaObjects, CalcolatoreFrequenzaModel calcolatoreFrequenzaModel, int idArgomento) {
+		String service = "https://dbpedia.org/sparql";
 
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
 			String queryString = new String("SELECT ?p ?o " +
@@ -186,14 +186,18 @@ public class SparqlQuery {
 					" ?s ?p ?o. FILTER ( ?s = <" +
 					dbpediaObject.getUriDbpedia() +
 					">). } LIMIT 20");
+			System.out.println(queryString);
 			Query query = QueryFactory.create(queryString);
 
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
-				resultSet = qexec.execSelect();
+				ResultSet resultSet = qexec.execSelect();
+				while (resultSet.hasNext()) {
+					QuerySolution solution = resultSet.nextSolution();
+					calcolatoreFrequenzaModel.insertProperty(idArgomento,solution.get("p").toString(), solution.get("o").toString());
+				}
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
-	return resultSet;
 	}
 }

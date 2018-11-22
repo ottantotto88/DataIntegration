@@ -7,10 +7,7 @@ import it.dataIntegration.utility.SparqlQuery;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
@@ -71,7 +68,7 @@ public class CalcolatoreFrequenzaController {
                 org.apache.jena.query.ResultSet resultSet;
                 String argomento = calcolatoreFrequenzaView1.getArgomentiTextField().getText();
                 try {
-                    document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=it&gl=IT&ceid=IT%3Ait").get();
+                    document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=en-US&gl=US&ceid=US%3Aen").get();
                     Elements links = document.select("a[href]");
 
                     news = filtraNotizie(links);
@@ -83,18 +80,46 @@ public class CalcolatoreFrequenzaController {
                         Document document1 =  Jsoup.connect(news.get(i)).get();
                         String link_vero = document1.select("a[href]").get(44).attr("abs:href");
                         dbpediaObjects = RestServices.getRequest(link_vero);
-                        resultSet = SparqlQuery.getPropertiesResultSet(dbpediaObjects);
-                        while (resultSet.hasNext()){
-                            QuerySolution solution = resultSet.nextSolution();
-                            calcolatoreFrequenzaModel.insertProperty(solution.get("p").toString(),solution.get("o").toString());
-                        }
+                        SparqlQuery.getPropertiesResultSet(dbpediaObjects, calcolatoreFrequenzaModel, 0);
+
                     }
                     System.out.println(news.size()/2);
                     printWriter.close();
 
-                } catch (IOException | SQLException exception){
+                } catch (IOException exception){
                 //blocco di catch autogenerato per la gestione eccezione di jsoup
                     exception.printStackTrace();
+                }
+
+            }
+        });
+
+        calcolatoreFrequenzaView1.getEstraiTotButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int idArgomento;
+                try {
+                    FileReader fileReader = new FileReader("argomenti.txt");
+                    BufferedReader bufferedReader = new BufferedReader(fileReader);
+                    String argomento;
+
+                    while ((argomento = bufferedReader.readLine()) != null) {
+                        idArgomento = calcolatoreFrequenzaModel.insertArgomento(argomento);
+                        document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=en-US&gl=US&ceid=US%3Aen").get();
+                        Elements links = document.select("a[href]");
+                        news = filtraNotizie(links);
+
+
+                        for (int i = 0; i < news.size() ; i = i + 2){
+                            Document document1 =  Jsoup.connect(news.get(i)).get();
+                            String link_vero = document1.select("a[href]").get(44).attr("abs:href");
+                            dbpediaObjects = RestServices.getRequest(link_vero);
+                            System.out.println(link_vero);
+                            //SparqlQuery.getPropertiesResultSet(dbpediaObjects, calcolatoreFrequenzaModel, idArgomento);
+                        }
+                    }
+                } catch (IOException | SQLException e1) {
+                    e1.printStackTrace();
                 }
 
             }
