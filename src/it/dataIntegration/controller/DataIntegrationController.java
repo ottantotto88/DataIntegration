@@ -557,7 +557,7 @@ public class DataIntegrationController {
 			int j = 0;
 			for (int i = 0; i < list.size(); i++) {
 				j = i + 1;
-				txtArea.append(j + ") " + list.get(i).getNome() + "/" + list.get(i).getUriDbpedia());
+				txtArea.append(j + ") " + list.get(i).getNome() + "/" + list.get(i).getUriDbpedia()+ " , confidence: " + list.get(i).getConfidence()) ;
 				txtArea.append(System.lineSeparator());
 			}
 
@@ -569,7 +569,7 @@ public class DataIntegrationController {
 			j = 0;
 			for (int i = 0; i < list2.size(); i++) {
 				j = i + 1;
-				txtArea.append(j + ") " + list2.get(i).getNome() + "/" + list2.get(i).getUriDbpedia());
+				txtArea.append(j + ") " + list2.get(i).getNome() + "/" + list2.get(i).getUriDbpedia()+ " , confidence:  " + list2.get(i).getConfidence());
 				txtArea.append(System.lineSeparator());
 			}
 			view.getPanelBox().add(txtArea);

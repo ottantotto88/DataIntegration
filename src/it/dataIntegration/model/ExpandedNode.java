@@ -8,6 +8,7 @@ public class ExpandedNode {
 	    private RDFNode nodeValue;
 	    private Model modelValue;
 
+
 	    public ExpandedNode(RDFNode nodeValue1, Model modelValue1) {
 	        this.nodeValue = nodeValue1;
 	        this.modelValue = modelValue1;
