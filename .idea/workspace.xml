@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/model/CalcolatoreFrequenzaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/dataIntegration/model/CalcolatoreFrequenzaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java" afterDir="false" />
     </list>
@@ -42,7 +43,7 @@
         <counts>
           <entry key="class" value="4" />
           <entry key="form" value="12" />
-          <entry key="java" value="109" />
+          <entry key="java" value="111" />
           <entry key="project" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
@@ -53,7 +54,7 @@
           <entry key="CLASS" value="4" />
           <entry key="Eclipse" value="1" />
           <entry key="GUI_DESIGNER_FORM" value="12" />
-          <entry key="JAVA" value="109" />
+          <entry key="JAVA" value="111" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -65,12 +66,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10836" />
+          <entry key="java" value="12781" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10836" />
+          <entry key="JAVA" value="12781" />
         </counts>
       </usages-collector>
     </session>
@@ -90,12 +91,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
+        <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+            <state relative-caret-position="136">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,11 +133,11 @@
         <option value="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolaFrequenzaPanel.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java" />
-        <option value="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.form" />
-        <option value="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/model/CalcolatoreFrequenzaModel.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java" />
+        <option value="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" />
+        <option value="$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java" />
       </list>
     </option>
   </component>
@@ -261,13 +264,6 @@
               <item name="it.dataIntegration" type="1f31426a:PackageElementNode" />
               <item name="view" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="DataIntegration" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DataIntegration" type="616d4139:PackageViewModuleNode" />
-              <item name="it.dataIntegration" type="1f31426a:PackageElementNode" />
-              <item name="view" type="1f31426a:PackageElementNode" />
-              <item name="CalcolatoreFrequenzaView1" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543439654572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543440880915" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -312,6 +308,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataIntegration" />
         <item itemvalue="Application.DataIntegration" />
       </list>
     </recent_temporary>
@@ -360,12 +357,12 @@
       <workItem from="1542889075436" duration="174000" />
       <workItem from="1542895569264" duration="1579000" />
       <workItem from="1542899864786" duration="193000" />
-      <workItem from="1543438437972" duration="1485000" />
+      <workItem from="1543438437972" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108274000" />
+    <option name="totallyTimeSpent" value="109078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,9 +375,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27993527" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27993527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,14 +385,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" visible="true" weight="0.3380783" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4894822" weight="0.3380783" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7268456" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.32673267" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5105178" side_tool="true" visible="true" weight="0.3380783" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" visible="true" weight="0.32562277" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5105178" side_tool="true" weight="0.3380783" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932885" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -516,25 +512,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="195" column="54" selection-start-line="195" selection-start-column="54" selection-end-line="195" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,6 +532,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="89" column="59" lean-forward="true" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/CalcolatoreFrequenzaModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -563,12 +559,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/view/CalcolatoreFrequenzaView1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        <state relative-caret-position="136">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
