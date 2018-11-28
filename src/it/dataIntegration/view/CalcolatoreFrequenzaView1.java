@@ -5,15 +5,13 @@ import it.dataIntegration.controller.CalcolatoreFrequenzaController;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * View creata per comodità. Massimo 1000 estrazioni tramite dandelion al giorno.
+ */
 public class CalcolatoreFrequenzaView1 extends JFrame{
-    private JButton estraiPropertiesButton;
-    private JButton estraiNotizieDaGnewsButton;
-    private JTextField argomentiTextField;
-    private JTextField urlTextField1;
     private JPanel calcolatoreFrequenzaPanel;
     private JButton estraiTotButton;
     private CalcolatoreFrequenzaController calcolatoreFrequenzaController;
-
 
     public CalcolatoreFrequenzaView1(CalcolatoreFrequenzaController calcolatoreFrequenzaController) {
         this.calcolatoreFrequenzaController = calcolatoreFrequenzaController;
@@ -26,25 +24,8 @@ public class CalcolatoreFrequenzaView1 extends JFrame{
 
     }
 
-
-    public JButton getEstraiNotizieDaGnewsButton() {
-        return estraiNotizieDaGnewsButton;
-    }
-
-    public JButton getEstraiPropertiesButton() {
-        return estraiPropertiesButton;
-    }
-
     public JButton getEstraiTotButton() {
         return estraiTotButton;
-    }
-
-    public JTextField getUrlTextField1() {
-        return urlTextField1;
-    }
-
-    public JTextField getArgomentiTextField() {
-        return argomentiTextField;
     }
 }
 

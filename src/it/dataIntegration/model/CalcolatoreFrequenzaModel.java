@@ -1,9 +1,16 @@
+
+
 package it.dataIntegration.model;
 
 import it.dataIntegration.controller.CalcolatoreFrequenzaController;
 
 import java.sql.*;
-
+/** Questa classe si comporta da DAO in quannto ospita i metodi necessari agli inserimenti.
+ * Qui viene effettuata la connessione con la base di dati.
+ * I prepared statement sono query con dati ancora da specificare, indicati da punti interrogativi che sono
+ * sostituiti quando sono passati i dati.
+ *
+ */
 public class CalcolatoreFrequenzaModel {
     private CalcolatoreFrequenzaController calcolatoreFrequenzaController;
     private Connection connection;
@@ -31,7 +38,8 @@ public class CalcolatoreFrequenzaModel {
         }
 
     }
-
+    // metodo che si occupa dell'inserimento della property nel DB, per argomento si intende l'id come intero
+    // del relativo argomento.
     public void insertProperty(int argomento, String property, String value) throws SQLException {
         preparedStatementProp.setInt(1,argomento);
         preparedStatementProp.setString(2, property);
@@ -40,6 +48,10 @@ public class CalcolatoreFrequenzaModel {
 
     }
 
+
+    // questo metodo prende in ingresso l'argomento ceh deve essere cercato in gnews, lo inserisce nel DB con un
+    // timestamp e restituisce come intero l'indice di tale argomento al fine di poterlo inserire nella tabella
+    // delle properties. Il DB è infatti normalizzato.
     public int insertArgomento(String argomento) throws SQLException {
         int idArg = 0;
         preparedStatementArg.setString(1,argomento);

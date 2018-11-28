@@ -30,6 +30,14 @@ import org.jsoup.Connection.Response;
 
 import javax.print.Doc;
 
+/**
+ * L'arraylist di dbpedia object è usato per ospitare gli URI estratti tramite dandelion. In esso si trovano gli uri
+ * necessari ad interrogare dbpedia inglese. Gli argomenti sono estratti da un file nella cartella root della
+ * applicazione. Viene usata la libreria esterna Jsoup per il parsing della pagina html, vengono in particolare
+ * estratti tutti i link per poi filtrare solo quelli relativi alle notizie. I link delle notizie non possono essere
+ * consultati da jsoup in quanto operano un redirect in javascript alla pagina vera e propria. Per risolvere questo
+ * problema viene effettuato un secondo parsing al fine di recuperare il vero link della notizia.
+ */
 
 public class CalcolatoreFrequenzaController {
 
@@ -38,8 +46,7 @@ public class CalcolatoreFrequenzaController {
     private ArrayList<DbpediaObject> dbpediaObjects = new ArrayList<DbpediaObject>();
     private ArrayList<String> news = new ArrayList<>();
     private Document document;
-    private Response response;
-    private String argomento;
+
 
 
     public CalcolatoreFrequenzaController() {
@@ -48,51 +55,6 @@ public class CalcolatoreFrequenzaController {
         this.calcolatoreFrequenzaModel = new CalcolatoreFrequenzaModel(this);
 
         calcolatoreFrequenzaView1.setVisible(true);
-
-
-        // per estrarre le properties viene prima creato un vettore di dbpedia objects, che contengono nomi e uri per
-        // dbpedia, successivamente viene effettuata una chiamata statica del metodo getproperties che crea il file con
-        // properties e values.
-        calcolatoreFrequenzaView1.getEstraiPropertiesButton().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String urlProva = calcolatoreFrequenzaView1.getUrlTextField1().getText();
-                dbpediaObjects = RestServices.getRequest(urlProva);
-                SparqlQuery.getPropertiesFile(dbpediaObjects);
-            }
-        });
-
-        calcolatoreFrequenzaView1.getEstraiNotizieDaGnewsButton().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                org.apache.jena.query.ResultSet resultSet;
-                String argomento = calcolatoreFrequenzaView1.getArgomentiTextField().getText();
-                try {
-                    document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=en-US&gl=US&ceid=US%3Aen").get();
-                    Elements links = document.select("a[href]");
-
-                    news = filtraNotizie(links);
-                    FileWriter fileWriter = new FileWriter("link_notizie");
-                    PrintWriter printWriter = new PrintWriter(fileWriter);
-                    System.out.println(news.size());
-
-                    for (int i = 0; i < news.size() ; i = i + 2){
-                        Document document1 =  Jsoup.connect(news.get(i)).get();
-                        String link_vero = document1.select("a[href]").get(44).attr("abs:href");
-                        dbpediaObjects = RestServices.getRequest(link_vero);
-                        SparqlQuery.getPropertiesResultSet(dbpediaObjects, calcolatoreFrequenzaModel, 0);
-
-                    }
-                    System.out.println(news.size()/2);
-                    printWriter.close();
-
-                } catch (IOException exception){
-                //blocco di catch autogenerato per la gestione eccezione di jsoup
-                    exception.printStackTrace();
-                }
-
-            }
-        });
 
         calcolatoreFrequenzaView1.getEstraiTotButton().addActionListener(new ActionListener() {
             @Override
@@ -104,18 +66,28 @@ public class CalcolatoreFrequenzaController {
                     String argomento;
 
                     while ((argomento = bufferedReader.readLine()) != null) {
+                        //viene restituito l id dell'argomento appena inserito come intero
                         idArgomento = calcolatoreFrequenzaModel.insertArgomento(argomento);
+                        // il link a gnews in inglese è costruito riempiendo la parte mancante con l'argomento
                         document= Jsoup.connect("https://news.google.com/search?q="+ argomento +"&hl=en-US&gl=US&ceid=US%3Aen").get();
+                        //sono estratti solo i link
                         Elements links = document.select("a[href]");
+                        //filtraggio dei link relativi alle notizie, sono da ignorare link ad altri servizi
+                        // come google play etc.
                         news = filtraNotizie(links);
 
-
+                        //per qualche motivo i link sono ripetuti due volte nella pagina quindi delle coppie
+                        // identiche se ne considera solo uno.
                         for (int i = 0; i < news.size() ; i = i + 2){
+                            //risoluzione del redirect tramite secondo parsing
                             Document document1 =  Jsoup.connect(news.get(i)).get();
+                            //nel parsing il link di interesse  è il 44esimo, soluzione hard coded non
+                            // resiliente ai cambiamenti lato server
                             String link_vero = document1.select("a[href]").get(44).attr("abs:href");
                             dbpediaObjects = RestServices.getRequest(link_vero);
                             System.out.println(link_vero);
-                            //SparqlQuery.getPropertiesResultSet(dbpediaObjects, calcolatoreFrequenzaModel, idArgomento);
+                            //qui sono inseriti tutti le properties trovato per ogni uri estratto dalla notizia
+                            SparqlQuery.getPropertiesResultSet(dbpediaObjects, calcolatoreFrequenzaModel, idArgomento);
                         }
                     }
                 } catch (IOException | SQLException e1) {

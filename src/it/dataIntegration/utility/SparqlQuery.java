@@ -143,10 +143,7 @@ public class SparqlQuery {
 		return model;
 	}
 
-	//metodo temporaneo incompleto che per il momento prende in ingresso una lista di dbpediaojects e stampa a schermo le
-	//property estratte da ognuno di essi. I DBpedia obkect sono composti da un nome ed un URI collegato a dbpedia,
-	//viene utilizzato l'URI dbpedia per identificare properties e value di ogni soggetto (il soggetto è quindi l'URI
-	//dbPpedia)
+
 	public static void getPropertiesFile(ArrayList<DbpediaObject> dbpediaObjects) {
 		String service = "http://it.dbpedia.org/sparql";
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
@@ -177,6 +174,10 @@ public class SparqlQuery {
 
 	}
 
+    // questo metodo prende in ingresso un vettore  di dbpedia object da cui estrarre l'uri per costruire la
+	// query da eseguire sul  servizio sparql inglese. Sono restituiti sottoforma di resultset properties
+	// e values ottenute da dbpedia inglese. Il riferimento al model è passato al fine di poter operare
+	// gli inserimenti nel db.
 	public static void getPropertiesResultSet(ArrayList<DbpediaObject> dbpediaObjects, CalcolatoreFrequenzaModel calcolatoreFrequenzaModel, int idArgomento) {
 		String service = "https://dbpedia.org/sparql";
 
