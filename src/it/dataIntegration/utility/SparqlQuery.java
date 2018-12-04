@@ -1,18 +1,12 @@
 package it.dataIntegration.utility;
 
-import java.util.ArrayList;
-
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QueryFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
+import it.dataIntegration.model.DbpediaObject;
+import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 
-import it.dataIntegration.model.DbpediaObject;
+import java.util.ArrayList;
 
 public class SparqlQuery {
 
@@ -72,10 +66,12 @@ public class SparqlQuery {
 						}
 					}
 				}
+				System.out.println(model);
 				qexec.close();
 			}
 		}
 		return model;
+
 	}
 
 	/*

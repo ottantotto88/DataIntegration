@@ -1,7 +1,19 @@
 package it.dataIntegration.controller;
 
-import java.awt.Font;
-import java.awt.Frame;
+import it.dataIntegration.model.DbpediaObject;
+import it.dataIntegration.model.ExpandedNode;
+import it.dataIntegration.model.Path;
+import it.dataIntegration.utility.ProcessCpuLoad;
+import it.dataIntegration.utility.RestServices;
+import it.dataIntegration.utility.SparqlQuery;
+import it.dataIntegration.view.DataIntegrationPanel;
+import it.dataIntegration.view.FinishedElaborationPanel;
+import it.dataIntegration.view.PleaseWaitPanel;
+import it.dataIntegration.view.ResultPanel;
+import org.apache.jena.rdf.model.*;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
@@ -11,29 +23,6 @@ import java.io.PrintWriter;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
-
-import javax.swing.JDialog;
-import javax.swing.JTextArea;
-import javax.swing.WindowConstants;
-
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.SimpleSelector;
-import org.apache.jena.rdf.model.Statement;
-import org.apache.jena.rdf.model.StmtIterator;
-
-import it.dataIntegration.model.DbpediaObject;
-import it.dataIntegration.model.Path;
-import it.dataIntegration.model.ExpandedNode;
-import it.dataIntegration.utility.ProcessCpuLoad;
-import it.dataIntegration.utility.RestServices;
-import it.dataIntegration.utility.SparqlQuery;
-import it.dataIntegration.view.DataIntegrationPanel;
-import it.dataIntegration.view.FinishedElaborationPanel;
-import it.dataIntegration.view.PleaseWaitPanel;
-import it.dataIntegration.view.ResultPanel;
 
 public class DataIntegrationController {
 	private Model initalFirstModel;
@@ -54,7 +43,7 @@ public class DataIntegrationController {
 	private int currentIteration = 1;
 	private int matchFound = 0;
 
-	public DataIntegrationController(final DataIntegrationPanel view, Frame frame) {
+	public DataIntegrationController(final DataIntegrationPanel view, java.awt.Frame frame) {
 		this.view = view;
 		// creo il file di log
 		try {
