@@ -38,7 +38,7 @@ public class DataIntegrationPanel extends JPanel {
 		panelNorth1.add(lblUrl);
 
 		txtUrl = new JTextField();
-		txtUrl.setText("https://sport.ilmessaggero.it/motorsport/moto_gp_valentino_rossi_il_circuito_austria_mai_molto_positivo_per_noi-3903171.html");
+		txtUrl.setText("https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce");
 		txtUrl.setColumns(70);
 		panelNorth1.add(txtUrl);
 

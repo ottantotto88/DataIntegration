@@ -1,16 +1,18 @@
 package it.dataIntegration.utility;
 
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-
 import it.dataIntegration.model.CalcolatoreFrequenzaModel;
-import org.apache.jena.query.*;
+import it.dataIntegration.model.DbpediaObject;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 
-import it.dataIntegration.model.DbpediaObject;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 
 public class SparqlQuery {
 
@@ -27,12 +29,12 @@ public class SparqlQuery {
 			String queryString = "Select ?s ?p ?o where" + "{" + "{" + "?s ?p ?o. " + "FILTER (?s = <"
 					+ list.get(i).getUriDbpedia() + ">)." + "}" + "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = <"
 					+ list.get(i).getUriDbpedia() + ">)." + "}" + "} LIMIT 20";
-			Query query = QueryFactory.create(queryString);
+			org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
 			// Definizione del grafo che conterrà le triple estratte
 			// Esecuzione della Query
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
-				ResultSet resultSet = qexec.execSelect();
+				org.apache.jena.query.ResultSet resultSet = qexec.execSelect();
 				for (; resultSet.hasNext(); ) {
 					QuerySolution solution = resultSet.nextSolution();
 					// definisco namespace e localname di ciascuna propietà
@@ -94,12 +96,12 @@ public class SparqlQuery {
 			queryString = "Select ?s ?p ?o where" + "{" + "{" + "?s ?p ?o. " + "FILTER (?s = <" + subject + ">)." + "}"
 					+ "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = <" + subject + ">)." + "}" + "} LIMIT 20";
 		}
-		Query query = QueryFactory.create(queryString);
+		org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
 		// Definizione del grafo che conterrà le triple estratte
 		// Esecuzione della Query
 		try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
-			ResultSet resultSet = qexec.execSelect();
+			org.apache.jena.query.ResultSet resultSet = qexec.execSelect();
 			for (; resultSet.hasNext(); ) {
 				QuerySolution solution = resultSet.nextSolution();
 				// definisco namespace e localname di ciascuna propietà
@@ -151,11 +153,11 @@ public class SparqlQuery {
 					"WHERE{ " +
 					" ?s ?p ?o. FILTER ( ?s = <" +
 					dbpediaObject.getUriDbpedia() +
-					">). } LIMIT 20");
-			Query query = QueryFactory.create(queryString);
+ 					">). } LIMIT 20"); //restituisce il rs che ha properties e values
+			org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
-				ResultSet resultSet = qexec.execSelect();
+				org.apache.jena.query.ResultSet resultSet = qexec.execSelect();
 
 
 				FileWriter fileWriter = new FileWriter("estrazione_prop", true);
@@ -179,7 +181,7 @@ public class SparqlQuery {
 	// e values ottenute da dbpedia inglese. Il riferimento al model è passato al fine di poter operare
 	// gli inserimenti nel db.
 	public static void getPropertiesResultSet(ArrayList<DbpediaObject> dbpediaObjects, CalcolatoreFrequenzaModel calcolatoreFrequenzaModel, int idArgomento) {
-		String service = "https://dbpedia.org/sparql";
+		String service = "https://dbpedia.org/sparql"; //possiamo fare prove delle query qui
 
 		for (DbpediaObject dbpediaObject : dbpediaObjects) {
 			String queryString = new String("SELECT ?p ?o " +
@@ -188,10 +190,10 @@ public class SparqlQuery {
 					dbpediaObject.getUriDbpedia() +
 					">). } LIMIT 20");
 			System.out.println(queryString);
-			Query query = QueryFactory.create(queryString);
+			org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
 			try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
-				ResultSet resultSet = qexec.execSelect();
+				org.apache.jena.query.ResultSet resultSet = qexec.execSelect();
 				while (resultSet.hasNext()) {
 					QuerySolution solution = resultSet.nextSolution();
 					calcolatoreFrequenzaModel.insertProperty(idArgomento,solution.get("p").toString(), solution.get("o").toString());
@@ -201,4 +203,40 @@ public class SparqlQuery {
 			}
 		}
 	}
+
+
+
+    // questo metodo prende in ingresso un vettore  di dbpedia object da cui estrarre l'uri per costruire la
+    // query da eseguire sul  servizio sparql inglese. Sono restituiti sottoforma di resultset properties
+    // e values ottenute da dbpedia inglese. Il riferimento al model è passato al fine di poter operare
+    // gli inserimenti nel db.
+    public static void getPropertiesRS(ArrayList<DbpediaObject> list) {
+        String service = "https://dbpedia.org/sparql"; //possiamo fare prove delle query qui
+
+        for (int i = 0; i < list.size(); i++) {
+            String queryString = new String("SELECT ?p" +
+                    "WHERE{ " +
+                    " ?s ?p ?o. FILTER ( ?s = <" +
+                    list.get(i).getUriDbpedia() +
+                    ">). } LIMIT 20");
+            System.out.println(queryString);
+            org.apache.jena.query.Query query = QueryFactory.create(queryString);
+
+            try (QueryExecution qexec = QueryExecutionFactory.sparqlService(service, query);) {
+                org.apache.jena.query.ResultSet resultSet = qexec.execSelect();
+                FileWriter fileWriter = new FileWriter("estrazione_properties", true);
+                PrintWriter printWriter = new PrintWriter(fileWriter);
+                while (resultSet.hasNext()) {
+                    QuerySolution solution = resultSet.nextSolution();
+                    printWriter.println( " p: " + solution.get("p").toString());
+                }
+                printWriter.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+
+
+    }
 }

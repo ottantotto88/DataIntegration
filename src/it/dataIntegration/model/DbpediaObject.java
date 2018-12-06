@@ -32,6 +32,8 @@ public class DbpediaObject {
 		return confidence;
 	}
 
+
+
 	/**
 	 * 
 	 * Dbpedia Object sono uguali se hanno uri e nome uguali
