@@ -1,15 +1,13 @@
 package it.dataIntegration.utility;
 
+import it.dataIntegration.model.DbpediaObject;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-
-
-import org.json.JSONObject;
-
-import it.dataIntegration.model.DbpediaObject;
 
 public class RestServices {
 	/*URI per servizio web di estrazione uri dbpedia da notizie, necessita di un token
@@ -45,8 +43,7 @@ public class RestServices {
 			for (int i = 0; i < jsonArray.length(); i++) {
 				String uriDbpedia = jsonArray.getJSONObject(i).getJSONObject("lod").getString("dbpedia");
 				String nome = jsonArray.getJSONObject(i).getString("title");
-				Double confidence = jsonArray.getJSONObject(i).getDouble("confidence");
-				DbpediaObject dpo = new DbpediaObject(nome, uriDbpedia, confidence);
+				DbpediaObject dpo = new DbpediaObject(nome,uriDbpedia);
 				list.add(dpo);
 			}
 			conn.disconnect();

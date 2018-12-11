@@ -1,0 +1,5 @@
+http://it.dbpedia.org/resource/Guerrino_Zanotti/html;
+http://it.dbpedia.org/resource/Dante_Alighieri/html;
+http://it.dbpedia.org/resource/Napoli/html;
+http://it.dbpedia.org/resource/Firenze/html;
+http://it.dbpedia.org/resource/Foggia/html;

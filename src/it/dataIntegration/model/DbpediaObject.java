@@ -9,15 +9,13 @@ public class DbpediaObject {
 
 	private String nome;
 	private String uriDbpedia;
-	private Double confidence;
 
 
 
-	public DbpediaObject(String nome, String uriDbpedia, Double confidence) {
+	public DbpediaObject(String nome, String uriDbpedia) {
 		super();
 		this.nome = nome;
 		this.uriDbpedia = uriDbpedia;
-		this.confidence= confidence;
 	}
 
 	public String getNome() {
@@ -26,10 +24,6 @@ public class DbpediaObject {
 
 	public String getUriDbpedia() {
 		return uriDbpedia;
-	}
-
-	public Double getConfidence() {
-		return confidence;
 	}
 
 
@@ -58,7 +52,25 @@ public class DbpediaObject {
 		}
 		return cleanedArray;
 	}
-	
+
+
+  /*  public static ArrayList<DbpediaObject> readFile(String filename) {
+        List<String> wives = new ArrayList<String>();
+        try {
+            BufferedReader input = new BufferedReader(new FileReader(filename));
+            // for each line
+            for(String line = input.readLine(); line != null; line = input.readLine()) {
+                wives.add(line);
+            }
+            input.close();
+        } catch(IOException e) {
+            e.printStackTrace();
+            System.exit(1);
+            return null;
+        }
+        return wives;
+    }
+*/
 	public static boolean contains(ArrayList<DbpediaObject> list, String Uri) {
 		boolean result = false;
 		for(int i=0; i<list.size(); i++) {
@@ -69,5 +81,8 @@ public class DbpediaObject {
 		}
 		return result;
 	}
+
+
+
 
 }
