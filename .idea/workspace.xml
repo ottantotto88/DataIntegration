@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b93c77f-1946-45d1-b6b3-4c092a5372ec" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ottantotto88/DataIntegration&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;log.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java" />
-      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" />
-      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java" />
-      <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" />
-    </list>
+    <list default="true" id="7b93c77f-1946-45d1-b6b3-4c092a5372ec" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ottantotto88/DataIntegration&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;log.txt" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
