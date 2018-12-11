@@ -41,7 +41,7 @@ public class DataIntegrationController {
     private int currentIteration = 1;
     private int matchFound = 0;
 
-    public DataIntegrationController(final DataIntegrationPanel view, Frame frame) {
+    public DataIntegrationController(final DataIntegrationPanel view, final Frame frame) {
         this.view = view;
         // creo il file di log
         try {
@@ -79,7 +79,7 @@ public class DataIntegrationController {
                 threadCpuLoad.start();
                 view.getBtnCerca().setEnabled(false);
                 view.getBtnPulisci().setEnabled(true);
-                JDialog dialog = new JDialog(frame, "Please Wait...", true);
+                final JDialog dialog = new JDialog(frame, "Please Wait...", true);
                 PleaseWaitPanel panelPleaseWait = new PleaseWaitPanel();
                 dialog.getContentPane().add(panelPleaseWait);
                 dialog.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
@@ -109,6 +109,7 @@ public class DataIntegrationController {
                         modelFirstUri = SparqlQuery.QuerySparql(list);
 
 
+
                         initalFirstModel = modelFirstUri;
                         modelFirstUriModified = modelFirstUri;
                         // cerco tutte le triple che hanno come soggetto/oggetto i vari uri estratti
@@ -133,7 +134,7 @@ public class DataIntegrationController {
                         dialog.dispose();
                         writer.close();
 
-                        JDialog dialog2 = new JDialog(frame, "Elaborazioe Terminata", true);
+                        final JDialog dialog2 = new JDialog(frame, "Elaborazioe Terminata", true);
                         String message;
                         if (currentIteration == maxIteration) {
                             message = "La ricerca è terminata dopo " + currentIteration + " iterazioni, trovando "
@@ -655,24 +656,10 @@ public class DataIntegrationController {
                     if (stmt != null) {
                         // Con lo statament trovato creo una variabile di tipo path che utilizzero per
                         // stampare a video poi il percorso seguito
-
-                        try {
-                            for (String key : fillPropertiesMap().keySet()) {
-
-                                if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
-                                    String value = fillPropertiesMap().get(stmt.getPredicate().toString());
-
-
-                                }
-                            }
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-
                         Path path = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
 
-                        paths.add(path);
+                        checkProperty(initalFirstModel,stmt,path,paths);
                     }
                 }
                 // se secondObject != null vuol dire che dopo aver espanso un nodo, ho espanso
@@ -699,13 +686,15 @@ public class DataIntegrationController {
                         stmt = iter.next();
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        paths.add(path1);
+                        checkProperty(modelFirstUriModified,stmt,path1,paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
+
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+
                     }
                     // a questo punto devo trovare lo statement dal secondo nodo espanso al match
                     // trovato
@@ -723,15 +712,21 @@ public class DataIntegrationController {
 
                     if (iter.hasNext()) {
                         stmt = iter.next();
+
+
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        paths.add(path1);
+                        checkProperty(modelFirstUriModified,stmt,path1,paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
+
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+
+
+
                     }
                 } else {
                     /*
@@ -739,7 +734,6 @@ public class DataIntegrationController {
                      * espanso quindi devo trovare il predicato che lega il match trovato con il
                      * nodo espanso
                      */
-
                     selectSub = new SimpleSelector((Resource) firstObject, (Property) null,
                             (RDFNode) matches.get(numeroMatch));
                     iter = modelFirstUriModified.listStatements(selectSub);
@@ -753,15 +747,17 @@ public class DataIntegrationController {
                     }
                     if (iter.hasNext()) {
                         stmt = iter.next();
+
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        paths.add(path1);
+                        checkProperty(modelFirstUriModified,stmt,path1,paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
+
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
                     }
                 }
             } else {
@@ -781,15 +777,17 @@ public class DataIntegrationController {
                 }
                 if (iter.hasNext()) {
                     stmt = iter.next();
+
                     Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                             stmt.getObject().toString());
-                    paths.add(path1);
+                    checkProperty(modelFirstUriModified,stmt,path1,paths);
                 }
                 if (selectSub1 != null && iter1.hasNext()) {
                     stmt1 = iter1.next();
+
                     Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                             stmt1.getObject().toString());
-                    paths.add(path2);
+                    checkProperty(modelFirstUriModified,stmt1,path2,paths);
                 }
             }
         } else {
@@ -811,15 +809,20 @@ public class DataIntegrationController {
 
             if (iter.hasNext()) {
                 stmt = iter.next();
+
                 Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                         stmt.getObject().toString());
+                checkProperty(modelSecondUri,stmt,path1,paths);
+
                 paths.add(path1);
             }
             if (selectSub1 != null && iter1.hasNext()) {
+
                 stmt1 = iter1.next();
+
                 Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                         stmt1.getObject().toString());
-                paths.add(path2);
+                checkProperty(modelSecondUri,stmt1,path2,paths);
             }
         }
         // }
@@ -827,6 +830,11 @@ public class DataIntegrationController {
         return Path.writePath(paths);
 
     }
+
+
+
+
+
 
 
     public HashMap<String, String> fillPropertiesMap() throws IOException {
@@ -845,13 +853,31 @@ public class DataIntegrationController {
                 System.out.println("ignoring line: " + line);
             }
         }
-
-        for (String key : map.keySet()) {
-            System.out.println(key + ":" + map.get(key));
-        }
         reader.close();
         return map;
     }
 
+    public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths){
+        String value = "";
+        //
+
+        try {
+            if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
+                value = fillPropertiesMap().get(stmt.getPredicate().toString());
+                if(value.equals(-1)){
+                    deleteResource(model, stmt.getPredicate());
+                }
+            }else{
+                //aggiunge nel file una riga con la nuova property e il valore 1
+                paths.add(path);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void deleteResource(Model model, Property p) {
+        model.removeAll(null,p,null);
+    }
 
 }

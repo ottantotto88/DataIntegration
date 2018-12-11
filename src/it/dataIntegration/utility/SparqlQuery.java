@@ -2,17 +2,16 @@ package it.dataIntegration.utility;
 
 import it.dataIntegration.model.CalcolatoreFrequenzaModel;
 import it.dataIntegration.model.DbpediaObject;
+import it.dataIntegration.model.Path;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.*;
 
-import java.io.FileWriter;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class SparqlQuery {
 
@@ -109,6 +108,7 @@ public class SparqlQuery {
 				String localName = solution.getResource("p").getLocalName();
 				// faccio un check sull'oggetto, al fine di verificare che sia una risorsa
 				// oppure un Literal
+
 				if (solution.get("o") instanceof Resource) {
 					// controllo se il subjecte estratto è già presente nel modello
 					if (model.containsResource(solution.getResource("s"))) {
@@ -239,4 +239,9 @@ public class SparqlQuery {
 
 
     }
+
+
+
+
+
 }

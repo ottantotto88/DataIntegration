@@ -45,7 +45,7 @@ public class DataIntegration {
 		DataIntegrationPanel panelLinkedData = new DataIntegrationPanel();
 		frame.getContentPane().add(panelLinkedData);
 		new DataIntegrationController(panelLinkedData,frame);
-		new CalcolatoreFrequenzaController();
+	//	new CalcolatoreFrequenzaController();
 		
 	}
 }
