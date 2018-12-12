@@ -109,7 +109,6 @@ public class DataIntegrationController {
                         modelFirstUri = SparqlQuery.QuerySparql(list);
 
 
-
                         initalFirstModel = modelFirstUri;
                         modelFirstUriModified = modelFirstUri;
                         // cerco tutte le triple che hanno come soggetto/oggetto i vari uri estratti
@@ -659,7 +658,7 @@ public class DataIntegrationController {
                         Path path = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
 
-                        checkProperty(initalFirstModel,stmt,path,paths);
+                        checkProperty(initalFirstModel, stmt, path, paths);
                     }
                 }
                 // se secondObject != null vuol dire che dopo aver espanso un nodo, ho espanso
@@ -686,14 +685,14 @@ public class DataIntegrationController {
                         stmt = iter.next();
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
 
                     }
                     // a questo punto devo trovare lo statement dal secondo nodo espanso al match
@@ -716,15 +715,14 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
-
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
 
 
                     }
@@ -750,14 +748,14 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
                     }
                 }
             } else {
@@ -780,14 +778,14 @@ public class DataIntegrationController {
 
                     Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                             stmt.getObject().toString());
-                    checkProperty(modelFirstUriModified,stmt,path1,paths);
+                    checkProperty(modelFirstUriModified, stmt, path1, paths);
                 }
                 if (selectSub1 != null && iter1.hasNext()) {
                     stmt1 = iter1.next();
 
                     Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                             stmt1.getObject().toString());
-                    checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                    checkProperty(modelFirstUriModified, stmt1, path2, paths);
                 }
             }
         } else {
@@ -812,7 +810,7 @@ public class DataIntegrationController {
 
                 Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                         stmt.getObject().toString());
-                checkProperty(modelSecondUri,stmt,path1,paths);
+                checkProperty(modelSecondUri, stmt, path1, paths);
 
                 paths.add(path1);
             }
@@ -822,7 +820,7 @@ public class DataIntegrationController {
 
                 Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                         stmt1.getObject().toString());
-                checkProperty(modelSecondUri,stmt1,path2,paths);
+                checkProperty(modelSecondUri, stmt1, path2, paths);
             }
         }
         // }
@@ -830,11 +828,6 @@ public class DataIntegrationController {
         return Path.writePath(paths);
 
     }
-
-
-
-
-
 
 
     public HashMap<String, String> fillPropertiesMap() throws IOException {
@@ -853,19 +846,26 @@ public class DataIntegrationController {
                 System.out.println("ignoring line: " + line);
             }
         }
+
+        for (String key : map.keySet())
+        {
+            System.out.println(key + ":" + map.get(key));
+        }
         reader.close();
         return map;
     }
 
-    public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths){
+    public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths) {
         String value = "";
         //
 
         try {
             if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
                 value = fillPropertiesMap().get(stmt.getPredicate().toString());
-                if(value.equals(-1)){
+                if (value.equals(-1)) {
                     deleteResource(model, stmt.getPredicate());
+                } else {
+                    paths.add(path);
                 }
             }else{
                 //aggiunge nel file una riga con la nuova property e il valore 1
@@ -877,7 +877,7 @@ public class DataIntegrationController {
     }
 
     public void deleteResource(Model model, Property p) {
-        model.removeAll(null,p,null);
+        model.removeAll(null, p, null);
     }
 
 }
