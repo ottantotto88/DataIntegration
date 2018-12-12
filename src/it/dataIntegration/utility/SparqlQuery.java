@@ -304,9 +304,5 @@ public class SparqlQuery {
 
 
 
-    public static void deleteResource(Model model, Property p) {
-        // remove statements where property p
 
-        model.removeAll(null,p,null);
-	}
 }

@@ -548,7 +548,7 @@ public class DataIntegrationController {
             int j = 0;
             for (int i = 0; i < list.size(); i++) {
                 j = i + 1;
-                txtArea.append(j + ") " + list.get(i).getNome() + "/" + list.get(i).getUriDbpedia() + " , confidence: " + list.get(i).getConfidence());
+                txtArea.append(j + ") " + list.get(i).getNome() + "/" + list.get(i).getUriDbpedia());
                 txtArea.append(System.lineSeparator());
             }
 
@@ -560,7 +560,7 @@ public class DataIntegrationController {
             j = 0;
             for (int i = 0; i < list2.size(); i++) {
                 j = i + 1;
-                txtArea.append(j + ") " + list2.get(i).getNome() + "/" + list2.get(i).getUriDbpedia() + " , confidence:  " + list2.get(i).getConfidence());
+                txtArea.append(j + ") " + list2.get(i).getNome() + "/" + list2.get(i).getUriDbpedia());
                 txtArea.append(System.lineSeparator());
             }
             view.getPanelBox().add(txtArea);
@@ -659,7 +659,7 @@ public class DataIntegrationController {
                         // Con lo statament trovato creo una variabile di tipo path che utilizzero per
                         // stampare a video poi il percorso seguito
 
-                        try {
+                        /*try {
                             for (String key : fillPropertiesMap().keySet()) {
 
                                 if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
@@ -671,11 +671,11 @@ public class DataIntegrationController {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-
+*/
                         Path path = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-
                         checkProperty(initalFirstModel,stmt,path,paths);
+
                     }
                 }
                 // se secondObject != null vuol dire che dopo aver espanso un nodo, ho espanso
@@ -709,7 +709,7 @@ public class DataIntegrationController {
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
                     }
                     // a questo punto devo trovare lo statement dal secondo nodo espanso al match
                     // trovato
@@ -731,14 +731,14 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        paths.add(path1);
+                        checkProperty(modelFirstUriModified,stmt,path1,paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
                     }
                 } else {
                     /*
@@ -763,14 +763,14 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        paths.add(path1);
+                        checkProperty(modelFirstUriModified,stmt,path1,paths);;
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        paths.add(path2);
+                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
                     }
                 }
             } else {
@@ -792,13 +792,13 @@ public class DataIntegrationController {
                     stmt = iter.next();
                     Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                             stmt.getObject().toString());
-                    paths.add(path1);
+                    checkProperty(modelFirstUriModified,stmt,path1,paths);
                 }
                 if (selectSub1 != null && iter1.hasNext()) {
                     stmt1 = iter1.next();
                     Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                             stmt1.getObject().toString());
-                    paths.add(path2);
+                    checkProperty(modelFirstUriModified,stmt1,path2,paths);
                 }
             }
         } else {
@@ -828,13 +828,14 @@ public class DataIntegrationController {
                 stmt1 = iter1.next();
                 Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                         stmt1.getObject().toString());
-                paths.add(path2);
+                checkProperty(modelSecondUri,stmt1,path2,paths);
+                System.out.print(modelSecondUri);
             }
         }
         // }
 
+        System.out.print("La path size è:\n" +paths.size() + "\n");
         return Path.writePath(paths);
-
     }
 
 
@@ -865,8 +866,12 @@ public class DataIntegrationController {
         try {
             if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
                 value = fillPropertiesMap().get(stmt.getPredicate().toString());
-                if(value.equals(-1)){
+                System.out.print("\n"+value+"\n");
+
+                if(value.equals("-1")){
+                    System.out.print("\n"+stmt.getPredicate()+"\n");
                     deleteResource(model, stmt.getPredicate());
+                    System.out.print("PRUNING");
                 }
             }else{
                 //aggiunge nel file una riga con la nuova property e il valore 1
