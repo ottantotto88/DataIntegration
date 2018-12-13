@@ -1,7 +1,19 @@
 package it.dataIntegration.controller;
 
-import java.awt.Font;
-import java.awt.Frame;
+import it.dataIntegration.model.DbpediaObject;
+import it.dataIntegration.model.ExpandedNode;
+import it.dataIntegration.model.Path;
+import it.dataIntegration.utility.ProcessCpuLoad;
+import it.dataIntegration.utility.RestServices;
+import it.dataIntegration.utility.SparqlQuery;
+import it.dataIntegration.view.DataIntegrationPanel;
+import it.dataIntegration.view.FinishedElaborationPanel;
+import it.dataIntegration.view.PleaseWaitPanel;
+import it.dataIntegration.view.ResultPanel;
+import org.apache.jena.rdf.model.*;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
@@ -11,29 +23,6 @@ import java.io.PrintWriter;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
-
-import javax.swing.JDialog;
-import javax.swing.JTextArea;
-import javax.swing.WindowConstants;
-
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Property;
-import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.SimpleSelector;
-import org.apache.jena.rdf.model.Statement;
-import org.apache.jena.rdf.model.StmtIterator;
-
-import it.dataIntegration.model.DbpediaObject;
-import it.dataIntegration.model.Path;
-import it.dataIntegration.model.ExpandedNode;
-import it.dataIntegration.utility.ProcessCpuLoad;
-import it.dataIntegration.utility.RestServices;
-import it.dataIntegration.utility.SparqlQuery;
-import it.dataIntegration.view.DataIntegrationPanel;
-import it.dataIntegration.view.FinishedElaborationPanel;
-import it.dataIntegration.view.PleaseWaitPanel;
-import it.dataIntegration.view.ResultPanel;
 
 public class DataIntegrationController {
 	private Model initalFirstModel;
@@ -243,6 +232,11 @@ public class DataIntegrationController {
 		writeLog(null, null, false, null);
 		// estraggo tutti subject degli statements del primo modello
 		ArrayList<Resource> resources = (ArrayList<Resource>) modelFirstUri.listSubjects().toList();
+		ArrayList<Statement> statements = (ArrayList<Statement>) modelFirstUri.listStatements().toList();
+        // affiche l'objet, le prédicat et le sujet de chaque déclaration
+
+		//Model newModel = initalFirstModel.remove(statements);
+		//System.out.print(newModel);
 		boolean match = false;
 		for (int i = 0; i < resources.size(); i++) {
 			/*
@@ -644,8 +638,11 @@ public class DataIntegrationController {
 					selectSub = new SimpleSelector((Resource) null, (Property) null, (RDFNode) firstObject);
 					iter = initalFirstModel.listStatements(selectSub);
 					while (iter.hasNext()) {
-						stmt = iter.next();
-						if (DbpediaObject.contains(list, stmt.getSubject().toString())) {
+					    stmt      = iter.nextStatement();  // obtenir la prochaine     déclaration
+                        Resource  subject   = stmt.getSubject();     // obtenir le sujet
+                        Property  predicate = stmt.getPredicate();   // obtenir le prédicat
+                        RDFNode   object    = stmt.getObject();      // obtenir l'objet
+                        if (DbpediaObject.contains(list, stmt.getSubject().toString())&&((!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")))) {
 							trovato = true;
 							break;
 						}
@@ -655,7 +652,8 @@ public class DataIntegrationController {
 						iter = initalFirstModel.listStatements(selectSub);
 						while (iter.hasNext()) {
 							stmt = iter.next();
-							if (DbpediaObject.contains(list, stmt.getObject().toString())) {
+                            Property  predicate = stmt.getPredicate();
+                            if (DbpediaObject.contains(list, stmt.getObject().toString())&&((!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")))) {
 								trovato = true;
 								break;
 							}
@@ -691,16 +689,20 @@ public class DataIntegrationController {
 
 					if (selectSub != null && iter.hasNext()) {
 						stmt = iter.next();
+                        Property predicate =stmt.getPredicate();
+						if(!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")){
 						Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
 								stmt.getObject().toString());
 						paths.add(path1);
-					}
+					}}
 					if (selectSub1 != null && iter1.hasNext()) {
 						stmt1 = iter1.next();
+						Property predicate =stmt1.getPredicate();
+                        if(!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")){
 						Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
 								stmt1.getObject().toString());
 						paths.add(path2);
-					}
+					}}
 					// a questo punto devo trovare lo statement dal secondo nodo espanso al match
 					// trovato
 					selectSub = new SimpleSelector((Resource) secondObject, (Property) null,
@@ -717,10 +719,12 @@ public class DataIntegrationController {
 
 					if (iter.hasNext()) {
 						stmt = iter.next();
+						Property predicate = stmt.getPredicate();
+                        if(!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")){
 						Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
 								stmt.getObject().toString());
 						paths.add(path1);
-					}
+					}}
 					if (selectSub1 != null && iter1.hasNext()) {
 						stmt1 = iter1.next();
 						Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
@@ -805,19 +809,23 @@ public class DataIntegrationController {
 
 			if (iter.hasNext()) {
 				stmt = iter.next();
+				Property predicate = stmt.getPredicate();
+				if(!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")){
 				Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
 						stmt.getObject().toString());
 				paths.add(path1);
-			}
+			}}
 			if (selectSub1 != null && iter1.hasNext()) {
 				stmt1 = iter1.next();
-				Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
-						stmt1.getObject().toString());
-				paths.add(path2);
-			}
+                Property predicate = stmt1.getPredicate();
+                if(!predicate.toString().equals("http://dbpedia.org/ontology/wikiPageWikiLink")){
+                Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
+                        stmt1.getObject().toString());
+                paths.add(path2);
+            }
 		}
-		// }
+		}
 
 		return Path.writePath(paths);
-	}
+        }
 }
