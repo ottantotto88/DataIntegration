@@ -46,7 +46,9 @@ public class Path {
 		Path path = paths.get(0);
 		String percorso ="(s) " + path.subject + " -> " +"(p) " + path.predicate + " -> " + "(o) " + path.object +  " -> " + "(end) ";
 		for(int i=0; i<paths.size(); i++) {
-			if(paths.get(i).object.equals(paths.get(i-1).object)) {
+			if(paths.size()==1){
+				percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject + " " );
+			}else if(paths.get(i).object.equals(paths.get(i-1).object)) {
 				percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject + " " );
 			} else if(paths.get(i).subject.equals(paths.get(i-1).object)) {
 				percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object + " " );

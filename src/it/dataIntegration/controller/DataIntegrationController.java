@@ -581,12 +581,8 @@ public class DataIntegrationController {
             txtArea.append(System.lineSeparator());
             for (int i = 1; i <= matches.size(); i++) {
                 String path1 = searchPath(i - 1, true);
-                String path2 = "";
-                if(i==1){
-                    path2 = searchPath(i, false);
-                }else {
-                    path2 = searchPath(i - 1, false);
-                }
+                String path2 = searchPath(i - 1, false);
+
                 txtArea.append(System.lineSeparator());
                 txtArea.append(System.lineSeparator() + "Percorso su grafo 1 (" + i + "° match): " + path1);
                 txtArea.append(System.lineSeparator() + "Percorso su grafo 2 (" + i + "° match): " + path2);
@@ -835,7 +831,7 @@ public class DataIntegrationController {
                 Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                         stmt1.getObject().toString());
                 checkProperty(modelSecondUri, stmt1, path2, paths);
-               // System.out.print(modelSecondUri);
+                // System.out.print(modelSecondUri);
             }
         }
 
@@ -869,6 +865,30 @@ public class DataIntegrationController {
         return map;
     }
 
+    /**
+     * Use FileWriter when number of write operations are less
+     *
+     * @param filePath
+     * @param text
+     */
+    private static void fileWriter(String filePath, String text) {
+        File file = new File(filePath);
+        FileWriter fr = null;
+        try {
+            fr = new FileWriter(file, true);
+            fr.write(text);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths) {
         String value = "";
         //
@@ -888,7 +908,7 @@ public class DataIntegrationController {
                     paths.add(path);
                 }
             } else {
-                //aggiunge nel file una riga con la nuova property e il valore 1
+                fileWriter("src/props.txt",stmt.getPredicate().toString()+"\\t"+"1");
                 paths.add(path);
             }
         } catch (IOException e) {

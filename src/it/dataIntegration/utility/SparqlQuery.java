@@ -28,7 +28,7 @@ public class SparqlQuery {
 			String service = "http://it.dbpedia.org/sparql";
 			String queryString = "Select ?s ?p ?o where" + "{" + "{" + "?s ?p ?o. " + "FILTER (?s = <"
 					+ list.get(i).getUriDbpedia() + ">)." + "}" + "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = <"
-					+ list.get(i).getUriDbpedia() + ">)." + "}" + "} LIMIT 20";
+					+ list.get(i).getUriDbpedia() + ">)." + "}" + "} LIMIT 50";
 			org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
 			// Definizione del grafo che conterrà le triple estratte
@@ -91,10 +91,10 @@ public class SparqlQuery {
 
 		if (literal) {
 			queryString = "Select ?s ?p ?o where" + "{" + "{" + "?s ?p ?o. " + "FILTER (?s = \"" + subject + "\"@it)."
-					+ "}" + "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = \"" + subject + "\"@it)." + "}" + "} LIMIT 20";
+					+ "}" + "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = \"" + subject + "\"@it)." + "}" + "} LIMIT 50";
 		} else {
 			queryString = "Select ?s ?p ?o where" + "{" + "{" + "?s ?p ?o. " + "FILTER (?s = <" + subject + ">)." + "}"
-					+ "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = <" + subject + ">)." + "}" + "} LIMIT 20";
+					+ "UNION" + "{" + "?s ?p ?o. " + "FILTER (?o = <" + subject + ">)." + "}" + "} LIMIT 50";
 		}
 		org.apache.jena.query.Query query = QueryFactory.create(queryString);
 
