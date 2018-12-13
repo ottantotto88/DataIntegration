@@ -581,7 +581,12 @@ public class DataIntegrationController {
             txtArea.append(System.lineSeparator());
             for (int i = 1; i <= matches.size(); i++) {
                 String path1 = searchPath(i - 1, true);
-                String path2 = searchPath(i - 1, false);
+                String path2 = "";
+                if(i==1){
+                    path2 = searchPath(i, false);
+                }else {
+                    path2 = searchPath(i - 1, false);
+                }
                 txtArea.append(System.lineSeparator());
                 txtArea.append(System.lineSeparator() + "Percorso su grafo 1 (" + i + "° match): " + path1);
                 txtArea.append(System.lineSeparator() + "Percorso su grafo 2 (" + i + "° match): " + path2);
@@ -674,7 +679,7 @@ public class DataIntegrationController {
 */
                         Path path = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(initalFirstModel,stmt,path,paths);
+                        checkProperty(initalFirstModel, stmt, path, paths);
 
                     }
                 }
@@ -702,14 +707,14 @@ public class DataIntegrationController {
                         stmt = iter.next();
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
                     }
                     // a questo punto devo trovare lo statement dal secondo nodo espanso al match
                     // trovato
@@ -731,14 +736,14 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
                     }
                 } else {
                     /*
@@ -763,14 +768,15 @@ public class DataIntegrationController {
 
                         Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                                 stmt.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt,path1,paths);;
+                        checkProperty(modelFirstUriModified, stmt, path1, paths);
+                        ;
                     }
                     if (selectSub1 != null && iter1.hasNext()) {
                         stmt1 = iter1.next();
 
                         Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                                 stmt1.getObject().toString());
-                        checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                        checkProperty(modelFirstUriModified, stmt1, path2, paths);
                     }
                 }
             } else {
@@ -792,13 +798,13 @@ public class DataIntegrationController {
                     stmt = iter.next();
                     Path path1 = new Path(stmt.getSubject().toString(), stmt.getPredicate().toString(),
                             stmt.getObject().toString());
-                    checkProperty(modelFirstUriModified,stmt,path1,paths);
+                    checkProperty(modelFirstUriModified, stmt, path1, paths);
                 }
                 if (selectSub1 != null && iter1.hasNext()) {
                     stmt1 = iter1.next();
                     Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                             stmt1.getObject().toString());
-                    checkProperty(modelFirstUriModified,stmt1,path2,paths);
+                    checkProperty(modelFirstUriModified, stmt1, path2, paths);
                 }
             }
         } else {
@@ -828,14 +834,18 @@ public class DataIntegrationController {
                 stmt1 = iter1.next();
                 Path path2 = new Path(stmt1.getSubject().toString(), stmt1.getPredicate().toString(),
                         stmt1.getObject().toString());
-                checkProperty(modelSecondUri,stmt1,path2,paths);
-                System.out.print(modelSecondUri);
+                checkProperty(modelSecondUri, stmt1, path2, paths);
+               // System.out.print(modelSecondUri);
             }
         }
-        // }
 
-        System.out.print("La path size è:\n" +paths.size() + "\n");
-        return Path.writePath(paths);
+        System.out.println("La path size è:\n" + paths.size() + "\n");
+        if (paths.size() == 0) {
+            System.out.println("il path size è 0, e mi fermo");
+            return "non è stato trovato nessun percorso";
+        } else {
+            return Path.writePath(paths);
+        }
     }
 
 
@@ -859,21 +869,25 @@ public class DataIntegrationController {
         return map;
     }
 
-    public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths){
+    public void checkProperty(Model model, Statement stmt, Path path, ArrayList<Path> paths) {
         String value = "";
         //
+
 
         try {
             if (fillPropertiesMap().containsKey(stmt.getPredicate().toString())) {
                 value = fillPropertiesMap().get(stmt.getPredicate().toString());
-                System.out.print("\n"+value+"\n");
-
-                if(value.equals("-1")){
-                    System.out.print("\n"+stmt.getPredicate()+"\n");
+                System.out.println("\n" + value + "\n");
+                if (value.equals("-1")) {
+                    System.out.println("\n" + stmt.getPredicate() + "\n");
                     deleteResource(model, stmt.getPredicate());
                     System.out.print("PRUNING");
+                } else {
+                    System.out.println("non faccio pruning");
+                    System.out.println(path);
+                    paths.add(path);
                 }
-            }else{
+            } else {
                 //aggiunge nel file una riga con la nuova property e il valore 1
                 paths.add(path);
             }
@@ -883,7 +897,7 @@ public class DataIntegrationController {
     }
 
     public void deleteResource(Model model, Property p) {
-        model.removeAll(null,p,null);
+        model.removeAll(null, p, null);
     }
 
 }

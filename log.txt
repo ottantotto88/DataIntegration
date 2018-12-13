@@ -34340,3 +34340,1616 @@ Dimensione del grafo 1 ---> 1415
 Dimensione del grafo 2 ---> 60
 
 
+Link notizia 1: https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce
+
+Uri estratti dalla prima notizia:
+
+Chanel ---> http://it.dbpedia.org/resource/Chanel
+Casa di moda ---> http://it.dbpedia.org/resource/Casa_di_moda
+Lingua francese ---> http://it.dbpedia.org/resource/Lingua_francese
+Pelliccia ---> http://it.dbpedia.org/resource/Pelliccia
+Lingua tedesca ---> http://it.dbpedia.org/resource/Lingua_tedesca
+Handelsblatt ---> http://it.dbpedia.org/resource/Handelsblatt
+Crocodylia ---> http://it.dbpedia.org/resource/Crocodylia
+Lacertilia ---> http://it.dbpedia.org/resource/Lacertilia
+Serpentes ---> http://it.dbpedia.org/resource/Serpentes
+
+
+Link notizia 2: http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 180
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: Lingua francese
+
+Dimensione del grafo 1 ---> 182
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Lingua_francese
+
+Dimensione del grafo 1 ---> 201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_francese
+
+Dimensione del grafo 1 ---> 201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 221
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 221
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 241
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 261
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 262
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 281
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 281
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 282
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 304
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 304
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 323
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 342
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 361
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 380
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 418
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 437
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Textile
+
+Dimensione del grafo 1 ---> 456
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tessuto
+
+Dimensione del grafo 1 ---> 475
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Filato
+
+Dimensione del grafo 1 ---> 494
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Geotessili
+
+Dimensione del grafo 1 ---> 513
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Giovanni_Treccani
+
+Dimensione del grafo 1 ---> 532
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fluorescenza
+
+Dimensione del grafo 1 ---> 551
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Industria_tessile
+
+Dimensione del grafo 1 ---> 570
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pelliccia
+
+Dimensione del grafo 1 ---> 570
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Museo_del_tessile_e_della_tradizione_industriale_di_Busto_Arsizio
+
+Dimensione del grafo 1 ---> 589
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Colorante
+
+Dimensione del grafo 1 ---> 608
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Microfibra
+
+Dimensione del grafo 1 ---> 627
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tivaevae
+
+Dimensione del grafo 1 ---> 646
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cotone_mercerizzato
+
+Dimensione del grafo 1 ---> 665
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Anilina
+
+Dimensione del grafo 1 ---> 684
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Etichettatura_tessile
+
+Dimensione del grafo 1 ---> 703
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Follatura
+
+Dimensione del grafo 1 ---> 722
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/4-nitroanilina
+
+Dimensione del grafo 1 ---> 741
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Wallace_Hume_Carothers
+
+Dimensione del grafo 1 ---> 760
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Telaio_Jacquard
+
+Dimensione del grafo 1 ---> 779
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mordente_(chimica)
+
+Dimensione del grafo 1 ---> 798
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Kunstgewerbemuseum
+
+Dimensione del grafo 1 ---> 817
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Publication
+
+Dimensione del grafo 1 ---> 837
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Astrophysical_Journal
+
+Dimensione del grafo 1 ---> 856
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Jargon_File
+
+Dimensione del grafo 1 ---> 875
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Catwoman
+
+Dimensione del grafo 1 ---> 894
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harvard_Lampoon
+
+Dimensione del grafo 1 ---> 913
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_manifesto
+
+Dimensione del grafo 1 ---> 932
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tux_(mascotte)
+
+Dimensione del grafo 1 ---> 951
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Martin_Mystère
+
+Dimensione del grafo 1 ---> 970
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Alan_Ford
+
+Dimensione del grafo 1 ---> 989
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Manifesto_del_Partito_Comunista
+
+Dimensione del grafo 1 ---> 1008
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Uncle_Scrooge
+
+Dimensione del grafo 1 ---> 1027
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Spectacular_Spider-Man
+
+Dimensione del grafo 1 ---> 1046
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Romanzo_d'appendice
+
+Dimensione del grafo 1 ---> 1065
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/CIA_World_Factbook
+
+Dimensione del grafo 1 ---> 1084
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Batman:_The_Killing_Joke
+
+Dimensione del grafo 1 ---> 1103
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Monster_Allergy
+
+Dimensione del grafo 1 ---> 1122
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hulk
+
+Dimensione del grafo 1 ---> 1141
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Crisi_sulle_Terre_infinite
+
+Dimensione del grafo 1 ---> 1160
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Starman_(personaggio)
+
+Dimensione del grafo 1 ---> 1179
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/National_Lampoon
+
+Dimensione del grafo 1 ---> 1198
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lazarus_Ledd
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Deutsche_Sprache
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_tedesca
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Francouzština
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Kadal
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lacertilia
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://dbpedia.org/ontology/WrittenWork
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: obra escrita
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: geschriebenes Erzeugnis
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Written work is any text written to read it (e.g.: books, newspaper, articles)
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:WrittenWork
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: geschreven werk
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: written work
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: Ein geschriebenes Erzeugnis ist jede Art von Text der geschrieben wurde um ihn zu lesen (z.B. Bücher, Zeitungen, Artikel).
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: œuvre écrite
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 1253
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Le_metamorfosi_(Apuleio)
+
+Dimensione del grafo 1 ---> 1270
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 1289
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 1308
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 1325
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Independent_Media_Center
+
+Dimensione del grafo 1 ---> 1344
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 1363
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fondazione_e_Impero
+
+Dimensione del grafo 1 ---> 1381
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fondazione_(romanzo)
+
+Dimensione del grafo 1 ---> 1399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Newspaper
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: Eine Zeitung ist ein Druckwerk von mäßigem Seitenumfang, das in kurzen periodischen Zeitspannen, mindestens einmal wöchentlich, öffentlich erscheint. Die Zeitung ist, anders als die Zeitschrift, ein der Aktualität verpflichtetes Presseorgan und gliedert sich meist in mehrere inhaltliche Rubriken wie Politik, Lokales, Wirtschaft, Sport, Feuilleton und Immobilien.
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: krant
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: Zeitung
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: A newspaper is a regularly scheduled publication containing news of current events, informative articles, diverse features and advertising. It usually is printed on relatively inexpensive, low-grade paper such as newsprint.
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0Link notizia 1: https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce
+
+Uri estratti dalla prima notizia:
+
+
+
+Link notizia 2: http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 0
+Dimensione del grafo 2 ---> 0
+
+
+Link notizia 1: https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce
+
+Uri estratti dalla prima notizia:
+
+Chanel ---> http://it.dbpedia.org/resource/Chanel
+Casa di moda ---> http://it.dbpedia.org/resource/Casa_di_moda
+Lingua francese ---> http://it.dbpedia.org/resource/Lingua_francese
+Pelliccia ---> http://it.dbpedia.org/resource/Pelliccia
+Lingua tedesca ---> http://it.dbpedia.org/resource/Lingua_tedesca
+Handelsblatt ---> http://it.dbpedia.org/resource/Handelsblatt
+Crocodylia ---> http://it.dbpedia.org/resource/Crocodylia
+Lacertilia ---> http://it.dbpedia.org/resource/Lacertilia
+Serpentes ---> http://it.dbpedia.org/resource/Serpentes
+
+
+Link notizia 2: http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 180
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: Lingua francese
+
+Dimensione del grafo 1 ---> 182
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Lingua_francese
+
+Dimensione del grafo 1 ---> 201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_francese
+
+Dimensione del grafo 1 ---> 201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 221
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 221
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 241
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 261
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 262
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 281
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 281
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 282
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 304
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 304
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 323
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 342
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 361
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 380
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 418
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 437
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Textile
+
+Dimensione del grafo 1 ---> 456
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tessuto
+
+Dimensione del grafo 1 ---> 475
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Filato
+
+Dimensione del grafo 1 ---> 494
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Geotessili
+
+Dimensione del grafo 1 ---> 513
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Giovanni_Treccani
+
+Dimensione del grafo 1 ---> 532
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fluorescenza
+
+Dimensione del grafo 1 ---> 551
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Industria_tessile
+
+Dimensione del grafo 1 ---> 570
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pelliccia
+
+Dimensione del grafo 1 ---> 570
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Museo_del_tessile_e_della_tradizione_industriale_di_Busto_Arsizio
+
+Dimensione del grafo 1 ---> 589
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Colorante
+
+Dimensione del grafo 1 ---> 608
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Microfibra
+
+Dimensione del grafo 1 ---> 627
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tivaevae
+
+Dimensione del grafo 1 ---> 646
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cotone_mercerizzato
+
+Dimensione del grafo 1 ---> 665
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Anilina
+
+Dimensione del grafo 1 ---> 684
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Etichettatura_tessile
+
+Dimensione del grafo 1 ---> 703
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Follatura
+
+Dimensione del grafo 1 ---> 722
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/4-nitroanilina
+
+Dimensione del grafo 1 ---> 741
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Wallace_Hume_Carothers
+
+Dimensione del grafo 1 ---> 760
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Telaio_Jacquard
+
+Dimensione del grafo 1 ---> 779
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mordente_(chimica)
+
+Dimensione del grafo 1 ---> 798
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Kunstgewerbemuseum
+
+Dimensione del grafo 1 ---> 817
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Publication
+
+Dimensione del grafo 1 ---> 837
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Astrophysical_Journal
+
+Dimensione del grafo 1 ---> 856
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Jargon_File
+
+Dimensione del grafo 1 ---> 875
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Catwoman
+
+Dimensione del grafo 1 ---> 894
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harvard_Lampoon
+
+Dimensione del grafo 1 ---> 913
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_manifesto
+
+Dimensione del grafo 1 ---> 932
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tux_(mascotte)
+
+Dimensione del grafo 1 ---> 951
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Martin_Mystère
+
+Dimensione del grafo 1 ---> 970
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Alan_Ford
+
+Dimensione del grafo 1 ---> 989
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Manifesto_del_Partito_Comunista
+
+Dimensione del grafo 1 ---> 1008
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Uncle_Scrooge
+
+Dimensione del grafo 1 ---> 1027
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Spectacular_Spider-Man
+
+Dimensione del grafo 1 ---> 1046
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Romanzo_d'appendice
+
+Dimensione del grafo 1 ---> 1065
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/CIA_World_Factbook
+
+Dimensione del grafo 1 ---> 1084
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Batman:_The_Killing_Joke
+
+Dimensione del grafo 1 ---> 1103
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Monster_Allergy
+
+Dimensione del grafo 1 ---> 1122
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hulk
+
+Dimensione del grafo 1 ---> 1141
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Crisi_sulle_Terre_infinite
+
+Dimensione del grafo 1 ---> 1160
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Starman_(personaggio)
+
+Dimensione del grafo 1 ---> 1179
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/National_Lampoon
+
+Dimensione del grafo 1 ---> 1198
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lazarus_Ledd
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Deutsche_Sprache
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_tedesca
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Francouzština
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Kadal
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lacertilia
+
+Dimensione del grafo 1 ---> 1217
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://dbpedia.org/ontology/WrittenWork
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: obra escrita
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: geschriebenes Erzeugnis
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Written work is any text written to read it (e.g.: books, newspaper, articles)
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:WrittenWork
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: geschreven werk
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: written work
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: Ein geschriebenes Erzeugnis ist jede Art von Text der geschrieben wurde um ihn zu lesen (z.B. Bücher, Zeitungen, Artikel).
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: œuvre écrite
+
+Dimensione del grafo 1 ---> 1236
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 1253
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Le_metamorfosi_(Apuleio)
+
+Dimensione del grafo 1 ---> 1270
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 1289
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 1308
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 1325
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Independent_Media_Center
+
+Dimensione del grafo 1 ---> 1344
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 1363
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fondazione_e_Impero
+
+Dimensione del grafo 1 ---> 1381
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fondazione_(romanzo)
+
+Dimensione del grafo 1 ---> 1399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Newspaper
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: Eine Zeitung ist ein Druckwerk von mäßigem Seitenumfang, das in kurzen periodischen Zeitspannen, mindestens einmal wöchentlich, öffentlich erscheint. Die Zeitung ist, anders als die Zeitschrift, ein der Aktualität verpflichtetes Presseorgan und gliedert sich meist in mehrere inhaltliche Rubriken wie Politik, Lokales, Wirtschaft, Sport, Feuilleton und Immobilien.
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: krant
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: Zeitung
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: A newspaper is a regularly scheduled publication containing news of current events, informative articles, diverse features and advertising. It usually is printed on relatively inexpensive, low-grade paper such as newsprint.
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: εφημερίδα
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Newspaper
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: newspaper
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: journal
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: 신문
+
+Dimensione del grafo 1 ---> 1415
+Dimensione del grafo 2 ---> 0
+
+
