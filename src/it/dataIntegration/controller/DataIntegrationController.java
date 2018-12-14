@@ -580,7 +580,7 @@ public class DataIntegrationController {
             }
             txtArea.append(System.lineSeparator());
             for (int i = 1; i <= matches.size(); i++) {
-                String path1 = searchPath(i-1,true);
+                String path1 = searchPath(i - 1,true);
                 String path2 = searchPath(i - 1, false);
 
                 txtArea.append(System.lineSeparator());
@@ -908,7 +908,7 @@ public class DataIntegrationController {
                     paths.add(path);
                 }
             } else {
-                fileWriter("src/props.txt",stmt.getPredicate().toString()+"\\t"+"1");
+                fileWriter("src/props.txt","\n"+stmt.getPredicate().toString()+"\t"+"1");
                 paths.add(path);
             }
         } catch (IOException e) {

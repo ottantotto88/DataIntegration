@@ -48,6 +48,8 @@ public class Path {
 		for(int i=1; i<paths.size(); i++) {
 			if(paths.size()==1){
 				percorso = "(s) " + path.subject + " -> " +"(p) " + path.predicate + " -> " + "(o) " + path.object +  " -> " + "(end) \n " +
+						"La lunghezza del percorso è 1";
+			}else if(paths.get(i).object.equals(paths.get(i-1).object)) {
 						"La lunghezza del percorso è 1"; //
 			}else if(paths.get(i).object.equals(paths.get(i-1).object)) {
 				percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject + " " );
