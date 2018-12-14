@@ -31,3 +31,5 @@ http://dbpedia.org/property/header	-1
 http://dbpedia.org/property/headerstyle	-1
 http://dbpedia.org/property/text	-1
 http://dbpedia.org/property/textstyle	-1
+http://airpedia.org/typeWithConfidence#2	1
+http://dbpedia.org/ontology/deathPlace	1

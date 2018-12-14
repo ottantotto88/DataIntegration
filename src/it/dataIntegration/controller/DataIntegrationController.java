@@ -908,7 +908,7 @@ public class DataIntegrationController {
                     paths.add(path);
                 }
             } else {
-                fileWriter("src/props.txt",stmt.getPredicate().toString()+"\\t"+"1");
+                fileWriter("src/props.txt","\n"+stmt.getPredicate().toString()+"\t"+"1");
                 paths.add(path);
             }
         } catch (IOException e) {
