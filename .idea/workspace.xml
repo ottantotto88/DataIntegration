@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b93c77f-1946-45d1-b6b3-4c092a5372ec" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ottantotto88/DataIntegration&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;.idea/workspace.xml&#10;#&#9;log.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataIntegration/props.txt" afterPath="$PROJECT_DIR$/out/production/DataIntegration/props.txt" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java" />
       <change beforePath="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" afterPath="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" />
-      <change beforePath="$PROJECT_DIR$/src/props.txt" afterPath="$PROJECT_DIR$/src/props.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +19,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DataIntegration$DataIntegration.coverage" NAME="DataIntegration Coverage Results" MODIFIED="1544438735116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/DataIntegration$DataIntegration.coverage" NAME="DataIntegration Coverage Results" MODIFIED="1544798041054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>it.dataIntegration.*</FILTER>
     </SUITE>
   </component>
@@ -58,16 +55,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="DataIntegrationController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataIntegrationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="845" column="0" lean-forward="false" selection-start-line="845" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
+            <state relative-caret-position="-3">
+              <caret line="769" column="64" lean-forward="false" selection-start-line="769" selection-start-column="64" selection-end-line="769" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#43773#43774#0" expanded="true" />
-                <element signature="e#43819#43820#0" expanded="true" />
+                <element signature="e#1073#1082#0" expanded="true" />
+                <element signature="e#1135#1150#0" expanded="true" />
+                <element signature="e#1204#1219#0" expanded="true" />
+                <element signature="e#13858#13866#0" expanded="true" />
+                <element signature="e#20069#20077#0" expanded="true" />
+                <element signature="e#20482#20496#0" expanded="true" />
+                <element signature="e#30283#30289#0" expanded="true" />
+                <element signature="e#41412#41428#0" expanded="true" />
+                <element signature="e#43622#43623#0" expanded="true" />
+                <element signature="e#43668#43669#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestServices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +90,7 @@
       <file leaf-file-name="Map1Iterator.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/Map1Iterator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="483">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <marker date="1538661080860" expanded="false" signature="0:104" ph="/.../" />
@@ -97,8 +112,8 @@
       <file leaf-file-name="props.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/props.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="0">
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -107,44 +122,69 @@
       <file leaf-file-name="CalcolatoreFrequenzaController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2680">
+            <state relative-caret-position="991">
               <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparqlQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11200">
-              <caret line="292" column="18" lean-forward="false" selection-start-line="292" selection-start-column="18" selection-end-line="292" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbpediaObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3080">
-              <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Path.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1720">
-              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+            <state relative-caret-position="333">
+              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NiceIterator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/NiceIterator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <marker date="1538661080860" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1538661080860" expanded="false" signature="153:385" ph="..." />
+                <marker date="1538661080860" expanded="true" signature="475:482" ph="{}" />
+                <marker date="1538661080860" expanded="true" signature="508:515" ph="{}" />
+                <marker date="1538661080860" expanded="false" signature="545:556" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="569:575" ph=" }" />
+                <marker date="1538661080860" expanded="true" signature="612:708" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="729:740" ph=" { " />
+                <marker date="1538661080860" expanded="true" signature="795:801" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="845:856" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="898:904" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="930:941" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="1023:1029" ph=" }" />
+                <marker date="1538661080860" expanded="true" signature="1057:1142" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="1240:3103" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="1373:3096" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="1564:1776" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="1830:2043" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="2073:2292" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="2326:2591" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="2626:2924" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="3006:3086" ph="{...}" />
+                <marker date="1538661080860" expanded="false" signature="3176:3187" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3215:3221" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="3278:3289" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3324:3330" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="3387:3398" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3442:3448" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="3513:3524" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3560:3566" ph=" }" />
+                <marker date="1538661080860" expanded="true" signature="3613:3721" ph="{...}" />
+                <marker date="1538661080860" expanded="false" signature="3780:3791" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3822:3828" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="3857:3868" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3888:3894" ph=" }" />
+                <marker date="1538661080860" expanded="false" signature="3921:3932" ph=" { " />
+                <marker date="1538661080860" expanded="false" signature="3951:3957" ph=" }" />
+                <marker date="1538661080860" expanded="true" signature="4018:4165" ph="{...}" />
+                <marker date="1538661080860" expanded="true" signature="4228:4379" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,8 +239,8 @@
         <option value="$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java" />
-        <option value="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" />
         <option value="$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java" />
+        <option value="$PROJECT_DIR$/src/it/dataIntegration/model/Path.java" />
       </list>
     </option>
   </component>
@@ -210,7 +250,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-14" />
     <option name="width" value="1948" />
     <option name="height" value="2074" />
@@ -423,7 +463,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -431,10 +472,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943182" sideWeight="0.50160944" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289773" sideWeight="0.50241417" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289773" sideWeight="0.49758583" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289773" sideWeight="0.49892703" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,7 +485,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39943182" sideWeight="0.49839056" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943182" sideWeight="0.49731758" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1789163" sideWeight="0.50454545" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,7 +494,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -498,59 +539,47 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>842</line>
+          <line>837</line>
           <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>843</line>
+          <line>838</line>
           <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>845</line>
+          <line>840</line>
           <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>846</line>
+          <line>841</line>
           <properties />
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>584</line>
-          <properties />
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>588</line>
-          <properties />
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>590</line>
+          <line>585</line>
           <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>591</line>
+          <line>586</line>
           <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>592</line>
+          <line>587</line>
           <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
           <line>581</line>
           <properties />
@@ -558,24 +587,72 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>847</line>
+          <line>842</line>
           <properties />
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
-          <line>803</line>
+          <line>798</line>
           <properties />
           <option name="timeStamp" value="210" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
           <line>127</line>
           <properties />
           <option name="timeStamp" value="211" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>583</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>582</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>790</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>793</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>800</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>799</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>801</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java</url>
+          <line>802</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="212" />
+      <option name="time" value="224" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -788,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Uri_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -829,47 +899,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3080">
-          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2680">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11200">
-          <caret line="292" column="18" lean-forward="false" selection-start-line="292" selection-start-column="18" selection-end-line="292" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/props.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -884,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/NiceIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/FilterIterator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -898,9 +925,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/RestServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/utility/SparqlQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="292" column="18" lean-forward="false" selection-start-line="292" selection-start-column="18" selection-end-line="292" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/DbpediaObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+          <folding>
+            <element signature="e#370#371#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/NiceIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1538661080860" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1538661080860" expanded="false" signature="153:385" ph="..." />
+            <marker date="1538661080860" expanded="true" signature="475:482" ph="{}" />
+            <marker date="1538661080860" expanded="true" signature="508:515" ph="{}" />
+            <marker date="1538661080860" expanded="false" signature="545:556" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="569:575" ph=" }" />
+            <marker date="1538661080860" expanded="true" signature="612:708" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="729:740" ph=" { " />
+            <marker date="1538661080860" expanded="true" signature="795:801" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="845:856" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="898:904" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="930:941" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="1023:1029" ph=" }" />
+            <marker date="1538661080860" expanded="true" signature="1057:1142" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="1240:3103" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="1373:3096" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="1564:1776" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="1830:2043" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="2073:2292" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="2326:2591" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="2626:2924" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="3006:3086" ph="{...}" />
+            <marker date="1538661080860" expanded="false" signature="3176:3187" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3215:3221" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="3278:3289" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3324:3330" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="3387:3398" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3442:3448" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="3513:3524" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3560:3566" ph=" }" />
+            <marker date="1538661080860" expanded="true" signature="3613:3721" ph="{...}" />
+            <marker date="1538661080860" expanded="false" signature="3780:3791" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3822:3828" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="3857:3868" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3888:3894" ph=" }" />
+            <marker date="1538661080860" expanded="false" signature="3921:3932" ph=" { " />
+            <marker date="1538661080860" expanded="false" signature="3951:3957" ph=" }" />
+            <marker date="1538661080860" expanded="true" signature="4018:4165" ph="{...}" />
+            <marker date="1538661080860" expanded="true" signature="4228:4379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="769" column="64" lean-forward="false" selection-start-line="769" selection-start-column="64" selection-end-line="769" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1082#0" expanded="true" />
+            <element signature="e#1135#1150#0" expanded="true" />
+            <element signature="e#1204#1219#0" expanded="true" />
+            <element signature="e#13858#13866#0" expanded="true" />
+            <element signature="e#20069#20077#0" expanded="true" />
+            <element signature="e#20482#20496#0" expanded="true" />
+            <element signature="e#30283#30289#0" expanded="true" />
+            <element signature="e#41412#41428#0" expanded="true" />
+            <element signature="e#43622#43623#0" expanded="true" />
+            <element signature="e#43668#43669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/CalcolatoreFrequenzaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/props.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jena-core-3.8.0.jar!/org/apache/jena/util/iterator/Map1Iterator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="483">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <marker date="1538661080860" expanded="false" signature="0:104" ph="/.../" />
@@ -920,21 +1060,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/model/Path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="333">
+          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/it/dataIntegration/controller/DataIntegrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="845" column="0" lean-forward="false" selection-start-line="845" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#43773#43774#0" expanded="true" />
-            <element signature="e#43819#43820#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
