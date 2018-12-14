@@ -580,12 +580,7 @@ public class DataIntegrationController {
             }
             txtArea.append(System.lineSeparator());
             for (int i = 1; i <= matches.size(); i++) {
-                String path1 ="" ;
-                if (i==1){
-                    path1 = searchPath(i-0, true);}
-                else{
-                    path1 = searchPath(i-1,true);
-                }
+                String path1 = searchPath(i - 1,true);
                 String path2 = searchPath(i - 1, false);
 
                 txtArea.append(System.lineSeparator());

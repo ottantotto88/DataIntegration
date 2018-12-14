@@ -38,7 +38,7 @@ public class DataIntegrationPanel extends JPanel {
 		panelNorth1.add(lblUrl);
 
 		txtUrl = new JTextField();
-		txtUrl.setText("https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce");
+		txtUrl.setText("https://www.rivistastudio.com/milano-librerie/");
 		txtUrl.setColumns(70);
 		panelNorth1.add(txtUrl);
 
@@ -53,7 +53,7 @@ public class DataIntegrationPanel extends JPanel {
 		panelNorth2.add(lblUrl2);
 		
 		txtUrl2 = new JTextField();
-		txtUrl2.setText("http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione");
+		txtUrl2.setText("https://www.studenti.it/alessandro-manzoni-vita-opere-e-pensiero.html");
 		panelNorth2.add(txtUrl2);
 		txtUrl2.setColumns(70);
 		
