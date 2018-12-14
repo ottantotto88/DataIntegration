@@ -49057,3 +49057,2490 @@ Dimensione del grafo 1 ---> 1862
 Dimensione del grafo 2 ---> 89
 
 
+Link notizia 1: https://www.studenti.it/alessandro-manzoni-vita-opere-e-pensiero.html
+
+Uri estratti dalla prima notizia:
+
+Alessandro Manzoni ---> http://it.dbpedia.org/resource/Alessandro_Manzoni
+Milano ---> http://it.dbpedia.org/resource/Milano
+Giulia Beccaria ---> http://it.dbpedia.org/resource/Giulia_Beccaria
+Cesare Beccaria ---> http://it.dbpedia.org/resource/Cesare_Beccaria
+Vittorio Alfieri ---> http://it.dbpedia.org/resource/Vittorio_Alfieri
+Giuseppe Parini ---> http://it.dbpedia.org/resource/Giuseppe_Parini
+Illuminismo ---> http://it.dbpedia.org/resource/Illuminismo
+Pensiero ---> http://it.dbpedia.org/resource/Pensiero
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Carlo Imbonati ---> http://it.dbpedia.org/resource/Carlo_Imbonati
+Francia ---> http://it.dbpedia.org/resource/Francia
+Calvinismo ---> http://it.dbpedia.org/resource/Calvinismo
+Enrichetta Blondel ---> http://it.dbpedia.org/resource/Enrichetta_Blondel
+Giansenismo ---> http://it.dbpedia.org/resource/Giansenismo
+San Rocco ---> http://it.dbpedia.org/resource/San_Rocco
+Dio ---> http://it.dbpedia.org/resource/Dio
+Conversione religiosa ---> http://it.dbpedia.org/resource/Conversione_religiosa
+Poesia ---> http://it.dbpedia.org/resource/Poesia
+Neoclassicismo ---> http://it.dbpedia.org/resource/Neoclassicismo
+Inni sacri ---> http://it.dbpedia.org/resource/Inni_sacri
+Tragedia ---> http://it.dbpedia.org/resource/Tragedia
+Il Conte di Carmagnola ---> http://it.dbpedia.org/resource/Il_Conte_di_Carmagnola
+Storiografia ---> http://it.dbpedia.org/resource/Storiografia
+Romanzo storico ---> http://it.dbpedia.org/resource/Romanzo_storico
+I promessi sposi ---> http://it.dbpedia.org/resource/I_promessi_sposi
+Lingua italiana ---> http://it.dbpedia.org/resource/Lingua_italiana
+Risorgimento ---> http://it.dbpedia.org/resource/Risorgimento
+Questione della lingua ---> http://it.dbpedia.org/resource/Questione_della_lingua
+Italia ---> http://it.dbpedia.org/resource/Italia
+Analfabetismo ---> http://it.dbpedia.org/resource/Analfabetismo
+Dialetto toscano ---> http://it.dbpedia.org/resource/Dialetto_toscano
+Senatore ---> http://it.dbpedia.org/resource/Senatore
+Regno d'Italia ---> http://it.dbpedia.org/resource/Regno_d'Italia
+Romanticismo ---> http://it.dbpedia.org/resource/Romanticismo
+Requiem ---> http://it.dbpedia.org/resource/Requiem
+Giuseppe Verdi ---> http://it.dbpedia.org/resource/Giuseppe_Verdi
+Disturbo depressivo ---> http://it.dbpedia.org/resource/Disturbo_depressivo
+Attacco di panico ---> http://it.dbpedia.org/resource/Attacco_di_panico
+Agorafobia ---> http://it.dbpedia.org/resource/Agorafobia
+
+
+Link notizia 2: ttps://www.rivistastudio.com/milano-librerie/
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 1950
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 2000
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 2000
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 2050
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 2100
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 2101
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 2149
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 2149
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 2150
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 2152
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 2152
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 2152
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 2152
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 2201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 2201
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 2250
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berkeley_Software_Distribution
+
+Dimensione del grafo 1 ---> 2299
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mozilla_Firefox
+
+Dimensione del grafo 1 ---> 2346
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mobile_Suit_Gundam
+
+Dimensione del grafo 1 ---> 2395
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 2444
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Festival_della_Canzone_Italiana_di_Sanremo
+
+Dimensione del grafo 1 ---> 2491
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux_(kernel)
+
+Dimensione del grafo 1 ---> 2540
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 2589
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 2636
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Indice_dei_libri_proibiti
+
+Dimensione del grafo 1 ---> 2685
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 2734
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_grande_dittatore
+
+Dimensione del grafo 1 ---> 2781
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 2828
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Maxthon
+
+Dimensione del grafo 1 ---> 2875
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/XSL_Transformations
+
+Dimensione del grafo 1 ---> 2924
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Noir_(anime)
+
+Dimensione del grafo 1 ---> 2973
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DivX
+
+Dimensione del grafo 1 ---> 3022
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Piazza_delle_Cinque_Lune
+
+Dimensione del grafo 1 ---> 3069
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Oracle_Solaris_(sistema_operativo)
+
+Dimensione del grafo 1 ---> 3118
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Blocco_note
+
+Dimensione del grafo 1 ---> 3165
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 3214
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fortran
+
+Dimensione del grafo 1 ---> 3263
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 3312
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/REBOL
+
+Dimensione del grafo 1 ---> 3361
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Direct_Connect
+
+Dimensione del grafo 1 ---> 3410
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/COBOL
+
+Dimensione del grafo 1 ---> 3459
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_dottor_Stranamore_-_Ovvero:_come_ho_imparato_a_non_preoccuparmi_e_ad_amare_la_bomba
+
+Dimensione del grafo 1 ---> 3506
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vorbis
+
+Dimensione del grafo 1 ---> 3555
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tanakh
+
+Dimensione del grafo 1 ---> 3604
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neon_Genesis_Evangelion
+
+Dimensione del grafo 1 ---> 3653
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 3702
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 3751
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/GNU
+
+Dimensione del grafo 1 ---> 3800
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 3849
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Forza_di_Coulomb
+
+Dimensione del grafo 1 ---> 3896
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/AmigaOS
+
+Dimensione del grafo 1 ---> 3945
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 3994
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Eucaristia
+
+Dimensione del grafo 1 ---> 4044
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bernardo_di_Chiaravalle
+
+Dimensione del grafo 1 ---> 4094
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: 71422^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 4094
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Josemaría_Escrivá
+
+Dimensione del grafo 1 ---> 4113
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Vangelo_secondo_Marco
+
+Dimensione del grafo 1 ---> 4162
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pasqua_ebraica
+
+Dimensione del grafo 1 ---> 4198
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Cristologia
+
+Dimensione del grafo 1 ---> 4247
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Eucharistie
+
+Dimensione del grafo 1 ---> 4247
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tabernacolo
+
+Dimensione del grafo 1 ---> 4297
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Ceremony
+
+Dimensione del grafo 1 ---> 4346
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/聖餐
+
+Dimensione del grafo 1 ---> 4346
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Eucharistie
+
+Dimensione del grafo 1 ---> 4346
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Sacrament
+
+Dimensione del grafo 1 ---> 4395
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sacra_Sindone
+
+Dimensione del grafo 1 ---> 4444
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ortodossi
+
+Dimensione del grafo 1 ---> 4493
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Eucharistie
+
+Dimensione del grafo 1 ---> 4493
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: Eucaristia
+
+Dimensione del grafo 1 ---> 4497
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Vangelo_secondo_Matteo
+
+Dimensione del grafo 1 ---> 4546
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Fatti_della_vita_di_Gesù
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Eucaristía
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Θεία_Ευχαριστία
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Євхаристія
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Eucharistie
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://eo.dbpedia.org/resource/Komunio
+
+Dimensione del grafo 1 ---> 4595
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Eucaristia
+
+Dimensione del grafo 1 ---> 4642
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Giovanni_Calvino
+
+Dimensione del grafo 1 ---> 4692
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lutero
+
+Dimensione del grafo 1 ---> 4740
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Caterina_da_Siena
+
+Dimensione del grafo 1 ---> 4790
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Term
+
+Dimensione del grafo 1 ---> 4839
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chiesa_ortodossa
+
+Dimensione del grafo 1 ---> 4888
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cattolici
+
+Dimensione del grafo 1 ---> 4937
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Event
+
+Dimensione del grafo 1 ---> 4984
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Storiografia
+
+Dimensione del grafo 1 ---> 4984
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Perjamuan_Kudus
+
+Dimensione del grafo 1 ---> 4984
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Eukaristia
+
+Dimensione del grafo 1 ---> 4984
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: Per i cristiani l'eucaristia è il sacramento istituito da Gesù durante l'Ultima Cena, alla vigilia della sua passione e morte. Il termine deriva dal greco εὐχαρίστω (eucharisto: \\"rendo grazie\\"). Il Nuovo Testamento narra l'istituzione dell'eucaristia in quattro fonti: Matteo 26,26-28; Marco 14,22-24; Luca 22,19-20; 1Corinzi 11,23-25.
+
+Dimensione del grafo 1 ---> 4985
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pane
+
+Dimensione del grafo 1 ---> 5035
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: <indicator name=\\"unicode\\">Se riscontri problemi nella visualizzazione dei caratteri, clicca qui</indicator>Per i cristiani l'eucaristia è il sacramento istituito da Gesù durante l'Ultima Cena, alla vigilia della sua passione e morte. Il termine deriva dal greco εὐχαρίστω (eucharisto: \\"rendo grazie\\"). Il Nuovo Testamento narra l'istituzione dell'eucaristia in quattro fonti: Matteo 26,26-28; Marco 14,22-24; Luca 22,19-20; 1Corinzi 11,23-25.
+
+Dimensione del grafo 1 ---> 5036
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Eucharystia_(sakrament)
+
+Dimensione del grafo 1 ---> 5036
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Calendario_ebraico
+
+Dimensione del grafo 1 ---> 5086
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://dbpedia.org/resource/Eucharist
+
+Dimensione del grafo 1 ---> 5086
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sacramento
+
+Dimensione del grafo 1 ---> 5133
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Riti_cristiani
+
+Dimensione del grafo 1 ---> 5181
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nuovo_Testamento
+
+Dimensione del grafo 1 ---> 5229
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://ko.dbpedia.org/resource/성찬
+
+Dimensione del grafo 1 ---> 5229
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Vangelo_secondo_Luca
+
+Dimensione del grafo 1 ---> 5278
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Nattvard
+
+Dimensione del grafo 1 ---> 5278
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://pt.dbpedia.org/resource/Eucaristia
+
+Dimensione del grafo 1 ---> 5278
+Dimensione del grafo 2 ---> 0
+
+
+Link notizia 1: https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce
+
+Uri estratti dalla prima notizia:
+
+Chanel ---> http://it.dbpedia.org/resource/Chanel
+Casa di moda ---> http://it.dbpedia.org/resource/Casa_di_moda
+Lingua francese ---> http://it.dbpedia.org/resource/Lingua_francese
+Pelliccia ---> http://it.dbpedia.org/resource/Pelliccia
+Lingua tedesca ---> http://it.dbpedia.org/resource/Lingua_tedesca
+Handelsblatt ---> http://it.dbpedia.org/resource/Handelsblatt
+Crocodylia ---> http://it.dbpedia.org/resource/Crocodylia
+Lacertilia ---> http://it.dbpedia.org/resource/Lacertilia
+Serpentes ---> http://it.dbpedia.org/resource/Serpentes
+
+
+Link notizia 2: http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 450
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: Lingua francese
+
+Dimensione del grafo 1 ---> 452
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Lingua_francese
+
+Dimensione del grafo 1 ---> 499
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_francese
+
+Dimensione del grafo 1 ---> 499
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 599
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 649
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 650
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 698
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 698
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 699
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 800
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berkeley_Software_Distribution
+
+Dimensione del grafo 1 ---> 849
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mozilla_Firefox
+
+Dimensione del grafo 1 ---> 896
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mobile_Suit_Gundam
+
+Dimensione del grafo 1 ---> 945
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 994
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Festival_della_Canzone_Italiana_di_Sanremo
+
+Dimensione del grafo 1 ---> 1041
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux_(kernel)
+
+Dimensione del grafo 1 ---> 1090
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 1139
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 1186
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Indice_dei_libri_proibiti
+
+Dimensione del grafo 1 ---> 1235
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 1284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_grande_dittatore
+
+Dimensione del grafo 1 ---> 1331
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 1378
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Maxthon
+
+Dimensione del grafo 1 ---> 1425
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/XSL_Transformations
+
+Dimensione del grafo 1 ---> 1474
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Noir_(anime)
+
+Dimensione del grafo 1 ---> 1523
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DivX
+
+Dimensione del grafo 1 ---> 1572
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Piazza_delle_Cinque_Lune
+
+Dimensione del grafo 1 ---> 1619
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Oracle_Solaris_(sistema_operativo)
+
+Dimensione del grafo 1 ---> 1668
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Blocco_note
+
+Dimensione del grafo 1 ---> 1715
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 1764
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fortran
+
+Dimensione del grafo 1 ---> 1813
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 1862
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/REBOL
+
+Dimensione del grafo 1 ---> 1911
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Direct_Connect
+
+Dimensione del grafo 1 ---> 1960
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/COBOL
+
+Dimensione del grafo 1 ---> 2009
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_dottor_Stranamore_-_Ovvero:_come_ho_imparato_a_non_preoccuparmi_e_ad_amare_la_bomba
+
+Dimensione del grafo 1 ---> 2056
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vorbis
+
+Dimensione del grafo 1 ---> 2105
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tanakh
+
+Dimensione del grafo 1 ---> 2154
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neon_Genesis_Evangelion
+
+Dimensione del grafo 1 ---> 2203
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 2252
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 2301
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/GNU
+
+Dimensione del grafo 1 ---> 2350
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 2399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Forza_di_Coulomb
+
+Dimensione del grafo 1 ---> 2446
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/AmigaOS
+
+Dimensione del grafo 1 ---> 2495
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 2544
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Publication
+
+Dimensione del grafo 1 ---> 2594
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Baldo_(fumetto)
+
+Dimensione del grafo 1 ---> 2643
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Catwoman
+
+Dimensione del grafo 1 ---> 2692
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/The_Independent
+
+Dimensione del grafo 1 ---> 2741
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tux_(mascotte)
+
+Dimensione del grafo 1 ---> 2790
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Enciclopedia_Britannica
+
+Dimensione del grafo 1 ---> 2839
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/CIA_World_Factbook
+
+Dimensione del grafo 1 ---> 2888
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Power_Pack
+
+Dimensione del grafo 1 ---> 2937
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Yomiuri_Shinbun
+
+Dimensione del grafo 1 ---> 2986
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/L'Ordine_Nuovo
+
+Dimensione del grafo 1 ---> 3035
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aamulehti
+
+Dimensione del grafo 1 ---> 3071
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Jargon_File
+
+Dimensione del grafo 1 ---> 3120
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_manifesto
+
+Dimensione del grafo 1 ---> 3169
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harvard_Lampoon
+
+Dimensione del grafo 1 ---> 3218
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Martin_Mystère
+
+Dimensione del grafo 1 ---> 3267
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Uncle_Scrooge
+
+Dimensione del grafo 1 ---> 3316
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Romanzo_d'appendice
+
+Dimensione del grafo 1 ---> 3365
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Crisi_sulle_Terre_infinite
+
+Dimensione del grafo 1 ---> 3414
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Starman_(personaggio)
+
+Dimensione del grafo 1 ---> 3463
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Gerarchia_(rivista)
+
+Dimensione del grafo 1 ---> 3512
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/National_Lampoon
+
+Dimensione del grafo 1 ---> 3560
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DBpedia
+
+Dimensione del grafo 1 ---> 3609
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lazarus_Ledd
+
+Dimensione del grafo 1 ---> 3658
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Astrophysical_Journal
+
+Dimensione del grafo 1 ---> 3707
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tuttosport
+
+Dimensione del grafo 1 ---> 3756
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hellboy
+
+Dimensione del grafo 1 ---> 3805
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Le_Monde
+
+Dimensione del grafo 1 ---> 3854
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Debian
+
+Dimensione del grafo 1 ---> 3903
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_ritorno_del_Cavaliere_Oscuro
+
+Dimensione del grafo 1 ---> 3952
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Frankfurter_Allgemeine_Zeitung
+
+Dimensione del grafo 1 ---> 4001
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Alan_Ford
+
+Dimensione del grafo 1 ---> 4050
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Wonder_Woman
+
+Dimensione del grafo 1 ---> 4099
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Huangdi_Neijing
+
+Dimensione del grafo 1 ---> 4148
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Manifesto_del_Partito_Comunista
+
+Dimensione del grafo 1 ---> 4197
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Annals_of_Mathematics
+
+Dimensione del grafo 1 ---> 4246
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berliner_Zeitung
+
+Dimensione del grafo 1 ---> 4295
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Spectacular_Spider-Man
+
+Dimensione del grafo 1 ---> 4344
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hulk
+
+Dimensione del grafo 1 ---> 4393
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lanterna_Verde
+
+Dimensione del grafo 1 ---> 4442
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Watchmen
+
+Dimensione del grafo 1 ---> 4491
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dylan_Dog_(fumetto)
+
+Dimensione del grafo 1 ---> 4540
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Thorgal
+
+Dimensione del grafo 1 ---> 4589
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bureau_of_Paranormal_Research_and_Defense
+
+Dimensione del grafo 1 ---> 4638
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Doom_Patrol
+
+Dimensione del grafo 1 ---> 4687
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_teoria_della_comunicazione_nei_sistemi_crittografici
+
+Dimensione del grafo 1 ---> 4726
+Dimensione del grafo 2 ---> 0
+
+
+Link notizia 1: https://www.adnkronos.com/magazine/moda/2018/12/05/chanel-mette-bando-pelli-animali-esotici_JJ3IujWquHECsZ4vKJjloI.html?refresh_ce
+
+Uri estratti dalla prima notizia:
+
+Chanel ---> http://it.dbpedia.org/resource/Chanel
+Casa di moda ---> http://it.dbpedia.org/resource/Casa_di_moda
+Lingua francese ---> http://it.dbpedia.org/resource/Lingua_francese
+Pelliccia ---> http://it.dbpedia.org/resource/Pelliccia
+Lingua tedesca ---> http://it.dbpedia.org/resource/Lingua_tedesca
+Handelsblatt ---> http://it.dbpedia.org/resource/Handelsblatt
+Crocodylia ---> http://it.dbpedia.org/resource/Crocodylia
+Lacertilia ---> http://it.dbpedia.org/resource/Lacertilia
+Serpentes ---> http://it.dbpedia.org/resource/Serpentes
+
+
+Link notizia 2: http://www.senigallianotizie.it/1327451167/le-marche-celebrano-raffaello-sanzio-artista-che-promuove-la-regione
+
+Uri estratti dalla seconda notizia:
+
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 450
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: Lingua francese
+
+Dimensione del grafo 1 ---> 452
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Lingua_francese
+
+Dimensione del grafo 1 ---> 499
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lingua_francese
+
+Dimensione del grafo 1 ---> 499
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 599
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 649
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 650
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 698
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 698
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 699
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 701
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 800
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berkeley_Software_Distribution
+
+Dimensione del grafo 1 ---> 849
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mozilla_Firefox
+
+Dimensione del grafo 1 ---> 896
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mobile_Suit_Gundam
+
+Dimensione del grafo 1 ---> 945
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 994
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Festival_della_Canzone_Italiana_di_Sanremo
+
+Dimensione del grafo 1 ---> 1041
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux_(kernel)
+
+Dimensione del grafo 1 ---> 1090
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 1139
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 1186
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Indice_dei_libri_proibiti
+
+Dimensione del grafo 1 ---> 1235
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 1284
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_grande_dittatore
+
+Dimensione del grafo 1 ---> 1331
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 1378
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Maxthon
+
+Dimensione del grafo 1 ---> 1425
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/XSL_Transformations
+
+Dimensione del grafo 1 ---> 1474
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Noir_(anime)
+
+Dimensione del grafo 1 ---> 1523
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DivX
+
+Dimensione del grafo 1 ---> 1572
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Piazza_delle_Cinque_Lune
+
+Dimensione del grafo 1 ---> 1619
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Oracle_Solaris_(sistema_operativo)
+
+Dimensione del grafo 1 ---> 1668
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Blocco_note
+
+Dimensione del grafo 1 ---> 1715
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 1764
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fortran
+
+Dimensione del grafo 1 ---> 1813
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 1862
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/REBOL
+
+Dimensione del grafo 1 ---> 1911
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Direct_Connect
+
+Dimensione del grafo 1 ---> 1960
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/COBOL
+
+Dimensione del grafo 1 ---> 2009
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_dottor_Stranamore_-_Ovvero:_come_ho_imparato_a_non_preoccuparmi_e_ad_amare_la_bomba
+
+Dimensione del grafo 1 ---> 2056
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vorbis
+
+Dimensione del grafo 1 ---> 2105
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tanakh
+
+Dimensione del grafo 1 ---> 2154
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neon_Genesis_Evangelion
+
+Dimensione del grafo 1 ---> 2203
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 2252
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 2301
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/GNU
+
+Dimensione del grafo 1 ---> 2350
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 2399
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Forza_di_Coulomb
+
+Dimensione del grafo 1 ---> 2446
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/AmigaOS
+
+Dimensione del grafo 1 ---> 2495
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 2544
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Publication
+
+Dimensione del grafo 1 ---> 2594
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Baldo_(fumetto)
+
+Dimensione del grafo 1 ---> 2643
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Catwoman
+
+Dimensione del grafo 1 ---> 2692
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/The_Independent
+
+Dimensione del grafo 1 ---> 2741
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tux_(mascotte)
+
+Dimensione del grafo 1 ---> 2790
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Enciclopedia_Britannica
+
+Dimensione del grafo 1 ---> 2839
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/CIA_World_Factbook
+
+Dimensione del grafo 1 ---> 2888
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Power_Pack
+
+Dimensione del grafo 1 ---> 2937
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Yomiuri_Shinbun
+
+Dimensione del grafo 1 ---> 2986
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/L'Ordine_Nuovo
+
+Dimensione del grafo 1 ---> 3035
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aamulehti
+
+Dimensione del grafo 1 ---> 3071
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Jargon_File
+
+Dimensione del grafo 1 ---> 3120
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_manifesto
+
+Dimensione del grafo 1 ---> 3169
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harvard_Lampoon
+
+Dimensione del grafo 1 ---> 3218
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Martin_Mystère
+
+Dimensione del grafo 1 ---> 3267
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Uncle_Scrooge
+
+Dimensione del grafo 1 ---> 3316
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Romanzo_d'appendice
+
+Dimensione del grafo 1 ---> 3365
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Crisi_sulle_Terre_infinite
+
+Dimensione del grafo 1 ---> 3414
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Starman_(personaggio)
+
+Dimensione del grafo 1 ---> 3463
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Gerarchia_(rivista)
+
+Dimensione del grafo 1 ---> 3512
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/National_Lampoon
+
+Dimensione del grafo 1 ---> 3560
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DBpedia
+
+Dimensione del grafo 1 ---> 3609
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lazarus_Ledd
+
+Dimensione del grafo 1 ---> 3658
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Astrophysical_Journal
+
+Dimensione del grafo 1 ---> 3707
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tuttosport
+
+Dimensione del grafo 1 ---> 3756
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hellboy
+
+Dimensione del grafo 1 ---> 3805
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Le_Monde
+
+Dimensione del grafo 1 ---> 3854
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Debian
+
+Dimensione del grafo 1 ---> 3903
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_ritorno_del_Cavaliere_Oscuro
+
+Dimensione del grafo 1 ---> 3952
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Frankfurter_Allgemeine_Zeitung
+
+Dimensione del grafo 1 ---> 4001
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Alan_Ford
+
+Dimensione del grafo 1 ---> 4050
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Wonder_Woman
+
+Dimensione del grafo 1 ---> 4099
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Huangdi_Neijing
+
+Dimensione del grafo 1 ---> 4148
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Manifesto_del_Partito_Comunista
+
+Dimensione del grafo 1 ---> 4197
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Annals_of_Mathematics
+
+Dimensione del grafo 1 ---> 4246
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berliner_Zeitung
+
+Dimensione del grafo 1 ---> 4295
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Spectacular_Spider-Man
+
+Dimensione del grafo 1 ---> 4344
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Hulk
+
+Dimensione del grafo 1 ---> 4393
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Lanterna_Verde
+
+Dimensione del grafo 1 ---> 4442
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Watchmen
+
+Dimensione del grafo 1 ---> 4491
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dylan_Dog_(fumetto)
+
+Dimensione del grafo 1 ---> 4540
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Thorgal
+
+Dimensione del grafo 1 ---> 4589
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bureau_of_Paranormal_Research_and_Defense
+
+Dimensione del grafo 1 ---> 4638
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Doom_Patrol
+
+Dimensione del grafo 1 ---> 4687
+Dimensione del grafo 2 ---> 0
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_teoria_della_comunicazione_nei_sistemi_crittografici
+
+Dimensione del grafo 1 ---> 4726
+Dimensione del grafo 2 ---> 0
+
+

@@ -24,3 +24,6 @@ hs_err_pid*
 .idea/workspace.xml
 DataIntegration.iml
 *.txt
+.idea/workspace.xml
+*.xml
+.idea/workspace.xml
