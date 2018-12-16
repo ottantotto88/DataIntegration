@@ -58,7 +58,7 @@ public class DataIntegrationController {
             e.printStackTrace();
         }
 
-        view.getBtnCerca().addActionListener(new ActionListener() {
+        view.getBtnCercaConPruning().addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 /*
                  * Thread utilizzato in fase di test per comparare le prestazioni della ricerca
@@ -172,7 +172,7 @@ public class DataIntegrationController {
                 view.getBtnPulisci().setEnabled(false);
                 view.getPanelBox().removeAll();
                 view.getPanelBox().revalidate();
-                view.getBtnCerca().setEnabled(true);
+                view.getBtnCercaConPruning().setEnabled(true);
                 view.getTxtIterazioni().setText("100");
                 currentIteration = 1;
                 monitorThread = true;
@@ -580,8 +580,8 @@ public class DataIntegrationController {
             }
             txtArea.append(System.lineSeparator());
             for (int i = 1; i <= matches.size(); i++) {
-                String path1 = searchPath(i - 1,true);
-                String path2 = searchPath(i - 1, false);
+                String path1 = searchPathConPruning(i - 1,true);
+                String path2 = searchPathConPruning(i - 1, false);
 
                 txtArea.append(System.lineSeparator());
                 txtArea.append(System.lineSeparator() + "Percorso su grafo 1 (" + i + "° match): " + path1);
@@ -615,7 +615,7 @@ public class DataIntegrationController {
      * tra i due grafi se check == false trova il percorso relativo al match sul
      * secondo grafo
      */
-    private String searchPath(int numeroMatch, boolean check) {
+    private String searchPathConPruning(int numeroMatch, boolean check) {
         // le seguenti variabili servono per selezionare gli statements nel primo
         // modello che portano al match trovato
         SimpleSelector selectSub;
@@ -905,6 +905,7 @@ public class DataIntegrationController {
                 } else {
                     System.out.println("non faccio pruning");
                     System.out.println(path);
+                    System.out.print("Il peso della property è :" + value + "\n");
                     paths.add(path);
                 }
             } else {

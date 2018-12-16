@@ -34,3 +34,7 @@ http://dbpedia.org/property/textstyle	-1
 http://airpedia.org/typeWithConfidence#2	1
 http://dbpedia.org/ontology/deathPlace	1
 http://www.w3.org/2000/01/rdf-schema#subClassOf	1
+http://www.w3.org/2004/02/skos/core#broader	1
+http://it.dbpedia.org/property/wikiPageUsesTemplate	1
+http://it.dbpedia.org/property/lugogo	1
+http://airpedia.org/isEstimatedType	1

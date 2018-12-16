@@ -10,6 +10,7 @@ import java.awt.FlowLayout;
 public class DataIntegrationPanel extends JPanel {
 	private JPanel panelBox;
 	private JButton btnCerca;
+	private JButton btnCercaConPruning;
 	private JTextField txtUrl;
 	private JTextField txtUrl2;
 	private JScrollPane scrollPane;
@@ -21,8 +22,9 @@ public class DataIntegrationPanel extends JPanel {
 	private JLabel lblIterazioni;
 	private JTextField txtIterazioni;
 	private JLabel lblDescription;
-	
-	public DataIntegrationPanel() {
+
+
+    public DataIntegrationPanel() {
 		setLayout(new BorderLayout(0, 0));
 		
 		JPanel panelNorth = new JPanel();
@@ -38,7 +40,7 @@ public class DataIntegrationPanel extends JPanel {
 		panelNorth1.add(lblUrl);
 
 		txtUrl = new JTextField();
-		txtUrl.setText("https://www.rivistastudio.com/milano-librerie/");
+		txtUrl.setText("https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/");
 		txtUrl.setColumns(70);
 		panelNorth1.add(txtUrl);
 
@@ -53,7 +55,7 @@ public class DataIntegrationPanel extends JPanel {
 		panelNorth2.add(lblUrl2);
 		
 		txtUrl2 = new JTextField();
-		txtUrl2.setText("https://www.studenti.it/alessandro-manzoni-vita-opere-e-pensiero.html");
+		txtUrl2.setText("http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm");
 		panelNorth2.add(txtUrl2);
 		txtUrl2.setColumns(70);
 		
@@ -102,6 +104,9 @@ public class DataIntegrationPanel extends JPanel {
 		
 		btnCerca = new JButton("Cerca ");
 		panelSouth.add(btnCerca);
+
+		btnCercaConPruning = new JButton("Cerca con Pruning ");
+		panelSouth.add(btnCercaConPruning);
 		
 		btnPulisci = new JButton("Pulisci");
 		btnPulisci.setEnabled(false);
@@ -124,7 +129,11 @@ public class DataIntegrationPanel extends JPanel {
 		return btnPulisci;
 	}
 
-	public JPanel getPanelBox() {
+    public JButton getBtnCercaConPruning() { return btnCercaConPruning; }
+
+
+
+    public JPanel getPanelBox() {
 		return panelBox;
 	}
 	public JButton getBtnCerca() {

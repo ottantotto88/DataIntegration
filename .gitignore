@@ -28,3 +28,5 @@ DataIntegration.iml
 *.xml
 .idea/workspace.xml
 .idea/workspace.xml
+*.xml
+*.xml
