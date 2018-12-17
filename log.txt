@@ -5730,3 +5730,8224 @@ Dimensione del grafo 1 ---> 1341
 Dimensione del grafo 2 ---> 60
 
 
+Link notizia 1: http://www.ladbible.com/news/animals-animal-populations-have-dropped-60-due-to-humans-report-finds-20181030
+
+Uri estratti dalla prima notizia:
+
+World Wide Fund for Nature ---> http://dbpedia.org/resource/World_Wide_Fund_for_Nature
+Mammal ---> http://dbpedia.org/resource/Mammal
+Mike Barrett (basketball, born 1943) ---> http://dbpedia.org/resource/Mike_Barrett_(basketball,_born_1943)
+The Guardian ---> http://dbpedia.org/resource/The_Guardian
+North America ---> http://dbpedia.org/resource/North_America
+South America ---> http://dbpedia.org/resource/South_America
+Africa ---> http://dbpedia.org/resource/Africa
+Europe ---> http://dbpedia.org/resource/Europe
+China ---> http://dbpedia.org/resource/China
+Oceania ---> http://dbpedia.org/resource/Oceania
+Living Planet Report ---> http://dbpedia.org/resource/Living_Planet_Report
+Global warming ---> http://dbpedia.org/resource/Global_warming
+Sustainability ---> http://dbpedia.org/resource/Sustainability
+Decision-making ---> http://dbpedia.org/resource/Decision-making
+Nature ---> http://dbpedia.org/resource/Nature
+Species ---> http://dbpedia.org/resource/Species
+Extinction ---> http://dbpedia.org/resource/Extinction
+Overfishing ---> http://dbpedia.org/resource/Overfishing
+Poaching ---> http://dbpedia.org/resource/Poaching
+African elephant ---> http://dbpedia.org/resource/African_elephant
+Tanzania ---> http://dbpedia.org/resource/Tanzania
+Holocene extinction ---> http://dbpedia.org/resource/Holocene_extinction
+South Africa ---> http://dbpedia.org/resource/South_Africa
+Earth ---> http://dbpedia.org/resource/Earth
+Biodiversity ---> http://dbpedia.org/resource/Biodiversity
+Extinction event ---> http://dbpedia.org/resource/Extinction_event
+Endangered species ---> http://dbpedia.org/resource/Endangered_species
+
+
+Link notizia 2: https://www.theatlantic.com/science/archive/2018/10/mountain-animals-are-riding-escalator-extinction/574294/
+
+Uri estratti dalla seconda notizia:
+
+Climate change ---> http://dbpedia.org/resource/Climate_change
+Escalator ---> http://dbpedia.org/resource/Escalator
+Evolution ---> http://dbpedia.org/resource/Evolution
+California ---> http://dbpedia.org/resource/California
+Sierra Nevada (U.S.) ---> http://dbpedia.org/resource/Sierra_Nevada_(U.S.)
+Dawn chorus (birds) ---> http://dbpedia.org/resource/Dawn_chorus_(birds)
+Scarlet-breasted fruiteater ---> http://dbpedia.org/resource/Scarlet-breasted_fruiteater
+Deep-blue flowerpiercer ---> http://dbpedia.org/resource/Deep-blue_flowerpiercer
+Russet-crowned warbler ---> http://dbpedia.org/resource/Russet-crowned_warbler
+Andes ---> http://dbpedia.org/resource/Andes
+Extinction ---> http://dbpedia.org/resource/Extinction
+Global warming ---> http://dbpedia.org/resource/Global_warming
+University of Connecticut ---> http://dbpedia.org/resource/University_of_Connecticut
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 25
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/resource/The_Guardian
+
+Dimensione del grafo 1 ---> 25
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/The_Guardian
+
+Dimensione del grafo 1 ---> 44
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://dbpedia.org/resource/China
+
+Dimensione del grafo 1 ---> 44
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cina
+
+Dimensione del grafo 1 ---> 64
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: http://dbpedia.org/resource/North_America
+
+Dimensione del grafo 1 ---> 64
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/America_del_Nord
+
+Dimensione del grafo 1 ---> 83
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://dbpedia.org/resource/Decision-making
+
+Dimensione del grafo 1 ---> 83
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Decisione
+
+Dimensione del grafo 1 ---> 102
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://dbpedia.org/resource/Europe
+
+Dimensione del grafo 1 ---> 102
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 121
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: http://dbpedia.org/resource/Poaching
+
+Dimensione del grafo 1 ---> 121
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bracconaggio
+
+Dimensione del grafo 1 ---> 140
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://dbpedia.org/resource/Nature
+
+Dimensione del grafo 1 ---> 140
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Natura
+
+Dimensione del grafo 1 ---> 159
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://dbpedia.org/resource/Extinction_event
+
+Dimensione del grafo 1 ---> 159
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Estinzione_di_massa
+
+Dimensione del grafo 1 ---> 178
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://dbpedia.org/resource/Africa
+
+Dimensione del grafo 1 ---> 178
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Africa
+
+Dimensione del grafo 1 ---> 197
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://dbpedia.org/resource/World_Wide_Fund_for_Nature
+
+Dimensione del grafo 1 ---> 197
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/WWF
+
+Dimensione del grafo 1 ---> 217
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://dbpedia.org/resource/Mike_Barrett_(basketball,_born_1943)
+
+Dimensione del grafo 1 ---> 217
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mike_Barrett
+
+Dimensione del grafo 1 ---> 236
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://dbpedia.org/resource/Mammal
+
+Dimensione del grafo 1 ---> 236
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mammalia
+
+Dimensione del grafo 1 ---> 255
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://dbpedia.org/resource/Global_warming
+
+Dimensione del grafo 1 ---> 255
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Riscaldamento_globale
+
+Dimensione del grafo 1 ---> 274
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://dbpedia.org/resource/Species
+
+Dimensione del grafo 1 ---> 274
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Specie
+
+Dimensione del grafo 1 ---> 293
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://dbpedia.org/resource/Endangered_species
+
+Dimensione del grafo 1 ---> 293
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Specie_a_rischio
+
+Dimensione del grafo 1 ---> 312
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://dbpedia.org/resource/Tanzania
+
+Dimensione del grafo 1 ---> 312
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tanzania
+
+Dimensione del grafo 1 ---> 331
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://dbpedia.org/resource/South_America
+
+Dimensione del grafo 1 ---> 331
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/America_Meridionale
+
+Dimensione del grafo 1 ---> 350
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://dbpedia.org/resource/Extinction
+
+Dimensione del grafo 1 ---> 350
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Estinzione
+
+Dimensione del grafo 1 ---> 369
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://dbpedia.org/resource/Sustainability
+
+Dimensione del grafo 1 ---> 369
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sostenibilità
+
+Dimensione del grafo 1 ---> 388
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://dbpedia.org/resource/African_elephant
+
+Dimensione del grafo 1 ---> 388
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Loxodonta
+
+Dimensione del grafo 1 ---> 407
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://dbpedia.org/resource/Biodiversity
+
+Dimensione del grafo 1 ---> 407
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biodiversità
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://dbpedia.org/resource/South_Africa
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sudafrica
+
+Dimensione del grafo 1 ---> 446
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://dbpedia.org/resource/Earth
+
+Dimensione del grafo 1 ---> 446
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra
+
+Dimensione del grafo 1 ---> 465
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://dbpedia.org/resource/Oceania
+
+Dimensione del grafo 1 ---> 465
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Oceania
+
+Dimensione del grafo 1 ---> 484
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://dbpedia.org/resource/Overfishing
+
+Dimensione del grafo 1 ---> 484
+Dimensione del grafo 2 ---> 9
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sovrapesca
+
+Dimensione del grafo 1 ---> 503
+Dimensione del grafo 2 ---> 9
+
+
+Link notizia 1: https://www.swissinfo.ch/eng/big-cats-find-love-and-habitat-in-switzerland/42431160
+
+Uri estratti dalla prima notizia:
+
+Habitat ---> http://dbpedia.org/resource/Habitat
+Switzerland ---> http://dbpedia.org/resource/Switzerland
+Lynx ---> http://dbpedia.org/resource/Lynx
+Carpathian Mountains ---> http://dbpedia.org/resource/Carpathian_Mountains
+Eastern Europe ---> http://dbpedia.org/resource/Eastern_Europe
+Obwalden ---> http://dbpedia.org/resource/Obwalden
+Central Switzerland ---> http://dbpedia.org/resource/Central_Switzerland
+Seasonal breeder ---> http://dbpedia.org/resource/Seasonal_breeder
+Litter (animal) ---> http://dbpedia.org/resource/Litter_(animal)
+Carnivore ---> http://dbpedia.org/resource/Carnivore
+Kora (instrument) ---> http://dbpedia.org/resource/Kora_(instrument)
+Roe deer ---> http://dbpedia.org/resource/Roe_deer
+Chamois ---> http://dbpedia.org/resource/Chamois
+Felidae ---> http://dbpedia.org/resource/Felidae
+Sheep ---> http://dbpedia.org/resource/Sheep
+Gray wolf ---> http://dbpedia.org/resource/Gray_wolf
+Conservation biology ---> http://dbpedia.org/resource/Conservation_biology
+University of Bern ---> http://dbpedia.org/resource/University_of_Bern
+Predation ---> http://dbpedia.org/resource/Predation
+Population ecology ---> http://dbpedia.org/resource/Population_ecology
+Biodiversity ---> http://dbpedia.org/resource/Biodiversity
+Livestock ---> http://dbpedia.org/resource/Livestock
+Berne Convention on the Conservation of European Wildlife and Natural Habitats ---> http://dbpedia.org/resource/Berne_Convention_on_the_Conservation_of_European_Wildlife_and_Natural_Habitats
+
+
+Link notizia 2: https://www.swissinfo.ch/eng/viral-disease_europe-offers-last-line-of-defence-for-the-asiatic-lion/44506140
+
+Uri estratti dalla seconda notizia:
+
+Europe ---> http://dbpedia.org/resource/Europe
+Asiatic lion ---> http://dbpedia.org/resource/Asiatic_lion
+India ---> http://dbpedia.org/resource/India
+Canine distemper ---> http://dbpedia.org/resource/Canine_distemper
+Switzerland ---> http://dbpedia.org/resource/Switzerland
+Zürichberg ---> http://dbpedia.org/resource/Z%C3%BCrichberg
+Tram ---> http://dbpedia.org/resource/Tram
+Zürich Zoologischer Garten ---> http://dbpedia.org/resource/Z%C3%BCrich_Zoologischer_Garten
+King of the Jungle (serial) ---> http://dbpedia.org/resource/King_of_the_Jungle_(serial)
+Four Lions ---> http://dbpedia.org/resource/Four_Lions
+Savanna ---> http://dbpedia.org/resource/Savanna
+Deciduous ---> http://dbpedia.org/resource/Deciduous
+Gujarat ---> http://dbpedia.org/resource/Gujarat
+British Raj ---> http://dbpedia.org/resource/British_Raj
+Gir Forest National Park ---> http://dbpedia.org/resource/Gir_Forest_National_Park
+Protected area ---> http://dbpedia.org/resource/Protected_area
+Ancient Greece ---> http://dbpedia.org/resource/Ancient_Greece
+Indian Council of Medical Research ---> http://dbpedia.org/resource/Indian_Council_of_Medical_Research
+Serengeti ---> http://dbpedia.org/resource/Serengeti
+Tanzania ---> http://dbpedia.org/resource/Tanzania
+Swissinfo ---> http://dbpedia.org/resource/Swissinfo
+Kuno Wildlife Sanctuary ---> http://dbpedia.org/resource/Kuno_Wildlife_Sanctuary
+Zoo ---> http://dbpedia.org/resource/Zoo
+Habitat ---> http://dbpedia.org/resource/Habitat
+Big cat ---> http://dbpedia.org/resource/Big_cat
+Helsinki ---> http://dbpedia.org/resource/Helsinki
+London ---> http://dbpedia.org/resource/London
+Zürich ---> http://dbpedia.org/resource/Z%C3%BCrich
+Estrous cycle ---> http://dbpedia.org/resource/Estrous_cycle
+Reproduction ---> http://dbpedia.org/resource/Reproduction
+Artificial insemination ---> http://dbpedia.org/resource/Artificial_insemination
+Lion ---> http://dbpedia.org/resource/Lion
+World Association of Zoos and Aquariums ---> http://dbpedia.org/resource/World_Association_of_Zoos_and_Aquariums
+Species reintroduction ---> http://dbpedia.org/resource/Species_reintroduction
+Extinct in the wild ---> http://dbpedia.org/resource/Extinct_in_the_wild
+California condor ---> http://dbpedia.org/resource/California_condor
+Ferret ---> http://dbpedia.org/resource/Ferret
+Corroboree frog ---> http://dbpedia.org/resource/Corroboree_frog
+Golden lion tamarin ---> http://dbpedia.org/resource/Golden_lion_tamarin
+Threatened species ---> http://dbpedia.org/resource/Threatened_species
+Carnivore ---> http://dbpedia.org/resource/Carnivore
+Cheetah ---> http://dbpedia.org/resource/Cheetah
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 445
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: بطن (حيوانات)
+
+Dimensione del grafo 1 ---> 445
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q6256
+
+Dimensione del grafo 1 ---> 463
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 483
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q22302160
+
+Dimensione del grafo 1 ---> 502
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: 国
+
+Dimensione del grafo 1 ---> 502
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: kraj
+
+Dimensione del grafo 1 ---> 502
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: بلد
+
+Dimensione del grafo 1 ---> 502
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://schema.org/Country
+
+Dimensione del grafo 1 ---> 522
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: Land
+
+Dimensione del grafo 1 ---> 527
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: kintra@
+
+Dimensione del grafo 1 ---> 527
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: land
+
+Dimensione del grafo 1 ---> 527
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: pays
+
+Dimensione del grafo 1 ---> 527
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: χώρα
+
+Dimensione del grafo 1 ---> 527
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://www.wikidata.org/ontology#Item
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: país
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: 国家
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: gugde@
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: country
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: country@en
+
+Dimensione del grafo 1 ---> 547
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q15617994
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: シャモア
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/WikicatStatesAndTerritoriesEstablishedIn1848
+
+Dimensione del grafo 1 ---> 583
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://yago-knowledge.org/resource/wikicat_States_and_territories_established_in_1848
+
+Dimensione del grafo 1 ---> 583
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/AdministrativeDistrict108491826
+
+Dimensione del grafo 1 ---> 603
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://dbpedia.org/resource/Roquebrune-Cap-Martin
+
+Dimensione del grafo 1 ---> 622
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://dbpedia.org/resource/Menton
+
+Dimensione del grafo 1 ---> 641
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://dbpedia.org/resource/Regions_of_Wisconsin
+
+Dimensione del grafo 1 ---> 660
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://dbpedia.org/resource/French_Second_Republic
+
+Dimensione del grafo 1 ---> 679
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://dbpedia.org/resource/Alger_(department)
+
+Dimensione del grafo 1 ---> 698
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://dbpedia.org/resource/Wisconsin
+
+Dimensione del grafo 1 ---> 717
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://dbpedia.org/resource/Republic_of_San_Marco
+
+Dimensione del grafo 1 ---> 736
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://dbpedia.org/resource/Switzerland
+
+Dimensione del grafo 1 ---> 736
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://dbpedia.org/resource/Tiflis_Governorate
+
+Dimensione del grafo 1 ---> 755
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://dbpedia.org/resource/Oregon_Country
+
+Dimensione del grafo 1 ---> 770
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://dbpedia.org/resource/Oran_(department)
+
+Dimensione del grafo 1 ---> 789
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://dbpedia.org/resource/Orange_River_Sovereignty
+
+Dimensione del grafo 1 ---> 808
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://dbpedia.org/resource/Province_of_Posen
+
+Dimensione del grafo 1 ---> 827
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://dbpedia.org/resource/Nueva_Ecija
+
+Dimensione del grafo 1 ---> 846
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://dbpedia.org/resource/Los_Altos,_Central_America
+
+Dimensione del grafo 1 ---> 865
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: Il capriolo (Capreolus capreolus, Linnaeus, 1758) è un ungulato che vive in Europa e Asia. Ha palchi corti, in genere con 3 punte per lato nei soggetti adulti. Il corpo è di un colore tra il rosso ed il marrone, il muso verso il grigio; è molto veloce e vive su altopiani e montagne.
+
+Dimensione del grafo 1 ---> 866
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://dbpedia.org/resource/Roe_deer
+
+Dimensione del grafo 1 ---> 866
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/WikicatInterdisciplinaryFields
+
+Dimensione del grafo 1 ---> 885
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://yago-knowledge.org/resource/wikicat_Interdisciplinary_fields
+
+Dimensione del grafo 1 ---> 885
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/Field108569998
+
+Dimensione del grafo 1 ---> 905
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://dbpedia.org/resource/Museology
+
+Dimensione del grafo 1 ---> 924
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://dbpedia.org/resource/Compartmental_models_in_epidemiology
+
+Dimensione del grafo 1 ---> 943
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://dbpedia.org/resource/Computational_chemistry
+
+Dimensione del grafo 1 ---> 962
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://dbpedia.org/resource/Clinical_pathology
+
+Dimensione del grafo 1 ---> 981
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://dbpedia.org/resource/Systems_engineering
+
+Dimensione del grafo 1 ---> 1000
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://dbpedia.org/resource/Architectural_theory
+
+Dimensione del grafo 1 ---> 1019
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://dbpedia.org/resource/Materials_science
+
+Dimensione del grafo 1 ---> 1038
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://dbpedia.org/resource/Food_studies
+
+Dimensione del grafo 1 ---> 1057
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://dbpedia.org/resource/Neuroinformatics
+
+Dimensione del grafo 1 ---> 1075
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://dbpedia.org/resource/Medieval_studies
+
+Dimensione del grafo 1 ---> 1094
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://dbpedia.org/resource/E-commerce
+
+Dimensione del grafo 1 ---> 1113
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://dbpedia.org/resource/Vocology
+
+Dimensione del grafo 1 ---> 1132
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://dbpedia.org/resource/Conservation_biology
+
+Dimensione del grafo 1 ---> 1132
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://dbpedia.org/resource/Bioastronautics
+
+Dimensione del grafo 1 ---> 1151
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://dbpedia.org/resource/Translation_studies
+
+Dimensione del grafo 1 ---> 1170
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/resource/Molecular_gastronomy
+
+Dimensione del grafo 1 ---> 1189
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://dbpedia.org/resource/Biosemiotics
+
+Dimensione del grafo 1 ---> 1208
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://dbpedia.org/resource/Science_park
+
+Dimensione del grafo 1 ---> 1227
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: Owca domowa
+
+Dimensione del grafo 1 ---> 1227
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: Canton d'Obwald
+
+Dimensione del grafo 1 ---> 1227
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: Reh
+
+Dimensione del grafo 1 ---> 1227
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: Ecología de poblaciones
+
+Dimensione del grafo 1 ---> 1227
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: Ganado
+
+Dimensione del grafo 1 ---> 1231
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q450747
+
+Dimensione del grafo 1 ---> 1245
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q982520
+
+Dimensione del grafo 1 ---> 1255
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q1493347
+
+Dimensione del grafo 1 ---> 1266
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://dbpedia.org/resource/Ganado
+
+Dimensione del grafo 1 ---> 1281
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/WikicatRegionsOfEurope
+
+Dimensione del grafo 1 ---> 1301
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://yago-knowledge.org/resource/wikicat_Regions_of_Europe
+
+Dimensione del grafo 1 ---> 1301
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/Region108630039
+
+Dimensione del grafo 1 ---> 1321
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://dbpedia.org/resource/Cologne_Bonn_Region
+
+Dimensione del grafo 1 ---> 1340
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://dbpedia.org/resource/Östergötland
+
+Dimensione del grafo 1 ---> 1360
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://dbpedia.org/resource/Industrieviertel
+
+Dimensione del grafo 1 ---> 1378
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://dbpedia.org/resource/Hannover–Braunschweig–Göttingen–Wolfsburg_Metropolitan_Region
+
+Dimensione del grafo 1 ---> 1398
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://dbpedia.org/resource/Dresden_Heath
+
+Dimensione del grafo 1 ---> 1417
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://dbpedia.org/resource/Elbe_Marshes
+
+Dimensione del grafo 1 ---> 1436
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://dbpedia.org/resource/Blekinge
+
+Dimensione del grafo 1 ---> 1456
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://dbpedia.org/resource/Caucasus_Mountains
+
+Dimensione del grafo 1 ---> 1476
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://dbpedia.org/resource/Western_Europe
+
+Dimensione del grafo 1 ---> 1495
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://dbpedia.org/resource/Arctic
+
+Dimensione del grafo 1 ---> 1513
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://dbpedia.org/resource/Dacia
+
+Dimensione del grafo 1 ---> 1532
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://dbpedia.org/resource/Adriatic_Ionian_Euroregion
+
+Dimensione del grafo 1 ---> 1552
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://dbpedia.org/resource/EUREGIO
+
+Dimensione del grafo 1 ---> 1569
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://dbpedia.org/resource/Bohemian_Massif
+
+Dimensione del grafo 1 ---> 1588
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://dbpedia.org/resource/North_Caucasus
+
+Dimensione del grafo 1 ---> 1607
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://dbpedia.org/resource/Dalmatia
+
+Dimensione del grafo 1 ---> 1626
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://dbpedia.org/resource/Magna_Graecia
+
+Dimensione del grafo 1 ---> 1644
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://dbpedia.org/resource/Region_(Europe)
+
+Dimensione del grafo 1 ---> 1663
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: Biodiversità
+
+Dimensione del grafo 1 ---> 1663
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://dbpedia.org/resource/Biodiversity
+
+Dimensione del grafo 1 ---> 1663
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: 臆羚
+
+Dimensione del grafo 1 ---> 1663
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://dbpedia.org/class/yago/WikicatFieldsOfApplicationOfStatistics
+
+Dimensione del grafo 1 ---> 1683
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://yago-knowledge.org/resource/wikicat_Fields_of_application_of_statistics
+
+Dimensione del grafo 1 ---> 1683
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://dbpedia.org/resource/Environmental_statistics
+
+Dimensione del grafo 1 ---> 1702
+Dimensione del grafo 2 ---> 763
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://dbpedia.org/resource/Economic_data
+
+Dimensione del grafo 1 ---> 1721
+Dimensione del grafo 2 ---> 763
+
+
+Link notizia 1: https://www.corriere.it/animali/17_dicembre_19/alla-ricerca-viagra-panda-cosi-possiamo-salvarli-dall-estinzione-9631c6fc-e4ab-11e7-99b2-e4b972c90c1d.shtml?refresh_ce-cp
+
+Uri estratti dalla prima notizia:
+
+Specie ---> http://it.dbpedia.org/resource/Specie
+Mammalia ---> http://it.dbpedia.org/resource/Mammalia
+Famiglia ---> http://it.dbpedia.org/resource/Famiglia
+Vegetarianismo ---> http://it.dbpedia.org/resource/Vegetarianismo
+Metabolismo ---> http://it.dbpedia.org/resource/Metabolismo
+Rapporto sessuale ---> http://it.dbpedia.org/resource/Rapporto_sessuale
+Bambuseae ---> http://it.dbpedia.org/resource/Bambuseae
+Categoria (Pokémon) ---> http://it.dbpedia.org/resource/Categoria_(Pok%C3%A9mon)
+Consiglio Nazionale delle Ricerche ---> http://it.dbpedia.org/resource/Consiglio_Nazionale_delle_Ricerche
+Napoli ---> http://it.dbpedia.org/resource/Napoli
+Cina ---> http://it.dbpedia.org/resource/Cina
+Accoppiamento (zoologia) ---> http://it.dbpedia.org/resource/Accoppiamento_(zoologia)
+Ursidae ---> http://it.dbpedia.org/resource/Ursidae
+WWF ---> http://it.dbpedia.org/resource/WWF
+Feromone ---> http://it.dbpedia.org/resource/Feromone
+Proteine ---> http://it.dbpedia.org/resource/Proteine
+Muco ---> http://it.dbpedia.org/resource/Muco
+Ailuropoda melanoleuca ---> http://it.dbpedia.org/resource/Ailuropoda_melanoleuca
+Molecola ---> http://it.dbpedia.org/resource/Molecola
+Proteomica ---> http://it.dbpedia.org/resource/Proteomica
+Bioinformatica ---> http://it.dbpedia.org/resource/Bioinformatica
+Cristallografia ---> http://it.dbpedia.org/resource/Cristallografia
+Diffrazione dei raggi X ---> http://it.dbpedia.org/resource/Diffrazione_dei_raggi_X
+Insecta ---> http://it.dbpedia.org/resource/Insecta
+Idrofobia ---> http://it.dbpedia.org/resource/Idrofobia
+Recettore (biochimica) ---> http://it.dbpedia.org/resource/Recettore_(biochimica)
+Olfatto ---> http://it.dbpedia.org/resource/Olfatto
+Mus musculus ---> http://it.dbpedia.org/resource/Mus_musculus
+Minzione ---> http://it.dbpedia.org/resource/Minzione
+Sus scrofa domesticus ---> http://it.dbpedia.org/resource/Sus_scrofa_domesticus
+Ghiandola salivare ---> http://it.dbpedia.org/resource/Ghiandola_salivare
+Screening ---> http://it.dbpedia.org/resource/Screening
+Ligando ---> http://it.dbpedia.org/resource/Ligando
+Biotecnologia ---> http://it.dbpedia.org/resource/Biotecnologia
+
+
+Link notizia 2: http://www.secoloditalia.it/2018/11/ventanni-di-viagra-tra-picchi-di-vendita-e-troppi-abusi-nelluso/
+
+Uri estratti dalla seconda notizia:
+
+Sildenafil ---> http://it.dbpedia.org/resource/Sildenafil
+Farmaco ---> http://it.dbpedia.org/resource/Farmaco
+Pillola anticoncezionale ---> http://it.dbpedia.org/resource/Pillola_anticoncezionale
+Disfunzione erettile ---> http://it.dbpedia.org/resource/Disfunzione_erettile
+Sessualità ---> http://it.dbpedia.org/resource/Sessualit%C3%A0
+Doping ---> http://it.dbpedia.org/resource/Doping
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 32
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Specie
+
+Dimensione del grafo 1 ---> 32
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://dbpedia.org/resource/Species
+
+Dimensione del grafo 1 ---> 52
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Muco
+
+Dimensione del grafo 1 ---> 52
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://dbpedia.org/resource/Mucus
+
+Dimensione del grafo 1 ---> 70
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Diffrazione_dei_raggi_X
+
+Dimensione del grafo 1 ---> 70
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://dbpedia.org/resource/X-ray_scattering_techniques
+
+Dimensione del grafo 1 ---> 89
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Recettore_(biochimica)
+
+Dimensione del grafo 1 ---> 89
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://dbpedia.org/resource/Receptor_(biochemistry)
+
+Dimensione del grafo 1 ---> 109
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bioinformatica
+
+Dimensione del grafo 1 ---> 109
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://dbpedia.org/resource/Bioinformatics
+
+Dimensione del grafo 1 ---> 128
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ligando
+
+Dimensione del grafo 1 ---> 128
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/resource/Ligand
+
+Dimensione del grafo 1 ---> 145
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sus_scrofa_domesticus
+
+Dimensione del grafo 1 ---> 145
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://dbpedia.org/resource/Domestic_pig
+
+Dimensione del grafo 1 ---> 165
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/WWF
+
+Dimensione del grafo 1 ---> 165
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://dbpedia.org/resource/World_Wide_Fund_for_Nature
+
+Dimensione del grafo 1 ---> 185
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ursidae
+
+Dimensione del grafo 1 ---> 185
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://dbpedia.org/resource/Bear
+
+Dimensione del grafo 1 ---> 203
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Proteomica
+
+Dimensione del grafo 1 ---> 203
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://dbpedia.org/resource/Proteomics
+
+Dimensione del grafo 1 ---> 222
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cristallografia
+
+Dimensione del grafo 1 ---> 222
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://dbpedia.org/resource/Crystallography
+
+Dimensione del grafo 1 ---> 242
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Metabolismo
+
+Dimensione del grafo 1 ---> 242
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://dbpedia.org/resource/Metabolism
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biotecnologia
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://dbpedia.org/resource/Biotechnology
+
+Dimensione del grafo 1 ---> 280
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Olfatto
+
+Dimensione del grafo 1 ---> 280
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://dbpedia.org/resource/Olfaction
+
+Dimensione del grafo 1 ---> 298
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Famiglia
+
+Dimensione del grafo 1 ---> 298
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://dbpedia.org/resource/Family
+
+Dimensione del grafo 1 ---> 318
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Screening
+
+Dimensione del grafo 1 ---> 318
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://dbpedia.org/resource/Screening_(medicine)
+
+Dimensione del grafo 1 ---> 337
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accoppiamento_(zoologia)
+
+Dimensione del grafo 1 ---> 337
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://dbpedia.org/resource/Mating
+
+Dimensione del grafo 1 ---> 357
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Feromone
+
+Dimensione del grafo 1 ---> 357
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://dbpedia.org/resource/Pheromone
+
+Dimensione del grafo 1 ---> 377
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cina
+
+Dimensione del grafo 1 ---> 377
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://dbpedia.org/resource/China
+
+Dimensione del grafo 1 ---> 397
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Napoli
+
+Dimensione del grafo 1 ---> 397
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://dbpedia.org/resource/Naples
+
+Dimensione del grafo 1 ---> 417
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ailuropoda_melanoleuca
+
+Dimensione del grafo 1 ---> 417
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://dbpedia.org/resource/Giant_panda
+
+Dimensione del grafo 1 ---> 436
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Idrofobia
+
+Dimensione del grafo 1 ---> 436
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://dbpedia.org/resource/Hydrophobe
+
+Dimensione del grafo 1 ---> 456
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Consiglio_Nazionale_delle_Ricerche
+
+Dimensione del grafo 1 ---> 456
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://dbpedia.org/resource/National_Research_Council_(Italy)
+
+Dimensione del grafo 1 ---> 475
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Insecta
+
+Dimensione del grafo 1 ---> 475
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://dbpedia.org/resource/Insect
+
+Dimensione del grafo 1 ---> 495
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bambuseae
+
+Dimensione del grafo 1 ---> 495
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://dbpedia.org/resource/Bambuseae
+
+Dimensione del grafo 1 ---> 512
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mus_musculus
+
+Dimensione del grafo 1 ---> 512
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://dbpedia.org/resource/House_mouse
+
+Dimensione del grafo 1 ---> 530
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mammalia
+
+Dimensione del grafo 1 ---> 530
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://dbpedia.org/resource/Mammal
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Minzione
+
+Dimensione del grafo 1 ---> 549
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://dbpedia.org/resource/Urination
+
+Dimensione del grafo 1 ---> 568
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vegetarianismo
+
+Dimensione del grafo 1 ---> 568
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://dbpedia.org/resource/Vegetarianism
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Molecola
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/resource/Molecule
+
+Dimensione del grafo 1 ---> 604
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ghiandola_salivare
+
+Dimensione del grafo 1 ---> 604
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://dbpedia.org/resource/Salivary_gland
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rapporto_sessuale
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 5
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://dbpedia.org/resource/Sexual_intercourse
+
+Dimensione del grafo 1 ---> 644
+Dimensione del grafo 2 ---> 5
+
+
+Link notizia 1: http://www.corriere.it/animali/17_dicembre_19/alla-ricerca-viagra-panda-cosi-possiamo-salvarli-dall-estinzione-9631c6fc-e4ab-11e7-99b2-e4b972c90c1d.shtml
+
+Uri estratti dalla prima notizia:
+
+Specie ---> http://it.dbpedia.org/resource/Specie
+Mammalia ---> http://it.dbpedia.org/resource/Mammalia
+Famiglia ---> http://it.dbpedia.org/resource/Famiglia
+Vegetarianismo ---> http://it.dbpedia.org/resource/Vegetarianismo
+Metabolismo ---> http://it.dbpedia.org/resource/Metabolismo
+Rapporto sessuale ---> http://it.dbpedia.org/resource/Rapporto_sessuale
+Bambuseae ---> http://it.dbpedia.org/resource/Bambuseae
+Categoria (Pokémon) ---> http://it.dbpedia.org/resource/Categoria_(Pok%C3%A9mon)
+Consiglio Nazionale delle Ricerche ---> http://it.dbpedia.org/resource/Consiglio_Nazionale_delle_Ricerche
+Napoli ---> http://it.dbpedia.org/resource/Napoli
+Cina ---> http://it.dbpedia.org/resource/Cina
+Accoppiamento (zoologia) ---> http://it.dbpedia.org/resource/Accoppiamento_(zoologia)
+Ursidae ---> http://it.dbpedia.org/resource/Ursidae
+WWF ---> http://it.dbpedia.org/resource/WWF
+Feromone ---> http://it.dbpedia.org/resource/Feromone
+Proteine ---> http://it.dbpedia.org/resource/Proteine
+Muco ---> http://it.dbpedia.org/resource/Muco
+Ailuropoda melanoleuca ---> http://it.dbpedia.org/resource/Ailuropoda_melanoleuca
+Molecola ---> http://it.dbpedia.org/resource/Molecola
+Proteomica ---> http://it.dbpedia.org/resource/Proteomica
+Bioinformatica ---> http://it.dbpedia.org/resource/Bioinformatica
+Cristallografia ---> http://it.dbpedia.org/resource/Cristallografia
+Diffrazione dei raggi X ---> http://it.dbpedia.org/resource/Diffrazione_dei_raggi_X
+Insecta ---> http://it.dbpedia.org/resource/Insecta
+Idrofobia ---> http://it.dbpedia.org/resource/Idrofobia
+Recettore (biochimica) ---> http://it.dbpedia.org/resource/Recettore_(biochimica)
+Olfatto ---> http://it.dbpedia.org/resource/Olfatto
+Mus musculus ---> http://it.dbpedia.org/resource/Mus_musculus
+Minzione ---> http://it.dbpedia.org/resource/Minzione
+Sus scrofa domesticus ---> http://it.dbpedia.org/resource/Sus_scrofa_domesticus
+Ghiandola salivare ---> http://it.dbpedia.org/resource/Ghiandola_salivare
+Screening ---> http://it.dbpedia.org/resource/Screening
+Ligando ---> http://it.dbpedia.org/resource/Ligando
+Biotecnologia ---> http://it.dbpedia.org/resource/Biotecnologia
+
+
+Link notizia 2: https://www.repubblica.it/salute/medicina-e-ricerca/2018/03/28/news/vent_anni_fa_iniziava_l_era_del_vigra_per_la_prima_volta_c_era_cura_per_disfunzione_erettile-192410559/
+
+Uri estratti dalla seconda notizia:
+
+Sildenafil ---> http://it.dbpedia.org/resource/Sildenafil
+Food and Drug Administration ---> http://it.dbpedia.org/resource/Food_and_Drug_Administration
+Farmaco ---> http://it.dbpedia.org/resource/Farmaco
+Pfizer ---> http://it.dbpedia.org/resource/Pfizer
+Ipertensione ---> http://it.dbpedia.org/resource/Ipertensione
+Angina pectoris ---> http://it.dbpedia.org/resource/Angina_pectoris
+Dolore toracico ---> http://it.dbpedia.org/resource/Dolore_toracico
+Effetto collaterale (medicina) ---> http://it.dbpedia.org/resource/Effetto_collaterale_(medicina)
+Disfunzione erettile ---> http://it.dbpedia.org/resource/Disfunzione_erettile
+Andrologia ---> http://it.dbpedia.org/resource/Andrologia
+Mercato nero ---> http://it.dbpedia.org/resource/Mercato_nero
+Israele ---> http://it.dbpedia.org/resource/Israele
+Polonia ---> http://it.dbpedia.org/resource/Polonia
+Arabia Saudita ---> http://it.dbpedia.org/resource/Arabia_Saudita
+Europa ---> http://it.dbpedia.org/resource/Europa
+Bob Dole ---> http://it.dbpedia.org/resource/Bob_Dole
+Pelé ---> http://it.dbpedia.org/resource/Pel%C3%A9
+Nazionale di calcio dell'Italia ---> http://it.dbpedia.org/resource/Nazionale_di_calcio_dell'Italia
+Internet ---> http://it.dbpedia.org/resource/Internet
+Pornografia ---> http://it.dbpedia.org/resource/Pornografia
+Marketing ---> http://it.dbpedia.org/resource/Marketing
+Medicina ---> http://it.dbpedia.org/resource/Medicina
+Cardiopatia ---> http://it.dbpedia.org/resource/Cardiopatia
+Pillola anticoncezionale ---> http://it.dbpedia.org/resource/Pillola_anticoncezionale
+Sessualità ---> http://it.dbpedia.org/resource/Sessualit%C3%A0
+Vincenzo Mirone ---> http://it.dbpedia.org/resource/Vincenzo_Mirone
+Urologia ---> http://it.dbpedia.org/resource/Urologia
+Andropausa ---> http://it.dbpedia.org/resource/Andropausa
+Tromba d'aria ---> http://it.dbpedia.org/resource/Tromba_d'aria
+Libido ---> http://it.dbpedia.org/resource/Libido
+Fertilità ---> http://it.dbpedia.org/resource/Fertilit%C3%A0
+Staten Island ---> http://it.dbpedia.org/resource/Staten_Island
+Flibanserin ---> http://it.dbpedia.org/resource/Flibanserin
+Antidepressivo ---> http://it.dbpedia.org/resource/Antidepressivo
+Etanolo ---> http://it.dbpedia.org/resource/Etanolo
+Dollaro statunitense ---> http://it.dbpedia.org/resource/Dollaro_statunitense
+Nausea ---> http://it.dbpedia.org/resource/Nausea
+Vomito ---> http://it.dbpedia.org/resource/Vomito
+Suicidio ---> http://it.dbpedia.org/resource/Suicidio
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 660
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Epidemiologia
+
+Dimensione del grafo 1 ---> 680
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Κατηγορία:Επιδημιολογία
+
+Dimensione del grafo 1 ---> 680
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Kategorie:Epidemiologie
+
+Dimensione del grafo 1 ---> 680
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Kategoria:Epidemiologia
+
+Dimensione del grafo 1 ---> 680
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: Epidemiologia
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: 76085^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Kategoria:Epidemiologia
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Категорія:Епідеміологія
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Categorie:Epidemiologie
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://eo.dbpedia.org/resource/Kategorio:Epidemiologio
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q5601738
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://dbpedia.org/resource/Category:Epidemiology
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Kategori:Epidemiologi
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://www.w3.org/2004/02/skos/core#Concept
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Kategorie:Epidemiologie
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://ko.dbpedia.org/resource/분류:역학_(의학)
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/Category:疫学
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Categoría:Epidemiología
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Kategori:Epidemiologi
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Catégorie:Épidémiologie
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://pt.dbpedia.org/resource/Categoria:Epidemiologia
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Rodina
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Famiglia
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Biomolecule
+
+Dimensione del grafo 1 ---> 721
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Enzima
+
+Dimensione del grafo 1 ---> 740
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Prione
+
+Dimensione del grafo 1 ---> 759
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Glucidi
+
+Dimensione del grafo 1 ---> 778
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pirimidina
+
+Dimensione del grafo 1 ---> 797
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cobalamina
+
+Dimensione del grafo 1 ---> 816
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Saponine
+
+Dimensione del grafo 1 ---> 835
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Antigene
+
+Dimensione del grafo 1 ---> 854
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biotina
+
+Dimensione del grafo 1 ---> 873
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Monossido_di_azoto
+
+Dimensione del grafo 1 ---> 892
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Trementina
+
+Dimensione del grafo 1 ---> 911
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Proteine
+
+Dimensione del grafo 1 ---> 911
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Acido_aspartico
+
+Dimensione del grafo 1 ---> 930
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Glicolisi
+
+Dimensione del grafo 1 ---> 949
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Anandamide
+
+Dimensione del grafo 1 ---> 968
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pirrolisina
+
+Dimensione del grafo 1 ---> 987
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Delta-9-tetraidrocannabinolo
+
+Dimensione del grafo 1 ---> 1006
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Amminoacido
+
+Dimensione del grafo 1 ---> 1025
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vitamina_K
+
+Dimensione del grafo 1 ---> 1044
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Acido_ascorbico
+
+Dimensione del grafo 1 ---> 1063
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Retinolo
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Björnar
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ursidae
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: 1102921^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: La proteomica consiste nell'identificazione sistematica di proteine e nella loro caratterizzazione rispetto a struttura, funzione, attività, quantità e interazioni molecolari.Il proteoma è l'insieme di tutti i possibili prodotti proteici espressi in una cellula, incluse tutte le isoforme e le modificazioni post-traduzionali.
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Proteomica
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Miction
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Minzione
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Panda_wielka
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ailuropoda_melanoleuca
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Čich
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Olfatto
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Νάπολη
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Napoli
+
+Dimensione del grafo 1 ---> 1082
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: Il metabolismo (dal greco μεταβολή = cambiamento) è il complesso delle reazioni chimiche e fisiche che avvengono in un organismo o in una sua parte. Molte di queste trasformazioni della materia sono reversibili e sono legate a variazioni della condizione energetica.
+
+Dimensione del grafo 1 ---> 1083
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Metabolismo
+
+Dimensione del grafo 1 ---> 1083
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/resource/Receptor_(biochemistry)
+
+Dimensione del grafo 1 ---> 1083
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Recettore_(biochimica)
+
+Dimensione del grafo 1 ---> 1083
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Raggi_X
+
+Dimensione del grafo 1 ---> 1103
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://eo.dbpedia.org/resource/Ikso-radioj
+
+Dimensione del grafo 1 ---> 1103
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Physic
+
+Dimensione del grafo 1 ---> 1123
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Ακτίνες_Χ
+
+Dimensione del grafo 1 ---> 1123
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://pt.dbpedia.org/resource/Raios_X
+
+Dimensione del grafo 1 ---> 1123
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Röntgenstrålning
+
+Dimensione del grafo 1 ---> 1123
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: Raggi X
+
+Dimensione del grafo 1 ---> 1126
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Promieniowanie_rentgenowskie
+
+Dimensione del grafo 1 ---> 1126
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Science
+
+Dimensione del grafo 1 ---> 1146
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://dbpedia.org/resource/X-ray
+
+Dimensione del grafo 1 ---> 1146
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Рентгенівське_випромінювання
+
+Dimensione del grafo 1 ---> 1146
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Field
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: I raggi X sono quella porzione dello spettro elettromagnetico con una lunghezza d'onda compresa approssimativamente tra 10 nanometri (nm) e 1/1000 di nanometro (1 picometro).Raggi X con una lunghezza d'onda superiore a 0,1 nm sono chiamati raggi X molli. A lunghezze minori, sono chiamati raggi X duri.
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Rayon_X
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Röntgenstrahlung
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Sinar-X
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Röntgenstraling
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Rayos_X
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/X線
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://ko.dbpedia.org/resource/엑스선
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/X_izpi
+
+Dimensione del grafo 1 ---> 1166
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 1186
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 1205
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 1224
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 1243
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 1262
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 1281
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 1300
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 1319
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1338
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1357
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 1376
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1395
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1414
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1433
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1452
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1471
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1490
+Dimensione del grafo 2 ---> 706
+
+
+Link notizia 1: https://www.huffingtonpost.it/2017/11/29/in-grand-bretagna-il-viagra-sara-venduto-come-farmaco-da-banco-per-la-prima-volta_a_23291447/
+
+Uri estratti dalla prima notizia:
+
+Regno Unito ---> http://it.dbpedia.org/resource/Regno_Unito
+Sildenafil ---> http://it.dbpedia.org/resource/Sildenafil
+Farmaco da banco ---> http://it.dbpedia.org/resource/Farmaco_da_banco
+Gran Bretagna ---> http://it.dbpedia.org/resource/Gran_Bretagna
+Internet ---> http://it.dbpedia.org/resource/Internet
+Farmacia ---> http://it.dbpedia.org/resource/Farmacia
+Farmaco ---> http://it.dbpedia.org/resource/Farmaco
+Insufficienza epatica ---> http://it.dbpedia.org/resource/Insufficienza_epatica
+Rene ---> http://it.dbpedia.org/resource/Rene
+Farmacista ---> http://it.dbpedia.org/resource/Farmacista
+Effetto collaterale (medicina) ---> http://it.dbpedia.org/resource/Effetto_collaterale_(medicina)
+Disfunzione erettile ---> http://it.dbpedia.org/resource/Disfunzione_erettile
+Medicina ---> http://it.dbpedia.org/resource/Medicina
+Sistema sanitario ---> http://it.dbpedia.org/resource/Sistema_sanitario
+
+
+Link notizia 2: https://www.repubblica.it/salute/medicina-e-ricerca/2018/03/28/news/vent_anni_fa_iniziava_l_era_del_vigra_per_la_prima_volta_c_era_cura_per_disfunzione_erettile-192410559/
+
+Uri estratti dalla seconda notizia:
+
+Sildenafil ---> http://it.dbpedia.org/resource/Sildenafil
+Food and Drug Administration ---> http://it.dbpedia.org/resource/Food_and_Drug_Administration
+Farmaco ---> http://it.dbpedia.org/resource/Farmaco
+Pfizer ---> http://it.dbpedia.org/resource/Pfizer
+Ipertensione ---> http://it.dbpedia.org/resource/Ipertensione
+Angina pectoris ---> http://it.dbpedia.org/resource/Angina_pectoris
+Dolore toracico ---> http://it.dbpedia.org/resource/Dolore_toracico
+Effetto collaterale (medicina) ---> http://it.dbpedia.org/resource/Effetto_collaterale_(medicina)
+Disfunzione erettile ---> http://it.dbpedia.org/resource/Disfunzione_erettile
+Andrologia ---> http://it.dbpedia.org/resource/Andrologia
+Mercato nero ---> http://it.dbpedia.org/resource/Mercato_nero
+Israele ---> http://it.dbpedia.org/resource/Israele
+Polonia ---> http://it.dbpedia.org/resource/Polonia
+Arabia Saudita ---> http://it.dbpedia.org/resource/Arabia_Saudita
+Europa ---> http://it.dbpedia.org/resource/Europa
+Bob Dole ---> http://it.dbpedia.org/resource/Bob_Dole
+Pelé ---> http://it.dbpedia.org/resource/Pel%C3%A9
+Nazionale di calcio dell'Italia ---> http://it.dbpedia.org/resource/Nazionale_di_calcio_dell'Italia
+Internet ---> http://it.dbpedia.org/resource/Internet
+Pornografia ---> http://it.dbpedia.org/resource/Pornografia
+Marketing ---> http://it.dbpedia.org/resource/Marketing
+Medicina ---> http://it.dbpedia.org/resource/Medicina
+Cardiopatia ---> http://it.dbpedia.org/resource/Cardiopatia
+Pillola anticoncezionale ---> http://it.dbpedia.org/resource/Pillola_anticoncezionale
+Sessualità ---> http://it.dbpedia.org/resource/Sessualit%C3%A0
+Vincenzo Mirone ---> http://it.dbpedia.org/resource/Vincenzo_Mirone
+Urologia ---> http://it.dbpedia.org/resource/Urologia
+Andropausa ---> http://it.dbpedia.org/resource/Andropausa
+Tromba d'aria ---> http://it.dbpedia.org/resource/Tromba_d'aria
+Libido ---> http://it.dbpedia.org/resource/Libido
+Fertilità ---> http://it.dbpedia.org/resource/Fertilit%C3%A0
+Staten Island ---> http://it.dbpedia.org/resource/Staten_Island
+Flibanserin ---> http://it.dbpedia.org/resource/Flibanserin
+Antidepressivo ---> http://it.dbpedia.org/resource/Antidepressivo
+Etanolo ---> http://it.dbpedia.org/resource/Etanolo
+Dollaro statunitense ---> http://it.dbpedia.org/resource/Dollaro_statunitense
+Nausea ---> http://it.dbpedia.org/resource/Nausea
+Vomito ---> http://it.dbpedia.org/resource/Vomito
+Suicidio ---> http://it.dbpedia.org/resource/Suicidio
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 280
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Medicine
+
+Dimensione del grafo 1 ---> 300
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 320
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 339
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Medicine
+
+Dimensione del grafo 1 ---> 339
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: The science and art of healing the human body and identifying the causes of disease
+
+Dimensione del grafo 1 ---> 339
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: Medicine
+
+Dimensione del grafo 1 ---> 347
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bradipnea
+
+Dimensione del grafo 1 ---> 366
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Alopecia_androgenetica
+
+Dimensione del grafo 1 ---> 385
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Kuru_(malattia)
+
+Dimensione del grafo 1 ---> 404
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sifilide
+
+Dimensione del grafo 1 ---> 423
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sindrome_di_Rett
+
+Dimensione del grafo 1 ---> 442
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ulcera_venerea
+
+Dimensione del grafo 1 ---> 461
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rinite_allergica
+
+Dimensione del grafo 1 ---> 480
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Disturbo_pervasivo_dello_sviluppo
+
+Dimensione del grafo 1 ---> 499
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sindrome_di_Asperger
+
+Dimensione del grafo 1 ---> 518
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neoplasia
+
+Dimensione del grafo 1 ---> 537
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Coma
+
+Dimensione del grafo 1 ---> 556
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Leiomioma_dell'utero
+
+Dimensione del grafo 1 ---> 575
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Infarto_miocardico_acuto
+
+Dimensione del grafo 1 ---> 594
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Acne
+
+Dimensione del grafo 1 ---> 613
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Epistassi
+
+Dimensione del grafo 1 ---> 632
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Publication
+
+Dimensione del grafo 1 ---> 652
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Astrophysical_Journal
+
+Dimensione del grafo 1 ---> 671
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Jargon_File
+
+Dimensione del grafo 1 ---> 690
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Catwoman
+
+Dimensione del grafo 1 ---> 709
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harvard_Lampoon
+
+Dimensione del grafo 1 ---> 728
+Dimensione del grafo 2 ---> 706
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.oLink notizia 1: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Energia ---> http://it.dbpedia.org/resource/Energia
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Link notizia 2: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/resource/JavaScript
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/JavaScript
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 662
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 662
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 682
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 702
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 703
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 722
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 722
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 723
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 725
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 725
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 725
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 725
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 745
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 745
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 764
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 783
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 802
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 821
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 840
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 859
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Verkställande_direktör
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Amministratore_delegato
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Amerika_(continent)
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/America
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Internationaal_Energieagentschap
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+
+Dimensione del grafo 1 ---> 878
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: Materie plastiche
+
+Dimensione del grafo 1 ---> 880
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Materie_plastiche
+
+Dimensione del grafo 1 ---> 880
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Materie_plastiche
+
+Dimensione del grafo 1 ---> 899
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: Idrocarburi
+
+Dimensione del grafo 1 ---> 901
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Idrocarburi
+
+Dimensione del grafo 1 ---> 901
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Idrocarburi
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Eni_(Unternehmen)
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Eni
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Plyn
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Gas
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Γη
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Energietransitie
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Transizione_energetica
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q826700
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://ko.dbpedia.org/resource/최고경영자
+
+Dimensione del grafo 1 ---> 920
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Science
+
+Dimensione del grafo 1 ---> 940
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Scienze_sociali
+
+Dimensione del grafo 1 ---> 959
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Proiezione_cartografica
+
+Dimensione del grafo 1 ---> 978
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biologia
+
+Dimensione del grafo 1 ---> 997
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Collezionismo
+
+Dimensione del grafo 1 ---> 1016
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Coordinate_geografiche
+
+Dimensione del grafo 1 ---> 1035
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Economia_domestica
+
+Dimensione del grafo 1 ---> 1054
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Case_farmaceutiche
+
+Dimensione del grafo 1 ---> 1073
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Metallurgia_delle_polveri
+
+Dimensione del grafo 1 ---> 1092
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Assistenza_infermieristica
+
+Dimensione del grafo 1 ---> 1111
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Diritti_umani
+
+Dimensione del grafo 1 ---> 1130
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Diritto
+
+Dimensione del grafo 1 ---> 1149
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vertice_geodetico
+
+Dimensione del grafo 1 ---> 1168
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Benthos
+
+Dimensione del grafo 1 ---> 1187
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sistema_solare
+
+Dimensione del grafo 1 ---> 1206
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Scienza_applicata
+
+Dimensione del grafo 1 ---> 1225
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ingegneria_biomedica
+
+Dimensione del grafo 1 ---> 1244
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aeroplano
+
+Dimensione del grafo 1 ---> 1263
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Antropologia
+
+Dimensione del grafo 1 ---> 1282
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fotosintesi_clorofilliana
+
+Dimensione del grafo 1 ---> 1301
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Scienze_naturali
+
+Dimensione del grafo 1 ---> 1320
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 1340
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 1359
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 1378
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 1397
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 1416
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 1435
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 1454
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 1473
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1492
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1511
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 1530
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1549
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1568
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1587
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1606
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1625
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1644
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Giovanni_Paolo_I
+
+Dimensione del grafo 1 ---> 1662
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_del_Giappone
+
+Dimensione del grafo 1 ---> 1681
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dell'Argentina
+
+Dimensione del grafo 1 ---> 1700
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_israeliane
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Атмосфера_планети
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Atmosfera
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: 4244951^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Vědecká_metoda
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Metodo_scientifico
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Paris
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Parigi
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://pt.dbpedia.org/resource/Economia
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Economia
+
+Dimensione del grafo 1 ---> 1719
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Continent
+
+Dimensione del grafo 1 ---> 1736
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: ήπειρος
+
+Dimensione del grafo 1 ---> 1736
+Dimensione del grafo 2 ---> 260
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://dbpedia.org/ontology/PopulatedPlace
+
+Dimensione del grafo 1 ---> 1753
+Dimensione del grafo 2 ---> 260
+
+
+Link notizia 1: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Energia ---> http://it.dbpedia.org/resource/Energia
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Link notizia 2: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 1586
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Work
+
+Dimensione del grafo 1 ---> 1636
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: Werk
+
+Dimensione del grafo 1 ---> 1636
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 1686
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: http://schema.org/CreativeWork
+
+Dimensione del grafo 1 ---> 1736
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: werk
+
+Dimensione del grafo 1 ---> 1737
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 1785
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Work
+
+Dimensione del grafo 1 ---> 1785
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: work
+
+Dimensione del grafo 1 ---> 1786
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: http://dbpedia.org/ontology/wgs84_pos:SpatialThing
+
+Dimensione del grafo 1 ---> 1788
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: δημιουργία
+
+Dimensione del grafo 1 ---> 1788
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: obra
+
+Dimensione del grafo 1 ---> 1788
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: œuvre
+
+Dimensione del grafo 1 ---> 1788
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity
+
+Dimensione del grafo 1 ---> 1838
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: 仕事
+
+Dimensione del grafo 1 ---> 1838
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/HTML
+
+Dimensione del grafo 1 ---> 1887
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Berkeley_Software_Distribution
+
+Dimensione del grafo 1 ---> 1936
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mozilla_Firefox
+
+Dimensione del grafo 1 ---> 1983
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Mobile_Suit_Gundam
+
+Dimensione del grafo 1 ---> 2032
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux
+
+Dimensione del grafo 1 ---> 2081
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Festival_della_Canzone_Italiana_di_Sanremo
+
+Dimensione del grafo 1 ---> 2128
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Linux_(kernel)
+
+Dimensione del grafo 1 ---> 2177
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dichiarazione_universale_dei_diritti_umani
+
+Dimensione del grafo 1 ---> 2226
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Commentarii_de_bello_Gallico
+
+Dimensione del grafo 1 ---> 2273
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Indice_dei_libri_proibiti
+
+Dimensione del grafo 1 ---> 2322
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_barbiere_di_Siviglia_(Rossini)
+
+Dimensione del grafo 1 ---> 2371
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_grande_dittatore
+
+Dimensione del grafo 1 ---> 2418
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Pensieri_(Pascal)
+
+Dimensione del grafo 1 ---> 2465
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Maxthon
+
+Dimensione del grafo 1 ---> 2512
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/XSL_Transformations
+
+Dimensione del grafo 1 ---> 2561
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Noir_(anime)
+
+Dimensione del grafo 1 ---> 2610
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/DivX
+
+Dimensione del grafo 1 ---> 2659
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Piazza_delle_Cinque_Lune
+
+Dimensione del grafo 1 ---> 2706
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Oracle_Solaris_(sistema_operativo)
+
+Dimensione del grafo 1 ---> 2755
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Blocco_note
+
+Dimensione del grafo 1 ---> 2802
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/PKNA_-_Paperinik_New_Adventures
+
+Dimensione del grafo 1 ---> 2851
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fortran
+
+Dimensione del grafo 1 ---> 2900
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bibbia
+
+Dimensione del grafo 1 ---> 2949
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/REBOL
+
+Dimensione del grafo 1 ---> 2998
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Direct_Connect
+
+Dimensione del grafo 1 ---> 3047
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/COBOL
+
+Dimensione del grafo 1 ---> 3096
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Il_dottor_Stranamore_-_Ovvero:_come_ho_imparato_a_non_preoccuparmi_e_ad_amare_la_bomba
+
+Dimensione del grafo 1 ---> 3143
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vorbis
+
+Dimensione del grafo 1 ---> 3192
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tanakh
+
+Dimensione del grafo 1 ---> 3241
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neon_Genesis_Evangelion
+
+Dimensione del grafo 1 ---> 3290
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Harenchi_Gakuen
+
+Dimensione del grafo 1 ---> 3339
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C++
+
+Dimensione del grafo 1 ---> 3388
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/GNU
+
+Dimensione del grafo 1 ---> 3437
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Accordi_di_Schengen
+
+Dimensione del grafo 1 ---> 3486
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Forza_di_Coulomb
+
+Dimensione del grafo 1 ---> 3533
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/AmigaOS
+
+Dimensione del grafo 1 ---> 3582
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/C_(linguaggio)
+
+Dimensione del grafo 1 ---> 3631
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Plasma_(fisica)
+
+Dimensione del grafo 1 ---> 3681
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Premio_Nobel
+
+Dimensione del grafo 1 ---> 3731
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://dbpedia.org/resource/Plasma_(physics)
+
+Dimensione del grafo 1 ---> 3731
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://sv.dbpedia.org/resource/Plasma
+
+Dimensione del grafo 1 ---> 3731
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Fasi_della_materia
+
+Dimensione del grafo 1 ---> 3779
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aeriforme
+
+Dimensione del grafo 1 ---> 3827
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Plasma_(Physik)
+
+Dimensione del grafo 1 ---> 3827
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Plasma_(estado_de_la_materia)
+
+Dimensione del grafo 1 ---> 3827
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Argon
+
+Dimensione del grafo 1 ---> 3877
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: In fisica e chimica, il plasma è un gas ionizzato, costituito da un insieme di elettroni e ioni e globalmente neutro (la cui carica elettrica totale è cioè nulla).
+
+Dimensione del grafo 1 ---> 3877
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Materia_oscura
+
+Dimensione del grafo 1 ---> 3927
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Плазма_(агрегатний_стан)
+
+Dimensione del grafo 1 ---> 3927
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Sub-discipline
+
+Dimensione del grafo 1 ---> 3975
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Elettrostatica
+
+Dimensione del grafo 1 ---> 4025
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: http://www.wikidata.org/entity/Q10251
+
+Dimensione del grafo 1 ---> 4025
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: Plasma (fisica)
+
+Dimensione del grafo 1 ---> 4025
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Astrophysic
+
+Dimensione del grafo 1 ---> 4073
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Fusione_nucleare
+
+Dimensione del grafo 1 ---> 4122
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aurora_polare
+
+Dimensione del grafo 1 ---> 4172
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: http://ko.dbpedia.org/resource/플라스마
+
+Dimensione del grafo 1 ---> 4172
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://id.dbpedia.org/resource/Plasma_(wujud_zat)
+
+Dimensione del grafo 1 ---> 4172
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Kelvin
+
+Dimensione del grafo 1 ---> 4222
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Scarica_elettrostatica
+
+Dimensione del grafo 1 ---> 4250
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Plasma_(fisika)
+
+Dimensione del grafo 1 ---> 4250
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Conductor
+
+Dimensione del grafo 1 ---> 4299
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: http://pt.dbpedia.org/resource/Plasma
+
+Dimensione del grafo 1 ---> 4299
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Carica_elettrica
+
+Dimensione del grafo 1 ---> 4349
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Elettronvolt
+
+Dimensione del grafo 1 ---> 4399
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Energia_oscura
+
+Dimensione del grafo 1 ---> 4448
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://eo.dbpedia.org/resource/Plasmo
+
+Dimensione del grafo 1 ---> 4448
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Schermo_a_cristalli_liquidi
+
+Dimensione del grafo 1 ---> 4498
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Fisica_del_plasma
+
+Dimensione del grafo 1 ---> 4547
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Resistività
+
+Dimensione del grafo 1 ---> 4594
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/プラズマ
+
+Dimensione del grafo 1 ---> 4594
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Plazma
+
+Dimensione del grafo 1 ---> 4594
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Elettrotecnica
+
+Dimensione del grafo 1 ---> 4644
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Concept
+
+Dimensione del grafo 1 ---> 4692
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Fusione_nucleare
+
+Dimensione del grafo 1 ---> 4741
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: 363408^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 4741
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vento_solare
+
+Dimensione del grafo 1 ---> 4790
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Physic
+
+Dimensione del grafo 1 ---> 4837
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Modello_matematico
+
+Dimensione del grafo 1 ---> 4886
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Equazioni_di_Navier-Stokes
+
+Dimensione del grafo 1 ---> 4936
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corona_solare
+
+Dimensione del grafo 1 ---> 4985
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Plazma
+
+Dimensione del grafo 1 ---> 4985
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://el.dbpedia.org/resource/Πλάσμα_(φυσική)
+
+Dimensione del grafo 1 ---> 4985
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Scattering
+
+Dimensione del grafo 1 ---> 5034
+Dimensione del grafo 2 ---> 650
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Plasma_(aggregatietoestand)
+
+Dimensione del grafo 1 ---> 5034
+Dimensione del grafo 2 ---> 650
+
+
+Link notizia 1: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Link notizia 2: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Energia ---> http://it.dbpedia.org/resource/Energia
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 642
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Settlement
+
+Dimensione del grafo 1 ---> 193
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: municipality
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: municipalité
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: 도시
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: gemeente
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://dbpedia.org/ontology/PopulatedPlace
+
+Dimensione del grafo 1 ---> 214
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Settlement
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: hiri orokor
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: Gemeinde
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: οικισμός
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquincum
+
+Dimensione del grafo 1 ---> 253
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Černobyl'
+
+Dimensione del grafo 1 ---> 272
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dessau-Roßlau
+
+Dimensione del grafo 1 ---> 291
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sighetu_Marmației
+
+Dimensione del grafo 1 ---> 310
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Samarra
+
+Dimensione del grafo 1 ---> 329
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Schalke
+
+Dimensione del grafo 1 ---> 348
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neve_Shalom_-_Wāħat_as-Salām
+
+Dimensione del grafo 1 ---> 367
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ísafjörður
+
+Dimensione del grafo 1 ---> 386
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Düsseldorf
+
+Dimensione del grafo 1 ---> 405
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patreksfjörður
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Evropská_unie
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Unione_europea
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Unternehmen
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Impresa
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Révolution_industrielle
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rivoluzione_industriale
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Przedsiębiorstwo
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Europar_Batasuna
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/La_Calera_(Quillota)
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_Calera_(Cile)
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Energietransitie
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Transizione_energetica
+
+Dimensione del grafo 1 ---> 454
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+
+Dimensione del grafo 1 ---> 474
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rienza
+
+Dimensione del grafo 1 ---> 493
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 511
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 529
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Reggio_nell'Emilia
+
+Dimensione del grafo 1 ---> 548
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patriarcato_di_Venezia
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brunico
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Perù
+
+Dimensione del grafo 1 ---> 605
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isole_del_Canale
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isola_di_San_Pantaleo
+
+Dimensione del grafo 1 ---> 661
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cantone_dei_Grigioni
+
+Dimensione del grafo 1 ---> 679
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biella
+
+Dimensione del grafo 1 ---> 697
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquisgrana
+
+Dimensione del grafo 1 ---> 715
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Australia_Occidentale
+
+Dimensione del grafo 1 ---> 733
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vipiteno
+
+Dimensione del grafo 1 ---> 770
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Iraq
+
+Dimensione del grafo 1 ---> 788
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tirolo_(Austria)
+
+Dimensione del grafo 1 ---> 807
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Bolzano
+
+Dimensione del grafo 1 ---> 825
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Trento
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/La_Calera_(Txile)
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/失業
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Disoccupazione
+
+Dimensione del grafo 1 ---> 846
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Place
+
+Dimensione del grafo 1 ---> 865
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://schema.org/Place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: lloc
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: مكان
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: Ort
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: 立地
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: plaats
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: lekua
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: lieu
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: áit
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Place
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: uma localização
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: περιοχή
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Immobile things or locations.
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: lugar
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: miejsce
+
+Dimensione del grafo 1 ---> 890
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 906
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 925
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 944
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 963
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 982
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1001
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1020
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1039
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1058
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1077
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1096
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1115
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1134
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Giovanni_Paolo_I
+
+Dimensione del grafo 1 ---> 1152
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_del_Giappone
+
+Dimensione del grafo 1 ---> 1171
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dell'Argentina
+
+Dimensione del grafo 1 ---> 1190
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_israeliane
+
+Dimensione del grafo 1 ---> 1209
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Diritto_societario
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Categoría:Derecho_de_sociedades
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Template:Interprogetto
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: 373666^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Категорія:Корпоративне_право
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Link notizia 1: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Link notizia 2: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Energia ---> http://it.dbpedia.org/resource/Energia
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 642
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Settlement
+
+Dimensione del grafo 1 ---> 193
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: municipality
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: municipalité
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: 도시
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: gemeente
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://dbpedia.org/ontology/PopulatedPlace
+
+Dimensione del grafo 1 ---> 214
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Settlement
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: hiri orokor
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: Gemeinde
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: οικισμός
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquincum
+
+Dimensione del grafo 1 ---> 253
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Černobyl'
+
+Dimensione del grafo 1 ---> 272
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dessau-Roßlau
+
+Dimensione del grafo 1 ---> 291
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sighetu_Marmației
+
+Dimensione del grafo 1 ---> 310
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Samarra
+
+Dimensione del grafo 1 ---> 329
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Schalke
+
+Dimensione del grafo 1 ---> 348
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neve_Shalom_-_Wāħat_as-Salām
+
+Dimensione del grafo 1 ---> 367
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ísafjörður
+
+Dimensione del grafo 1 ---> 386
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Düsseldorf
+
+Dimensione del grafo 1 ---> 405
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patreksfjörður
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Evropská_unie
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Unione_europea
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Unternehmen
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Impresa
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Révolution_industrielle
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rivoluzione_industriale
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Przedsiębiorstwo
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Europar_Batasuna
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/La_Calera_(Quillota)
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_Calera_(Cile)
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Energietransitie
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Transizione_energetica
+
+Dimensione del grafo 1 ---> 454
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+
+Dimensione del grafo 1 ---> 474
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rienza
+
+Dimensione del grafo 1 ---> 493
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 511
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 529
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Reggio_nell'Emilia
+
+Dimensione del grafo 1 ---> 548
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patriarcato_di_Venezia
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brunico
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Perù
+
+Dimensione del grafo 1 ---> 605
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isole_del_Canale
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isola_di_San_Pantaleo
+
+Dimensione del grafo 1 ---> 661
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cantone_dei_Grigioni
+
+Dimensione del grafo 1 ---> 679
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biella
+
+Dimensione del grafo 1 ---> 697
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquisgrana
+
+Dimensione del grafo 1 ---> 715
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Australia_Occidentale
+
+Dimensione del grafo 1 ---> 733
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vipiteno
+
+Dimensione del grafo 1 ---> 770
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Iraq
+
+Dimensione del grafo 1 ---> 788
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tirolo_(Austria)
+
+Dimensione del grafo 1 ---> 807
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Bolzano
+
+Dimensione del grafo 1 ---> 825
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Trento
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/La_Calera_(Txile)
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/失業
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Disoccupazione
+
+Dimensione del grafo 1 ---> 846
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Place
+
+Dimensione del grafo 1 ---> 865
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://schema.org/Place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: lloc
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: مكان
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: Ort
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: 立地
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: plaats
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: lekua
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: lieu
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: áit
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Place
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: uma localização
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: περιοχή
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Immobile things or locations.
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: lugar
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: miejsce
+
+Dimensione del grafo 1 ---> 890
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 906
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 925
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 944
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 963
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 982
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1001
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1020
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1039
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1058
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1077
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1096
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1115
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1134
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Giovanni_Paolo_I
+
+Dimensione del grafo 1 ---> 1152
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_del_Giappone
+
+Dimensione del grafo 1 ---> 1171
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dell'Argentina
+
+Dimensione del grafo 1 ---> 1190
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_israeliane
+
+Dimensione del grafo 1 ---> 1209
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Diritto_societario
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Categoría:Derecho_de_sociedades
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Template:Interprogetto
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: 373666^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Категорія:Корпоративне_право
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Link notizia 1: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Link notizia 2: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Energia ---> http://it.dbpedia.org/resource/Energia
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 642
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Settlement
+
+Dimensione del grafo 1 ---> 193
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: municipality
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: municipalité
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: 도시
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: gemeente
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://dbpedia.org/ontology/PopulatedPlace
+
+Dimensione del grafo 1 ---> 214
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Settlement
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: hiri orokor
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: Gemeinde
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: οικισμός
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquincum
+
+Dimensione del grafo 1 ---> 253
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Černobyl'
+
+Dimensione del grafo 1 ---> 272
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dessau-Roßlau
+
+Dimensione del grafo 1 ---> 291
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sighetu_Marmației
+
+Dimensione del grafo 1 ---> 310
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Samarra
+
+Dimensione del grafo 1 ---> 329
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Schalke
+
+Dimensione del grafo 1 ---> 348
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neve_Shalom_-_Wāħat_as-Salām
+
+Dimensione del grafo 1 ---> 367
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ísafjörður
+
+Dimensione del grafo 1 ---> 386
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Düsseldorf
+
+Dimensione del grafo 1 ---> 405
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patreksfjörður
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Evropská_unie
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Unione_europea
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Unternehmen
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Impresa
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Révolution_industrielle
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rivoluzione_industriale
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Przedsiębiorstwo
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Europar_Batasuna
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/La_Calera_(Quillota)
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_Calera_(Cile)
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Energietransitie
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Transizione_energetica
+
+Dimensione del grafo 1 ---> 454
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+
+Dimensione del grafo 1 ---> 474
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rienza
+
+Dimensione del grafo 1 ---> 493
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 511
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 529
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Reggio_nell'Emilia
+
+Dimensione del grafo 1 ---> 548
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patriarcato_di_Venezia
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brunico
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Perù
+
+Dimensione del grafo 1 ---> 605
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isole_del_Canale
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isola_di_San_Pantaleo
+
+Dimensione del grafo 1 ---> 661
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cantone_dei_Grigioni
+
+Dimensione del grafo 1 ---> 679
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biella
+
+Dimensione del grafo 1 ---> 697
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquisgrana
+
+Dimensione del grafo 1 ---> 715
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Australia_Occidentale
+
+Dimensione del grafo 1 ---> 733
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vipiteno
+
+Dimensione del grafo 1 ---> 770
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Iraq
+
+Dimensione del grafo 1 ---> 788
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tirolo_(Austria)
+
+Dimensione del grafo 1 ---> 807
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Bolzano
+
+Dimensione del grafo 1 ---> 825
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Trento
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/La_Calera_(Txile)
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/失業
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Disoccupazione
+
+Dimensione del grafo 1 ---> 846
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Place
+
+Dimensione del grafo 1 ---> 865
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://schema.org/Place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: lloc
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: مكان
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: Ort
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: 立地
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: plaats
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: lekua
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: lieu
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: áit
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Place
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: uma localização
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: περιοχή
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Immobile things or locations.
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: lugar
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: miejsce
+
+Dimensione del grafo 1 ---> 890
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 906
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 925
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 944
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 963
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 982
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1001
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1020
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1039
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1058
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1077
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1096
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1115
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1134
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Giovanni_Paolo_I
+
+Dimensione del grafo 1 ---> 1152
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_del_Giappone
+
+Dimensione del grafo 1 ---> 1171
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dell'Argentina
+
+Dimensione del grafo 1 ---> 1190
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_israeliane
+
+Dimensione del grafo 1 ---> 1209
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Diritto_societario
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Categoría:Derecho_de_sociedades
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Template:Interprogetto
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: 373666^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Категорія:Корпоративне_право
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Link notizia 1: https://www.mi-lorenteggio.com/2018/12/14/economia-circolare-cattaneo-si-stima-un-milione-di-posti-di-lavoro-in-piu-in-europa/73549/
+
+Uri estratti dalla prima notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Europa ---> http://it.dbpedia.org/resource/Europa
+Lorenteggio ---> http://it.dbpedia.org/resource/Lorenteggio
+Milano ---> http://it.dbpedia.org/resource/Milano
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Lombardia ---> http://it.dbpedia.org/resource/Lombardia
+Raffaele Cattaneo ---> http://it.dbpedia.org/resource/Raffaele_Cattaneo
+Emissioni zero ---> http://it.dbpedia.org/resource/Emissioni_zero
+Impresa ---> http://it.dbpedia.org/resource/Impresa
+Unione europea ---> http://it.dbpedia.org/resource/Unione_europea
+Disoccupazione ---> http://it.dbpedia.org/resource/Disoccupazione
+La Calera (Cile) ---> http://it.dbpedia.org/resource/La_Calera_(Cile)
+Cambiamento climatico ---> http://it.dbpedia.org/resource/Cambiamento_climatico
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+
+
+Link notizia 2: http://www.qds.it/30153-economia-circolare-un-passo-in-avanti-per-ridurre-impatto-ambientale.htm
+
+Uri estratti dalla seconda notizia:
+
+Economia circolare ---> http://it.dbpedia.org/resource/Economia_circolare
+Maker Faire ---> http://it.dbpedia.org/resource/Maker_Faire
+Roma ---> http://it.dbpedia.org/resource/Roma
+Eni ---> http://it.dbpedia.org/resource/Eni
+Ghiaccio ---> http://it.dbpedia.org/resource/Ghiaccio
+Transizione energetica ---> http://it.dbpedia.org/resource/Transizione_energetica
+Rivoluzione industriale ---> http://it.dbpedia.org/resource/Rivoluzione_industriale
+Carbone ---> http://it.dbpedia.org/resource/Carbone
+Idrocarburi ---> http://it.dbpedia.org/resource/Idrocarburi
+Economia ---> http://it.dbpedia.org/resource/Economia
+Consumismo ---> http://it.dbpedia.org/resource/Consumismo
+Secondo dopoguerra in Italia ---> http://it.dbpedia.org/resource/Secondo_dopoguerra_in_Italia
+Terra ---> http://it.dbpedia.org/resource/Terra
+Metodo scientifico ---> http://it.dbpedia.org/resource/Metodo_scientifico
+America ---> http://it.dbpedia.org/resource/America
+Cane a sei zampe ---> http://it.dbpedia.org/resource/Cane_a_sei_zampe
+Energia ---> http://it.dbpedia.org/resource/Energia
+Biocombustibile ---> http://it.dbpedia.org/resource/Biocombustibile
+Rifiuti ---> http://it.dbpedia.org/resource/Rifiuti
+Olio di oliva ---> http://it.dbpedia.org/resource/Olio_di_oliva
+Gas ---> http://it.dbpedia.org/resource/Gas
+Materie plastiche ---> http://it.dbpedia.org/resource/Materie_plastiche
+Risparmio energetico ---> http://it.dbpedia.org/resource/Risparmio_energetico
+Comunicazione scientifica ---> http://it.dbpedia.org/resource/Comunicazione_scientifica
+XXI Conferenza delle Parti dell'UNFCCC ---> http://it.dbpedia.org/resource/XXI_Conferenza_delle_Parti_dell'UNFCCC
+Parigi ---> http://it.dbpedia.org/resource/Parigi
+Claudio Descalzi ---> http://it.dbpedia.org/resource/Claudio_Descalzi
+Amministratore delegato ---> http://it.dbpedia.org/resource/Amministratore_delegato
+Tonnellata ---> http://it.dbpedia.org/resource/Tonnellata
+Anidride carbonica ---> http://it.dbpedia.org/resource/Anidride_carbonica
+Atmosfera ---> http://it.dbpedia.org/resource/Atmosfera
+Agenzia internazionale dell'energia ---> http://it.dbpedia.org/resource/Agenzia_internazionale_dell'energia
+Temperatura ---> http://it.dbpedia.org/resource/Temperatura
+JavaScript ---> http://it.dbpedia.org/resource/JavaScript
+Disqus ---> http://it.dbpedia.org/resource/Disqus
+
+
+Iterazione n° 1:
+
+Dimensione del grafo 1 ---> 260
+Dimensione del grafo 2 ---> 642
+
+
+Iterazione n° 2:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Settlement
+
+Dimensione del grafo 1 ---> 193
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 3:
+
+Espansione dell' URI: municipality
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 4:
+
+Espansione dell' URI: municipalité
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 5:
+
+Espansione dell' URI: 도시
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 6:
+
+Espansione dell' URI: gemeente
+
+Dimensione del grafo 1 ---> 194
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 7:
+
+Espansione dell' URI: http://dbpedia.org/ontology/PopulatedPlace
+
+Dimensione del grafo 1 ---> 214
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 8:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Class
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 9:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Settlement
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 10:
+
+Espansione dell' URI: hiri orokor
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 11:
+
+Espansione dell' URI: Gemeinde
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 12:
+
+Espansione dell' URI: οικισμός
+
+Dimensione del grafo 1 ---> 234
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 13:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquincum
+
+Dimensione del grafo 1 ---> 253
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 14:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Černobyl'
+
+Dimensione del grafo 1 ---> 272
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 15:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Dessau-Roßlau
+
+Dimensione del grafo 1 ---> 291
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 16:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Sighetu_Marmației
+
+Dimensione del grafo 1 ---> 310
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 17:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Samarra
+
+Dimensione del grafo 1 ---> 329
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 18:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Schalke
+
+Dimensione del grafo 1 ---> 348
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 19:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Neve_Shalom_-_Wāħat_as-Salām
+
+Dimensione del grafo 1 ---> 367
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 20:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ísafjörður
+
+Dimensione del grafo 1 ---> 386
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 21:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Düsseldorf
+
+Dimensione del grafo 1 ---> 405
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 22:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patreksfjörður
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 23:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 424
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 24:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Europa
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 25:
+
+Espansione dell' URI: http://cs.dbpedia.org/resource/Evropská_unie
+
+Dimensione del grafo 1 ---> 427
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 26:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Unione_europea
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 27:
+
+Espansione dell' URI: http://de.dbpedia.org/resource/Unternehmen
+
+Dimensione del grafo 1 ---> 429
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 28:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Impresa
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 29:
+
+Espansione dell' URI: http://fr.dbpedia.org/resource/Révolution_industrielle
+
+Dimensione del grafo 1 ---> 441
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 30:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rivoluzione_industriale
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 31:
+
+Espansione dell' URI: http://pl.dbpedia.org/resource/Przedsiębiorstwo
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 32:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/Europar_Batasuna
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 33:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/La_Calera_(Quillota)
+
+Dimensione del grafo 1 ---> 443
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 34:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/La_Calera_(Cile)
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 35:
+
+Espansione dell' URI: http://nl.dbpedia.org/resource/Energietransitie
+
+Dimensione del grafo 1 ---> 447
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 36:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Transizione_energetica
+
+Dimensione del grafo 1 ---> 454
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 37:
+
+Espansione dell' URI: http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+
+Dimensione del grafo 1 ---> 474
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 38:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Rienza
+
+Dimensione del grafo 1 ---> 493
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 39:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brno
+
+Dimensione del grafo 1 ---> 511
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 40:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Ålesund
+
+Dimensione del grafo 1 ---> 529
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 41:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Reggio_nell'Emilia
+
+Dimensione del grafo 1 ---> 548
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 42:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Patriarcato_di_Venezia
+
+Dimensione del grafo 1 ---> 567
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 43:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Brunico
+
+Dimensione del grafo 1 ---> 586
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 44:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Perù
+
+Dimensione del grafo 1 ---> 605
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 45:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Nova_Gorica
+
+Dimensione del grafo 1 ---> 624
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 46:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isole_del_Canale
+
+Dimensione del grafo 1 ---> 642
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 47:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Isola_di_San_Pantaleo
+
+Dimensione del grafo 1 ---> 661
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 48:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Cantone_dei_Grigioni
+
+Dimensione del grafo 1 ---> 679
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 49:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Biella
+
+Dimensione del grafo 1 ---> 697
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 50:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Aquisgrana
+
+Dimensione del grafo 1 ---> 715
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 51:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Australia_Occidentale
+
+Dimensione del grafo 1 ---> 733
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 52:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Chicago
+
+Dimensione del grafo 1 ---> 751
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 53:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Vipiteno
+
+Dimensione del grafo 1 ---> 770
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 54:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Iraq
+
+Dimensione del grafo 1 ---> 788
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 55:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Tirolo_(Austria)
+
+Dimensione del grafo 1 ---> 807
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 56:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Bolzano
+
+Dimensione del grafo 1 ---> 825
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 57:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_autonoma_di_Trento
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 58:
+
+Espansione dell' URI: http://eu.dbpedia.org/resource/La_Calera_(Txile)
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 59:
+
+Espansione dell' URI: http://ja.dbpedia.org/resource/失業
+
+Dimensione del grafo 1 ---> 844
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 60:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Disoccupazione
+
+Dimensione del grafo 1 ---> 846
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 61:
+
+Espansione dell' URI: http://dbpedia.org/ontology/Place
+
+Dimensione del grafo 1 ---> 865
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 62:
+
+Espansione dell' URI: http://www.w3.org/2002/07/owl#Thing
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 63:
+
+Espansione dell' URI: http://schema.org/Place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 64:
+
+Espansione dell' URI: place
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 65:
+
+Espansione dell' URI: lloc
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 66:
+
+Espansione dell' URI: مكان
+
+Dimensione del grafo 1 ---> 884
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 67:
+
+Espansione dell' URI: Ort
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 68:
+
+Espansione dell' URI: 立地
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 69:
+
+Espansione dell' URI: plaats
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 70:
+
+Espansione dell' URI: lekua
+
+Dimensione del grafo 1 ---> 888
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 71:
+
+Espansione dell' URI: lieu
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 72:
+
+Espansione dell' URI: áit
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 73:
+
+Espansione dell' URI: http://mappings.dbpedia.org/index.php/OntologyClass:Place
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 74:
+
+Espansione dell' URI: uma localização
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 75:
+
+Espansione dell' URI: περιοχή
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 76:
+
+Espansione dell' URI: Immobile things or locations.
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 77:
+
+Espansione dell' URI: lugar
+
+Dimensione del grafo 1 ---> 889
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 78:
+
+Espansione dell' URI: miejsce
+
+Dimensione del grafo 1 ---> 890
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 79:
+
+Espansione dell' URI: http://dbpedia.org/dbtax/Place
+
+Dimensione del grafo 1 ---> 906
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 80:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Corrado_III_di_Svevia
+
+Dimensione del grafo 1 ---> 925
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 81:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Bisanzio
+
+Dimensione del grafo 1 ---> 944
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 82:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Pio_X
+
+Dimensione del grafo 1 ---> 963
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 83:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Provincia_romana
+
+Dimensione del grafo 1 ---> 982
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 84:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Puno
+
+Dimensione del grafo 1 ---> 1001
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 85:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Palatino
+
+Dimensione del grafo 1 ---> 1020
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 86:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dei_Paesi_Bassi
+
+Dimensione del grafo 1 ---> 1039
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 87:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Costantinopoli
+
+Dimensione del grafo 1 ---> 1058
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 88:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Florida
+
+Dimensione del grafo 1 ---> 1077
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 89:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_della_Somalia
+
+Dimensione del grafo 1 ---> 1096
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 90:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Terra_di_Israele
+
+Dimensione del grafo 1 ---> 1115
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 91:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Distretti_di_Berlino
+
+Dimensione del grafo 1 ---> 1134
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 92:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Papa_Giovanni_Paolo_I
+
+Dimensione del grafo 1 ---> 1152
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 93:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_del_Giappone
+
+Dimensione del grafo 1 ---> 1171
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 94:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_dell'Argentina
+
+Dimensione del grafo 1 ---> 1190
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 95:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Città_israeliane
+
+Dimensione del grafo 1 ---> 1209
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 96:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Categoria:Diritto_societario
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 97:
+
+Espansione dell' URI: http://es.dbpedia.org/resource/Categoría:Derecho_de_sociedades
+
+Dimensione del grafo 1 ---> 1229
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 98:
+
+Espansione dell' URI: http://it.dbpedia.org/resource/Template:Interprogetto
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 99:
+
+Espansione dell' URI: 373666^^http://www.w3.org/2001/XMLSchema#inte
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+
+Iterazione n° 100:
+
+Espansione dell' URI: http://uk.dbpedia.org/resource/Категорія:Корпоративне_право
+
+Dimensione del grafo 1 ---> 1249
+Dimensione del grafo 2 ---> 386
+
+

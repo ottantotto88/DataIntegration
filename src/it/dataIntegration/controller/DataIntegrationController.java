@@ -54,7 +54,7 @@ public class DataIntegrationController {
 	private int currentIteration = 1;
 	private int matchFound = 0;
 
-	public DataIntegrationController(final DataIntegrationPanel view, Frame frame) {
+	public DataIntegrationController(final DataIntegrationPanel view, final Frame frame) {
 		this.view = view;
 		// creo il file di log
 		try {
@@ -92,7 +92,7 @@ public class DataIntegrationController {
 				threadCpuLoad.start();
 				view.getBtnCerca().setEnabled(false);
 				view.getBtnPulisci().setEnabled(true);
-				JDialog dialog = new JDialog(frame, "Please Wait...", true);
+				final JDialog dialog = new JDialog(frame, "Please Wait...", true);
 				PleaseWaitPanel panelPleaseWait = new PleaseWaitPanel();
 				dialog.getContentPane().add(panelPleaseWait);
 				dialog.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
@@ -143,7 +143,7 @@ public class DataIntegrationController {
 						dialog.dispose();
 						writer.close();
 
-						JDialog dialog2 = new JDialog(frame, "Elaborazioe Terminata", true);
+						final JDialog dialog2 = new JDialog(frame, "Elaborazioe Terminata", true);
 						String message;
 						if (currentIteration == maxIteration) {
 							message = "La ricerca è terminata dopo " + currentIteration + " iterazioni, trovando "

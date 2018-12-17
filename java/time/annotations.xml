@@ -1,0 +1,5 @@
+<root>
+  <item name='java.time.Instant'>
+    <annotation name='java.lang.annotation.Deprecated'/>
+  </item>
+</root>

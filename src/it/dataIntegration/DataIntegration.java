@@ -8,6 +8,8 @@ import javax.swing.UIManager;
 import it.dataIntegration.controller.CalcolatoreFrequenzaController;
 import it.dataIntegration.controller.DataIntegrationController;
 import it.dataIntegration.view.DataIntegrationPanel;
+import it.dataIntegration.view.DataPruningPanel;
+import it.dataIntegration.view.OpeningForm;
 
 public class DataIntegration {
 	
@@ -32,20 +34,23 @@ public class DataIntegration {
 	//Create the application.
 	 
 	public DataIntegration() {
-		initialize();
+		start();
 	}
-	 
-	private void initialize() {
-						
+
+
+	private void start(){
 		frame = new JFrame();
 		frame.setTitle("Data Integration Tool");
-		frame.setBounds(100, 100, 1100, 800);
+		frame.setBounds(100,100,550,400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		DataIntegrationPanel panelLinkedData = new DataIntegrationPanel();
-		frame.getContentPane().add(panelLinkedData);
-		new DataIntegrationController(panelLinkedData,frame);
+		DataPruningPanel panelPruningData = new DataPruningPanel();
+
+
+		OpeningForm openingForm = new OpeningForm(panelLinkedData,panelPruningData,frame);
+		frame.getContentPane().add(openingForm);
 		new CalcolatoreFrequenzaController();
-		
+
 	}
+
 }
