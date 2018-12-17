@@ -1,13 +1,10 @@
 package it.dataIntegration;
 
-import java.awt.EventQueue;
+import it.dataIntegration.controller.DataPruningController;
+import it.dataIntegration.view.DataPruningPanel;
 
-import javax.swing.JFrame;
-import javax.swing.UIManager;
-
-import it.dataIntegration.controller.CalcolatoreFrequenzaController;
-import it.dataIntegration.controller.DataIntegrationController;
-import it.dataIntegration.view.DataIntegrationPanel;
+import javax.swing.*;
+import java.awt.*;
 
 public class DataIntegration {
 	
@@ -42,9 +39,9 @@ public class DataIntegration {
 		frame.setBounds(100, 100, 1100, 800);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		DataIntegrationPanel panelLinkedData = new DataIntegrationPanel();
+		DataPruningPanel panelLinkedData = new DataPruningPanel();
 		frame.getContentPane().add(panelLinkedData);
-		new DataIntegrationController(panelLinkedData,frame);
+		new DataPruningController(panelLinkedData,frame);
 	//	new CalcolatoreFrequenzaController();
 		
 	}

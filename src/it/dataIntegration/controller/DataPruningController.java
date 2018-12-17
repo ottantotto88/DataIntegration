@@ -6,7 +6,7 @@ import it.dataIntegration.model.Path;
 import it.dataIntegration.utility.ProcessCpuLoad;
 import it.dataIntegration.utility.RestServices;
 import it.dataIntegration.utility.SparqlQuery;
-import it.dataIntegration.view.DataIntegrationPanel;
+import it.dataIntegration.view.DataPruningPanel;
 import it.dataIntegration.view.FinishedElaborationPanel;
 import it.dataIntegration.view.PleaseWaitPanel;
 import it.dataIntegration.view.ResultPanel;
@@ -22,12 +22,12 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class DataIntegrationController {
+public class DataPruningController {
     private Model initalFirstModel;
     private Model modelFirstUri;
     private Model modelFirstUriModified;
     private Model modelSecondUri;
-    private DataIntegrationPanel view;
+    private DataPruningPanel view;
     private ArrayList<RDFNode> matches = new ArrayList<RDFNode>();
     ArrayList<DbpediaObject> list = new ArrayList<DbpediaObject>();
     ArrayList<DbpediaObject> list2 = new ArrayList<DbpediaObject>();
@@ -42,7 +42,7 @@ public class DataIntegrationController {
     private int matchFound = 0;
     private static final String FILENAME = "src\\Uri_1.txt";
 
-    public DataIntegrationController(final DataIntegrationPanel view, final Frame frame) {
+    public DataPruningController(final DataPruningPanel view, final Frame frame) {
         this.view = view;
         // creo il file di log
         try {
@@ -78,7 +78,6 @@ public class DataIntegrationController {
 
                 });
                 threadCpuLoad.start();
-                view.getBtnCerca().setEnabled(false);
                 view.getBtnPulisci().setEnabled(true);
                 JDialog dialog = new JDialog(frame, "Please Wait...", true);
                 PleaseWaitPanel panelPleaseWait = new PleaseWaitPanel();

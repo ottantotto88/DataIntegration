@@ -7,9 +7,8 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 
 @SuppressWarnings("serial")
-public class DataIntegrationPanel extends JPanel {
+public class DataPruningPanel extends JPanel {
 	private JPanel panelBox;
-	private JButton btnCerca;
 	private JButton btnCercaConPruning;
 	private JTextField txtUrl;
 	private JTextField txtUrl2;
@@ -24,7 +23,7 @@ public class DataIntegrationPanel extends JPanel {
 	private JLabel lblDescription;
 
 
-    public DataIntegrationPanel() {
+    public DataPruningPanel() {
 		setLayout(new BorderLayout(0, 0));
 		
 		JPanel panelNorth = new JPanel();
@@ -101,9 +100,6 @@ public class DataIntegrationPanel extends JPanel {
 		JPanel panelSouth = new JPanel();
 		add(panelSouth, BorderLayout.SOUTH);
 		panelSouth.setLayout(new BoxLayout(panelSouth, BoxLayout.X_AXIS));
-		
-		btnCerca = new JButton("Cerca ");
-		panelSouth.add(btnCerca);
 
 		btnCercaConPruning = new JButton("Cerca con Pruning ");
 		panelSouth.add(btnCercaConPruning);
@@ -135,9 +131,6 @@ public class DataIntegrationPanel extends JPanel {
 
     public JPanel getPanelBox() {
 		return panelBox;
-	}
-	public JButton getBtnCerca() {
-		return btnCerca;
 	}
 	public JTextField getTxtUrl() {
 		return txtUrl;

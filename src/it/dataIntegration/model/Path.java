@@ -57,7 +57,7 @@ public class Path {
 		}
 
 
-		return percorso.concat("La lunghezza del percorso è " + paths.size());
+		return percorso.concat(" La lunghezza del percorso è " + paths.size());
 	}
 }
 
