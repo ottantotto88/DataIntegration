@@ -1,5 +1,8 @@
 package it.dataIntegration.model;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /*
@@ -41,34 +44,65 @@ public class PathPruning {
 
     public static String writePath(ArrayList<PathPruning> paths) {
         PathPruning path = paths.get(0);
+        int peso = paths.size();
+        String fine = "null";
         String percorso = "(s) " + path.subject + " -> " + "(p) " + path.predicate + " -> " + "(o) " + path.object;
+        if (path.predicate.equals("http://www.w3.org/2002/07/owl#sameAs")) {
+                peso--;
+        }
         for (int i = 1; i < paths.size(); i++) {
-            if (paths.size() == 1) {
-                percorso = "(s) " + path.subject + " -> " + "(p) " + path.predicate + " -> " + "(o) " + path.object + " -> " + " \n " +
-                        "La lunghezza del percorso è 1";
-            } else if (paths.get(i).object.equals(paths.get(i - 1).object)) {
+            if (paths.get(i).object.equals(paths.get(i - 1).object)) {
                 percorso = percorso.concat(" (o) <- " + "(p) " + paths.get(i).predicate + " <- " + "(s) " + paths.get(i).subject + " \n");
+                if(paths.get(i).predicate.equals("http://www.w3.org/2002/07/owl#sameAs")){
+                    peso--;
+                }
+                fine = paths.get(i).subject;
             } else if (paths.get(i).subject.equals(paths.get(i - 1).object)) {
                 percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object + " ");
+                if(paths.get(i).predicate.equals("http://www.w3.org/2002/07/owl#sameAs")){
+                    peso--;
+                }
+                fine = paths.get(i).subject;
+
             } else {
                 percorso = percorso.concat(" (s) -> " + "(p) " + paths.get(i).predicate + " -> " + "(o) " + paths.get(i).object);
+                if(paths.get(i).predicate.equals("http://www.w3.org/2002/07/owl#sameAs")){
+                    peso--;
+                }
+                fine = paths.get(i).subject;
             }
 
         }
 
+        String inizio = paths.get(0).subject;
+        writeCSV(inizio, fine, peso, paths.size());
 
-        if (path.getPredicate().equals("http://www.w3.org/2002/07/owl#sameAs")){
-            int peso =0;
-            return percorso.concat(". La lunghezza del percorso è " + paths.size() + ". Il peso del percorso è " + peso);
-        }
-
-        else {
-            for (int i = 1; i < paths.size(); i++)
-                if (!paths.get(i).predicate.equals("http://www.w3.org/2002/07/owl#sameAs") && (!paths.get(i - 1).predicate.equals("http://www.w3.org/2002/07/owl#sameAs") ))
-                    return percorso.concat(". La lunghezza del percorso è " + paths.size() + ". Il peso del percorso è " + paths.size());
-        }
-
-        int peso = paths.size();
-        return percorso.concat(". La lunghezza del percorso è " + paths.size() + ". Il peso del percorso è" + peso);
+        return percorso + "\n La lunghezza del percorso è "+ paths.size() + ". Il peso del percorso è " + peso;
     }
+
+
+    public static void writeCSV(String inizio, String fine, int peso, int lunghezza){
+        File file = new File("src/output.csv");
+        FileWriter fr = null;
+        String text = "\n" + inizio + ";"+ fine + ";"+ peso + ";" + lunghezza;
+        try {
+            fr = new FileWriter(file, true);
+            fr.write(text);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+
+
+
 }
+
+

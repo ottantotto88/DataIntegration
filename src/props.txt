@@ -35,3 +35,4 @@ http://it.dbpedia.org/property/wikiPageUsesTemplate	1
 http://it.dbpedia.org/property/lugogo	1
 http://airpedia.org/typeWithConfidence#2	1
 http://airpedia.org/isEstimatedType	1
+http://dbpedia.org/ontology/deathPlace	1

@@ -1,0 +1,27 @@
+Nodo inizio;Nodo fine;Peso;Lunghezza
+
+http://it.dbpedia.org/resource/Rivoluzione_industriale;null;0;1
+http://it.dbpedia.org/resource/Rivoluzione_industriale;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;0;1
+http://it.dbpedia.org/resource/Milano;null;0;1
+http://it.dbpedia.org/resource/Carbone;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Roma;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Rivoluzione_industriale;http://it.dbpedia.org/resource/Rivoluzione_industriale;0;2
+http://it.dbpedia.org/resource/Rivoluzione_industriale;null;0;1
+http://it.dbpedia.org/resource/Rivoluzione_industriale;http://it.dbpedia.org/resource/Rivoluzione_industriale;0;2
+http://it.dbpedia.org/resource/Rivoluzione_industriale;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;http://it.dbpedia.org/resource/Transizione_energetica;0;2
+http://it.dbpedia.org/resource/Transizione_energetica;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;http://it.dbpedia.org/resource/Transizione_energetica;0;2
+http://it.dbpedia.org/resource/Transizione_energetica;null;0;1
+http://it.dbpedia.org/resource/Transizione_energetica;http://it.dbpedia.org/resource/Transizione_energetica;1;3
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Transizione_energetica;http://it.dbpedia.org/resource/Transizione_energetica;1;3
+http://it.dbpedia.org/resource/Transizione_energetica;null;1;1
+http://it.dbpedia.org/resource/Impresa;http://it.dbpedia.org/resource/Amministratore_delegato;2;2
+http://it.dbpedia.org/resource/Amministratore_delegato;null;0;1
